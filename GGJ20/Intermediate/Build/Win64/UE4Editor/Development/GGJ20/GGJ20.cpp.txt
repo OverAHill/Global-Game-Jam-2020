@@ -1,0 +1,2 @@
+C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\Source\GGJ20\GGJ20.h

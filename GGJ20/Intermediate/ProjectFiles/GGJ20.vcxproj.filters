@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GGJ20.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8C9F791A-8B6F-4D12-A83D-6B4A1F9EE5F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GGJ20.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GGJ20Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BBE3D004-62E2-4AFA-BAE1-CF4F7295098E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GGJ20">
+      <UniqueIdentifier>{39C40191-083F-474C-8038-DB2C93A2D2A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
+      <Filter>Source\GGJ20</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GGJ20\GGJ20.cpp">
+      <Filter>Source\GGJ20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ20\GGJ20.h">
+      <Filter>Source\GGJ20</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GGJ20\GGJ20GameModeBase.cpp">
+      <Filter>Source\GGJ20</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GGJ20\GGJ20GameModeBase.h">
+      <Filter>Source\GGJ20</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
