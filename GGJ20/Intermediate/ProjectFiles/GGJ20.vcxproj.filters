@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8C9F791A-8B6F-4D12-A83D-6B4A1F9EE5F7}</UniqueIdentifier>
+      <UniqueIdentifier>{16FB9957-B779-4512-98DF-54F2738007B6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{BBE3D004-62E2-4AFA-BAE1-CF4F7295098E}</UniqueIdentifier>
+      <UniqueIdentifier>{49CA8EEC-6A14-4156-8D3B-19060700C4B3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{39C40191-083F-474C-8038-DB2C93A2D2A1}</UniqueIdentifier>
+      <UniqueIdentifier>{921F0B2D-C47B-42C7-B46B-539E02EFA472}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -40,6 +43,18 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\GGJ20\GGJ20GameModeBase.h">
       <Filter>Source\GGJ20</Filter>
+    </ClInclude>
+    <Filter Include="Source\GGJ20\Private">
+      <UniqueIdentifier>{06A0D050-6132-461E-B3C7-5CCC59632822}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\GGJ20\Public">
+      <UniqueIdentifier>{F68CD7B5-CD09-4270-9A8C-564A62AC7A7B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
+      <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
