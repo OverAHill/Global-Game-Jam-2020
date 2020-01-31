@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "BasePlayer.generated.h"
 
+class UCharacterMovementComponent;
+class UCameraComponent;
+
 UCLASS()
 class GGJ20_API ABasePlayer : public ACharacter
 {
@@ -14,6 +17,11 @@ class GGJ20_API ABasePlayer : public ACharacter
 public:
 	// Sets default values for this character's properties
 	ABasePlayer();
+
+	UCharacterMovementComponent* PlayerMovementComponent = GetCharacterMovement();
+
+	UPROPERTY(VisibleAnywhere)
+		UCameraComponent* PlayerFirstPersonCamera;
 
 protected:
 	// Called when the game starts or when spawned
@@ -26,11 +34,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
+		FVector CurrentVelocity;
+		FVector CurrentRotation;
 
-	virtual void MoveForward();
-	virtual void MoveBack();
-	virtual void MoveRight();
-	virtual void MoveLeft();
+	virtual void MoveForward(float value);
+	virtual void MoveRight(float value);
 	 
 	virtual void MoveCameraHor(float value);
 	virtual void MoveCameraVer(float value);
