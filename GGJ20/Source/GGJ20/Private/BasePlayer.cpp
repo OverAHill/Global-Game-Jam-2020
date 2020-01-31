@@ -32,29 +32,15 @@ void ABasePlayer::Tick(float DeltaTime)
 	//Rotate
 	FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
 	FRotator r = t.GetRotation().Rotator();		//clamp me daddy
-	r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
-	//FRotator rTemp = r;
-	//rTemp.Yaw += CurrentRotation.X;
+	//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
+	r.Yaw += CurrentRotation.X;
 	r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
 	PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
 
-	//this->SetActorRelativeRotation(FRotator(0, rTemp.Yaw, 0));
 
 	//Move
-	/*
-	AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
-	AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
-	*/
-
-	//r.Pitch = this->GetActorRotation().Pitch;
-	//this->AddActorWorldRotation(r);
-
-	//FVector temp = GetActorForwardVector();
-	//FRotator rotator;
-	//rotator.RotateVector(temp);
-
-	AddMovementInput(GetActorForwardVector(), CurrentVelocity.Y * DeltaTime);
-	AddMovementInput(GetActorRightVector(), CurrentVelocity.X * DeltaTime);
+	AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
+	AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
 }
 
 // Called to bind functionality to input
