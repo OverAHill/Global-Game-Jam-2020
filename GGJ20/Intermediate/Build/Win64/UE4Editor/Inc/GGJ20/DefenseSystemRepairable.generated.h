@@ -57,10 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADefenseSystemRepairable); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADefenseSystemRepairable)
 
 
-#define GGJ20_Source_GGJ20_Public_DefenseSystemRepairable_h_16_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__NeedleMesh() { return STRUCT_OFFSET(ADefenseSystemRepairable, NeedleMesh); }
-
-
+#define GGJ20_Source_GGJ20_Public_DefenseSystemRepairable_h_16_PRIVATE_PROPERTY_OFFSET
 #define GGJ20_Source_GGJ20_Public_DefenseSystemRepairable_h_13_PROLOG
 #define GGJ20_Source_GGJ20_Public_DefenseSystemRepairable_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

@@ -10,6 +10,10 @@ ADefenseSystemRepairable::ADefenseSystemRepairable()
 	m_RepairType = RepairTypes::DEFENSE_SYSTEM_REPAIR;
 
 	NeedleMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Needle Mesh"));
+	//NeedleMesh->SetRelativeLocation(FVector(0, 0, 20));
+	NeedleMesh->AddLocalOffset(FVector(0, 0, 20));
+	//NeedleMesh->SetRelativeRotation(FRotator(0, 0, 90));
+	posDir = true;
 	SetSuccRegion(80, 100);
 }
 
@@ -23,6 +27,22 @@ void ADefenseSystemRepairable::Tick(float DeltaTime)
 
 	//update physical position of needle (Needle Mesh)
 	//It will depend on the style of dial
+
+	if (posDir)
+	{
+		FTransform t = NeedleMesh->GetRelativeTransform();
+		FRotator r = t.GetRotation().Rotator();
+		r.Add(0, 0, 1);
+		NeedleMesh->SetRelativeRotation(r);
+	}
+	else
+	{
+		FTransform t = NeedleMesh->GetRelativeTransform();
+		FRotator r = t.GetRotation().Rotator();
+		r.Add(0, 0, -1);
+		NeedleMesh->SetRelativeRotation(r);
+	}
+	
 }
 
 
@@ -44,12 +64,12 @@ void ADefenseSystemRepairable::SignalRepairCompleted(bool successful)
 
 void ADefenseSystemRepairable::UpdateNeedle(float deltaTime)
 {
-	if (needlePosition > 180)
+	if (needlePosition > 90)
 	{
 		//switch direction
 		posDir = false;
 	}
-	else if (needlePosition < 0)
+	else if (needlePosition < -90)
 	{
 		posDir = true;
 	}
