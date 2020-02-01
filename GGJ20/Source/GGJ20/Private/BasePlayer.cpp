@@ -7,6 +7,7 @@
 #include "Engine.h"
 #include "Engine/World.h"
 #include "IRepairableBase.h"
+#include "DefenseSystemRepairable.h"
 
 // Sets default values
 ABasePlayer::ABasePlayer()
@@ -169,7 +170,12 @@ void ABasePlayer::Repair()
 	}
 	else
 	{
-
+		if (currentTool == Tools::HAMMER)
+		{
+			ADefenseSystemRepairable* defense = Cast<ADefenseSystemRepairable>(currentRepairTarget);
+			bool success = defense->HammerDown();
+			defense->SignalRepairCompleted(success);
+		}
 	}
 }
 

@@ -74,10 +74,6 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void SetOnLadder(bool b);
-	
-
-	
-
 
 	UFUNCTION(BlueprintCallable)
 	bool GetOnLadder() { return OnLadder; }

@@ -15,6 +15,7 @@ ADefenseSystemRepairable::ADefenseSystemRepairable()
 	//NeedleMesh->SetRelativeRotation(FRotator(0, 0, 90));
 	posDir = true;
 	SetSuccRegion(80, 100);
+	beingRepaired = false;
 }
 
 
@@ -42,7 +43,6 @@ void ADefenseSystemRepairable::Tick(float DeltaTime)
 		r.Add(0, 0, -1);
 		NeedleMesh->SetRelativeRotation(r);
 	}
-	
 }
 
 
@@ -54,34 +54,39 @@ void ADefenseSystemRepairable::Break()
 RepairTypes ADefenseSystemRepairable::Repair()
 {
 	Super::Repair();
+	beingRepaired = true;
 	return m_RepairType;
 }
 
 void ADefenseSystemRepairable::SignalRepairCompleted(bool successful)
 {
+	beingRepaired = false;
 	Super::SignalRepairCompleted(successful);
 }
 
 void ADefenseSystemRepairable::UpdateNeedle(float deltaTime)
 {
-	if (needlePosition > 90)
+	if (beingRepaired)
 	{
-		//switch direction
-		posDir = false;
-	}
-	else if (needlePosition < -90)
-	{
-		posDir = true;
-	}
+		if (needlePosition > 90)
+		{
+			//switch direction
+			posDir = false;
+		}
+		else if (needlePosition < -90)
+		{
+			posDir = true;
+		}
 
 
-	if (posDir)
-	{
-		needlePosition++;
-	}
-	else
-	{
-		needlePosition--;
+		if (posDir)
+		{
+			needlePosition++;
+		}
+		else
+		{
+			needlePosition--;
+		}
 	}
 }
 
