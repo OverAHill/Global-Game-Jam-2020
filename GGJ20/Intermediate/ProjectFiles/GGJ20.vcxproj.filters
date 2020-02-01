@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{16FB9957-B779-4512-98DF-54F2738007B6}</UniqueIdentifier>
+      <UniqueIdentifier>{9FE8111D-472F-4785-855B-70A471CB3E29}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{49CA8EEC-6A14-4156-8D3B-19060700C4B3}</UniqueIdentifier>
+      <UniqueIdentifier>{33DB06E3-1AA0-41F3-8D53-62E6C9DF4479}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{921F0B2D-C47B-42C7-B46B-539E02EFA472}</UniqueIdentifier>
+      <UniqueIdentifier>{CFE04AF9-0A47-4273-BC2D-C7463D9A9AFB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,15 +45,33 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{06A0D050-6132-461E-B3C7-5CCC59632822}</UniqueIdentifier>
+      <UniqueIdentifier>{51ED04A6-F9D2-40C6-8AB4-48C711DABD48}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\ILightControllerBase.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\IRepairableBase.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\RepairableEnum.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{F68CD7B5-CD09-4270-9A8C-564A62AC7A7B}</UniqueIdentifier>
+      <UniqueIdentifier>{FB17C990-72E5-4C1A-BFCD-4DF292B42A60}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\ILightControllerBase.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\IRepairableBase.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\RepairableEnum.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
