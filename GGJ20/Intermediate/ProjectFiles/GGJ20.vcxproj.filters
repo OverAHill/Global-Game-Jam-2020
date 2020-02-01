@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{16FB9957-B779-4512-98DF-54F2738007B6}</UniqueIdentifier>
+      <UniqueIdentifier>{0E6091E0-578E-45CB-BAB1-B60B81516564}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{49CA8EEC-6A14-4156-8D3B-19060700C4B3}</UniqueIdentifier>
+      <UniqueIdentifier>{DC46A72C-6B54-443E-A416-E9D9271B6406}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{921F0B2D-C47B-42C7-B46B-539E02EFA472}</UniqueIdentifier>
+      <UniqueIdentifier>{490D28E7-57AE-47D2-9B8B-0A8F6C4168C5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,15 +45,33 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{06A0D050-6132-461E-B3C7-5CCC59632822}</UniqueIdentifier>
+      <UniqueIdentifier>{27E61C7A-F2AC-4276-9A5E-6972AF174BF4}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseRoom.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\WaterLevel.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\WaterRoom.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{F68CD7B5-CD09-4270-9A8C-564A62AC7A7B}</UniqueIdentifier>
+      <UniqueIdentifier>{3B037D36-7A4F-4140-B6ED-817EC443E510}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseRoom.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\WaterLevel.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\WaterRoom.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
