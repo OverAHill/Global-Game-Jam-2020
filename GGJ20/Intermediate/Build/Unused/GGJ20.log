@@ -2,6 +2,6 @@
   Creating makefile for GGJ20Editor (ini files are newer than makefile)
   Parsing headers for GGJ20Editor
     Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 5.4978992 seconds
+  Reflection code generated for GGJ20Editor in 5.5251865 seconds
   Target is up to date
-  Total execution time: 7.22 seconds
+  Total execution time: 7.34 seconds

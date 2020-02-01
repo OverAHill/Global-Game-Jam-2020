@@ -12,7 +12,7 @@ AIRepairableBase::AIRepairableBase()
 }
 
 // Called when the game starts or when spawned
-void AIRepairableBase::BeginPlay()
+void AIRepairableBase::BeginPlay()  
 {
 	Super::BeginPlay();
 	m_RepairType = RepairTypes::NOT_IMPLEMENTED;

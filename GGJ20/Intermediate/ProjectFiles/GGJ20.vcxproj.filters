@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{489CF2F8-DF84-46F4-997C-30C14C802270}</UniqueIdentifier>
+      <UniqueIdentifier>{CF4F0E38-7BF4-463D-8420-6B83BE0CB270}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FF818F84-A539-4701-AC6B-E69EBE1B37EC}</UniqueIdentifier>
+      <UniqueIdentifier>{37D96256-7013-4DB7-8D7C-D57FC413188B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{2AA8EA0D-3D66-42E8-9718-DE3CF4FC2632}</UniqueIdentifier>
+      <UniqueIdentifier>{FFE14E4D-1712-4B82-9AD7-68C61BB15962}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{9D5A7FD1-2795-43A4-9385-2FFBF242E736}</UniqueIdentifier>
+      <UniqueIdentifier>{61594C59-5A33-4365-8C91-B99EA338D7D5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
       <Filter>Source\GGJ20\Private</Filter>
@@ -69,7 +69,7 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{362490E4-C128-4498-B7B1-1AF220BCE329}</UniqueIdentifier>
+      <UniqueIdentifier>{25E0E57D-0094-4074-B963-843C2439E6B8}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
       <Filter>Source\GGJ20\Public</Filter>
@@ -92,5 +92,33 @@
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterRoom.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GGJ20\Public\HullRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\GeneratorRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\DefenseSystemRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\EngineRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GGJ20\Private\HullRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\GeneratorRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\DefenseSystemRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\EngineRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
