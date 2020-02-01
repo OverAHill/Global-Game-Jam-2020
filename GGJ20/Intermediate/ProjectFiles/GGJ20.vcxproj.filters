@@ -75,4 +75,14 @@
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
