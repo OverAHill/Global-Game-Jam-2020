@@ -92,6 +92,10 @@ void EmptyLinkFunctionForGeneratedCodeIRepairableBase() {}
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ControlledLights;
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ControlledLights_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_m_FlashInterval_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_m_FlashInterval;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -115,9 +119,17 @@ void EmptyLinkFunctionForGeneratedCodeIRepairableBase() {}
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AIRepairableBase_Statics::NewProp_ControlledLights = { "ControlledLights", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIRepairableBase, ControlledLights), METADATA_PARAMS(Z_Construct_UClass_AIRepairableBase_Statics::NewProp_ControlledLights_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIRepairableBase_Statics::NewProp_ControlledLights_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AIRepairableBase_Statics::NewProp_ControlledLights_Inner = { "ControlledLights", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AILightControllerBase_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AIRepairableBase_Statics::NewProp_m_FlashInterval_MetaData[] = {
+		{ "Category", "LightController" },
+		{ "ModuleRelativePath", "Public/IRepairableBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AIRepairableBase_Statics::NewProp_m_FlashInterval = { "m_FlashInterval", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AIRepairableBase, m_FlashInterval), METADATA_PARAMS(Z_Construct_UClass_AIRepairableBase_Statics::NewProp_m_FlashInterval_MetaData, ARRAY_COUNT(Z_Construct_UClass_AIRepairableBase_Statics::NewProp_m_FlashInterval_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AIRepairableBase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIRepairableBase_Statics::NewProp_ControlledLights,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIRepairableBase_Statics::NewProp_ControlledLights_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AIRepairableBase_Statics::NewProp_m_FlashInterval,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AIRepairableBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AIRepairableBase>::IsAbstract,
@@ -146,7 +158,7 @@ void EmptyLinkFunctionForGeneratedCodeIRepairableBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AIRepairableBase, 852665549);
+	IMPLEMENT_CLASS(AIRepairableBase, 1243148446);
 	template<> GGJ20_API UClass* StaticClass<AIRepairableBase>()
 	{
 		return AIRepairableBase::StaticClass();

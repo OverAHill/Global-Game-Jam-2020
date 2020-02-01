@@ -24,6 +24,9 @@ class GGJ20_API AIRepairableBase : public AActor
 	GENERATED_BODY()
 	
 public:	
+	UPROPERTY(EditAnywhere, Category = "LightController")
+		float m_FlashInterval = 0.2f;
+
 	//An array of lights that are controlled by this repairable.
 	UPROPERTY(EditAnywhere, Category="LightController")
 		TArray<AILightControllerBase*> ControlledLights;

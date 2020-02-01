@@ -15,6 +15,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_RPC_WRAPPERS
 #define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_EVENT_PARMS
+#define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_CALLBACK_WRAPPERS
 #define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAILightControllerBase(); \
@@ -58,12 +60,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AILightControllerBase); \
 
 
 #define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_PRIVATE_PROPERTY_OFFSET
-#define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_11_PROLOG
+#define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_11_PROLOG \
+	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_EVENT_PARMS
+
+
 #define GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_PRIVATE_PROPERTY_OFFSET \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_RPC_WRAPPERS \
+	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_CALLBACK_WRAPPERS \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_INCLASS \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_STANDARD_CONSTRUCTORS \
 public: \
@@ -75,6 +81,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_PRIVATE_PROPERTY_OFFSET \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_CALLBACK_WRAPPERS \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_INCLASS_NO_PURE_DECLS \
 	GGJ20_Source_GGJ20_Public_ILightControllerBase_h_14_ENHANCED_CONSTRUCTORS \
 private: \

@@ -11,7 +11,6 @@ AILightControllerBase::AILightControllerBase()
 	PrimaryActorTick.bCanEverTick = true;
 
 	m_IsOn = true;
-	m_LightBrightness = 100;
 	m_light = CreateDefaultSubobject<UPointLightComponent>(FName("Light"));
 }
 
@@ -27,77 +26,43 @@ void AILightControllerBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+	Flash(DeltaTime);
+}
 
+void AILightControllerBase::StartFlashing(float interval)
+{
+	m_IsFlashing = true;
+	m_FlashInterval = interval;
+}
+
+void AILightControllerBase::StopFlashing()
+{
+	m_IsFlashing = false;
+}
+
+void AILightControllerBase::Flash(float DeltaTime)
+{
 	if (m_IsFlashing)
 	{
-		m_TimeFlashing += DeltaTime;
-		if (m_TimeFlashing >= m_FlashDuration)
-		{
-			m_IsFlashing = false;
-			m_TimeFlashing = 0;
-			return;
-		}
-
 		m_TimeSineLastFlash += DeltaTime;
 		if (m_TimeSineLastFlash > m_FlashInterval)
 		{
 			m_TimeSineLastFlash = 0;
-			Toggle();
-		}
-	}
-}
-
-void AILightControllerBase::TurnOn()
-{
-	m_IsOn = true;
-	m_light->SetLightBrightness(m_LightBrightness);
-
-}
-
-void AILightControllerBase::TurnOff()
-{
-	m_IsOn = false;
-	m_light->SetLightBrightness(0);
-}
-
-void AILightControllerBase::Flashlights(float interval, float duration)
-{
-	m_IsFlashing = true;
-	m_FlashInterval = interval;
-	m_FlashDuration = duration;
-}
-
-void AILightControllerBase::Flash(float deltaTime)
-{
-	if (m_IsFlashing)
-	{
-		m_TimeFlashing += deltaTime;
-		if (m_TimeFlashing >= m_FlashDuration)
-		{
-			m_IsFlashing = false;
-			m_TimeFlashing = 0;
-			return;
-		}
-
-		m_TimeSineLastFlash += deltaTime;
-		if (m_TimeSineLastFlash > m_FlashInterval)
-		{
-			m_TimeSineLastFlash = 0;
-			Toggle();
+			if (m_IsOn)
+			{
+				m_IsOn = false;
+				TurnOff();
+			}
+			else
+			{
+				m_IsOn = true;
+				TurnOn();
+			}
 		}
 	}
 }
 
 void AILightControllerBase::Toggle()
 {
-	if (m_IsOn)
-	{
-		m_IsOn = true;
-		m_light->SetLightBrightness(0);;
-	}
-	else
-	{
-		m_IsOn = true;
-		m_light->SetLightBrightness(m_LightBrightness);
-	}
+	
 }

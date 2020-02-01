@@ -23,20 +23,22 @@ void AIRepairableBase::BeginPlay()
 void AIRepairableBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
 void AIRepairableBase::Break()
 {
 	for (auto lightController : ControlledLights)
 	{
-		lightController->Flashlights(0.4f, 1000);
+		lightController->StartFlashing(m_FlashInterval);
 	}
 }
 
 void AIRepairableBase::Repair()
 {
-
+	for (auto lightController : ControlledLights)
+	{
+		lightController->StopFlashing();
+	}
 }
 
 void AIRepairableBase::GenerateTimeToBreak()

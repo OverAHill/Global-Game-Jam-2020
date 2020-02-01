@@ -18,10 +18,7 @@ protected:
 	bool m_IsOn;
 	bool m_IsFlashing;
 	float m_FlashInterval;
-	float m_FlashDuration;
 	float m_TimeSineLastFlash;
-	float m_TimeFlashing;
-	float m_LightBrightness;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -29,7 +26,7 @@ protected:
 
 
 public:	
-	UPROPERTY(EditAnywhere, Category = "Lights")
+	UPROPERTY(EditAnywhere, BlueprintReadwrite, Category = "Lights")
 		UPointLightComponent* m_light;
 
 	// Sets default values for this actor's properties
@@ -38,9 +35,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	
-	void Flashlights(float interval, float duration);
-	void TurnOff();
-	void TurnOn();
+	void StartFlashing(float interval);
+	void StopFlashing();
 	void Toggle();
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Lights")
+		void TurnOff();
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent, Category = "Lights")
+		void TurnOn();
 
 };

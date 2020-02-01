@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{4395E1FC-78A4-4883-AEED-F03581816360}</UniqueIdentifier>
+      <UniqueIdentifier>{D2B5A73E-8B04-49FE-AE50-189F3F7A1C9A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{48AE6060-F471-4E18-9934-DB91C9E884A3}</UniqueIdentifier>
+      <UniqueIdentifier>{B6A76043-8958-4284-9A03-EFE0EFF76A38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{1E19F284-A762-47F7-9525-DF49FAFC8385}</UniqueIdentifier>
+      <UniqueIdentifier>{37E7F915-D3DE-406A-A9CE-E42F7E0F9E38}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{A324894C-788E-4560-BB9A-903BC51CF5C9}</UniqueIdentifier>
+      <UniqueIdentifier>{04209A1E-29F7-456D-BC22-4AEA371DB157}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
       <Filter>Source\GGJ20\Private</Filter>
@@ -60,7 +60,7 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{B526389F-65DF-452B-8B21-3C86A3364475}</UniqueIdentifier>
+      <UniqueIdentifier>{DF17648C-6EA6-4A73-BDF7-E2F71E0195BF}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
       <Filter>Source\GGJ20\Public</Filter>
