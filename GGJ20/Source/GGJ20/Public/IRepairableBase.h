@@ -27,9 +27,16 @@ public:
 	UPROPERTY(EditAnywhere, Category = "LightController")
 		float m_FlashInterval = 0.2f;
 
+	UPROPERTY(EditAnywhere, Category = "LightController")
+		float m_MinBreakTime = 1.0f;
+
+	UPROPERTY(EditAnywhere, Category = "LightController")
+		float m_MaxBreakTime = 5.0f;
+
 	//An array of lights that are controlled by this repairable.
 	UPROPERTY(EditAnywhere, Category="LightController")
 		TArray<AILightControllerBase*> ControlledLights;
+
 
 	// Sets default values for this actor's properties
 	AIRepairableBase();
@@ -37,10 +44,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void Break();
-	virtual void Repair();
+	virtual RepairTypes Repair();
 
 protected:
 	RepairTypes m_RepairType;
+	float m_TimeToBreak;
+	float m_TimeSinceBreak;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

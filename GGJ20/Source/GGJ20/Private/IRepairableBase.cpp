@@ -23,6 +23,12 @@ void AIRepairableBase::BeginPlay()
 void AIRepairableBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	m_TimeSinceBreak += DeltaTime;
+	if (m_TimeSinceBreak > m_TimeToBreak)
+	{
+		Break();
+	}
 }
 
 void AIRepairableBase::Break()
@@ -33,15 +39,20 @@ void AIRepairableBase::Break()
 	}
 }
 
-void AIRepairableBase::Repair()
+RepairTypes AIRepairableBase::Repair()
 {
 	for (auto lightController : ControlledLights)
 	{
 		lightController->StopFlashing();
 	}
+
+	GenerateTimeToBreak();
+
+	return m_RepairType;
 }
 
 void AIRepairableBase::GenerateTimeToBreak()
 {
-
+	m_TimeSinceBreak = 0;
+	m_TimeToBreak = FMath::RandRange(m_MinBreakTime, m_MaxBreakTime);
 }

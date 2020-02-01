@@ -38,6 +38,7 @@ void AILightControllerBase::StartFlashing(float interval)
 void AILightControllerBase::StopFlashing()
 {
 	m_IsFlashing = false;
+	TurnOff();
 }
 
 void AILightControllerBase::Flash(float DeltaTime)

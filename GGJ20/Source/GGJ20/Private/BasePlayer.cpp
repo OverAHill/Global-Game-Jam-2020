@@ -4,6 +4,9 @@
 #include "BasePlayer.h"
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Engine.h"
+#include "Engine/World.h"
+#include "IRepairableBase.h"
 
 // Sets default values
 ABasePlayer::ABasePlayer()
@@ -53,6 +56,8 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAxis("RotateVertical", this, &ABasePlayer::MoveCameraVer);
 	PlayerInputComponent->BindAxis("RotateHorizontal", this, &ABasePlayer::MoveCameraHor);
+
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ABasePlayer::Repair);
 }
 
 void ABasePlayer::MoveForward(float value)
@@ -63,7 +68,7 @@ void ABasePlayer::MoveForward(float value)
 
 void ABasePlayer::MoveRight(float value)
 {
-	CurrentVelocity.X = 100 * value;// 
+	CurrentVelocity.X = 100 * value;
 }
 
 void ABasePlayer::MoveCameraVer(float value)
@@ -74,4 +79,24 @@ void ABasePlayer::MoveCameraVer(float value)
 void ABasePlayer::MoveCameraHor(float value)
 {
 	CurrentRotation.X = value;
+}
+
+void ABasePlayer::Repair()
+{
+	FHitResult* hitResult = new FHitResult();
+	FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();
+	FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
+	FVector EndTrace = StartTrace + (ForwardVector * 5000);
+	FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
+
+	if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+	{
+		DrawDebugLine(GetWorld(), StartTrace, hitResult->Location, FColor(255,0,0), true);
+		AActor* hitObject = hitResult->GetActor();
+		AIRepairableBase* hitRepairable = Cast<AIRepairableBase>(hitObject);
+		if (hitRepairable != nullptr)
+		{
+			RepairTypes repair = hitRepairable->Repair();
+		}
+	}
 }
