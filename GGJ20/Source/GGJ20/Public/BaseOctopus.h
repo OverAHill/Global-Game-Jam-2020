@@ -27,6 +27,8 @@ public:
 		float wanderFindNewPointTime;
 	UPROPERTY(VisibleAnywhere)
 		float timeSinceLastFind;
+	UPROPERTY(EditAnywhere)
+		AActor* player;
 
 	// Sets default values for this actor's properties
 	ABaseOctopus();

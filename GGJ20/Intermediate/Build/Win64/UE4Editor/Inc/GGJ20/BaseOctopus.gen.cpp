@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 	GGJ20_API UClass* Z_Construct_UClass_ABaseOctopus();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_GGJ20();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void ABaseOctopus::StaticRegisterNativesABaseOctopus()
 	{
@@ -31,6 +32,10 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_player_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_player;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeSinceLastFind_MetaData[];
 #endif
@@ -65,6 +70,13 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 		{ "ModuleRelativePath", "Public/BaseOctopus.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseOctopus_Statics::NewProp_player_MetaData[] = {
+		{ "Category", "BaseOctopus" },
+		{ "ModuleRelativePath", "Public/BaseOctopus.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseOctopus_Statics::NewProp_player = { "player", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseOctopus, player), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_player_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_player_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind_MetaData[] = {
 		{ "Category", "BaseOctopus" },
@@ -101,6 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseOctopus_Statics::NewProp_movementSpeed = { "movementSpeed", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseOctopus, movementSpeed), METADATA_PARAMS(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_movementSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_movementSpeed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseOctopus_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseOctopus_Statics::NewProp_player,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseOctopus_Statics::NewProp_wanderFindNewPointTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseOctopus_Statics::NewProp_wanderRadius,
@@ -134,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseOctopus, 3611224634);
+	IMPLEMENT_CLASS(ABaseOctopus, 3791207649);
 	template<> GGJ20_API UClass* StaticClass<ABaseOctopus>()
 	{
 		return ABaseOctopus::StaticClass();

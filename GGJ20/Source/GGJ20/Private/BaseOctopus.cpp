@@ -15,13 +15,19 @@ ABaseOctopus::ABaseOctopus()
 	movementSpeed = 200;
 	wanderCastDistance = 500;
 	wanderRadius = 50;
+	
 }
 
 // Called when the game starts or when spawned
 void ABaseOctopus::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	TArray<AActor*> players;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ABasePlayer::StaticClass(), players);
+	player = players[0];
+
+	PickWanderPoint(GetVectorToPlayerShip());
 }
 
 // Called every frame
@@ -35,7 +41,7 @@ void ABaseOctopus::Wander(float DeltaTime)
 {
 	FVector vectorToWander = goalPos - GetActorLocation();
 	timeSinceLastFind += DeltaTime;
-	if (timeSinceLastFind < wanderFindNewPointTime && vectorToWander.Size() > 200)
+	if (/*timeSinceLastFind < wanderFindNewPointTime && */vectorToWander.Size() > 200)
 	{
 		MoveToWanderPoint(vectorToWander, DeltaTime);
 	}
@@ -47,9 +53,7 @@ void ABaseOctopus::Wander(float DeltaTime)
 
 FVector ABaseOctopus::GetVectorOfPlayerShip()
 {
-	TArray<AActor*> players;
-	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ABasePlayer::StaticClass(), players);
-	FVector playerPos = players[0]->GetActorLocation();
+	FVector playerPos = player->GetActorLocation();
 	return playerPos;
 }
 
@@ -68,11 +72,13 @@ float ABaseOctopus::GetDistanceToPlayerShip()
 
 void ABaseOctopus::PickWanderPoint(FVector toPlayer)
 {
-	float goalX = GetActorLocation().X + ((toPlayer.X + (GetDistanceToPlayerShip() / 500 * FMath::RandRange(-wanderRadius, wanderRadius))) * wanderCastDistance);
+	/*float goalX = GetActorLocation().X + ((toPlayer.X + (GetDistanceToPlayerShip() / 500 * FMath::RandRange(-wanderRadius, wanderRadius))) * wanderCastDistance);
 	float goalY = GetActorLocation().Y + ((toPlayer.Y + (GetDistanceToPlayerShip() / 500 * FMath::RandRange(-wanderRadius, wanderRadius))) * wanderCastDistance);
 
-	goalPos = FVector(goalX, toPlayer.Z, goalY);
-	goalPos = GetActorLocation() + toPlayer;
+	goalPos = FVector(goalX, toPlayer.Z, goalY);*/
+	//goalPos = GetActorLocation() + toPlayer;
+
+	goalPos = GetVectorOfPlayerShip();
 
 	timeSinceLastFind = 0;
 }
