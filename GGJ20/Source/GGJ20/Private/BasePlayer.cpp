@@ -35,8 +35,47 @@ void ABasePlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	if (!currentlyRepairing)
+	if (!OnLadder)
 	{
+		//this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Walking;
+		
+
+		if (!currentlyRepairing)
+		{
+			//Rotate
+			FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
+			FRotator r = t.GetRotation().Rotator();		//clamp me daddy
+			//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
+			r.Yaw += CurrentRotation.X;
+			r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
+			PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
+
+
+			//Move
+			AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
+			AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
+
+			if (Crouched) //interpolate me you lazy bitch
+			{
+				PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 10.0f));
+				this->SetActorScale3D(FVector(1.0f, 1.0f, 0.5f));
+			}
+			else
+			{
+				PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 30.0f));
+				this->SetActorScale3D(FVector(1.0f, 1.0f, 1.0f));
+			}
+		}
+		else
+		{
+
+		}
+	}
+	else
+	{
+		
+		AddMovementInput(PlayerFirstPersonCamera->GetUpVector(), CurrentVelocity.Y * DeltaTime);
+		
 		//Rotate
 		FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
 		FRotator r = t.GetRotation().Rotator();		//clamp me daddy
@@ -44,11 +83,6 @@ void ABasePlayer::Tick(float DeltaTime)
 		r.Yaw += CurrentRotation.X;
 		r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
 		PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
-
-
-		//Move
-		AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
-		AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
 
 		if (Crouched) //interpolate me you lazy bitch
 		{
@@ -61,10 +95,7 @@ void ABasePlayer::Tick(float DeltaTime)
 			this->SetActorScale3D(FVector(1.0f, 1.0f, 1.0f));
 		}
 	}
-	else
-	{
-
-	}
+	
 }
 
 // Called to bind functionality to input
@@ -189,5 +220,18 @@ void ABasePlayer::Crouch(float value)
 	else
 	{
 		Crouched = false;
+	}
+}
+
+void ABasePlayer::SetOnLadder(bool b)
+{
+	OnLadder = b;
+	if (OnLadder)
+	{
+		this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Flying;
+	}
+	else
+	{
+		this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Walking;
 	}
 }

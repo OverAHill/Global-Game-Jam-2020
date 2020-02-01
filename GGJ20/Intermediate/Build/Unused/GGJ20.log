@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020).
   Parsing headers for GGJ20Editor
     Running UnrealHeaderTool "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
@@ -19,3 +20,11 @@ C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Publ
     [4/4] GGJ20Editor.target
   Total time in Parallel executor: 9.18 seconds
   Total execution time: 16.17 seconds
+=======
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020).
+  Parsing headers for GGJ20Editor
+    Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for GGJ20Editor in 5.4589742 seconds
+  Target is up to date
+  Total execution time: 6.20 seconds
+>>>>>>> Shit

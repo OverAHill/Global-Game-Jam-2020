@@ -13,8 +13,46 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GGJ20_BasePlayer_generated_h
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS_NO_PURE_DECLS
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetOnLadder) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetOnLadder(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetOnLadder) \
+	{ \
+		P_GET_UBOOL(Z_Param_b); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetOnLadder(Z_Param_b); \
+		P_NATIVE_END; \
+	}
+
+
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetOnLadder) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->GetOnLadder(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSetOnLadder) \
+	{ \
+		P_GET_UBOOL(Z_Param_b); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetOnLadder(Z_Param_b); \
+		P_NATIVE_END; \
+	}
+
+
 #define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABasePlayer(); \
