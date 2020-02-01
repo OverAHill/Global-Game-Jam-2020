@@ -13,8 +13,7 @@ AWaterLevel::AWaterLevel()
 	WaterMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Water Level"));
 
 	minWaterLevel = GetActorLocation().Z;
-	positionOffsetY = minWaterLevel;
-	maxWaterLevel = minWaterLevel + 20;
+	maxWaterLevel = minWaterLevel + positionOffsetY;
 	CurrentWaterLevel = minWaterLevel;
 
 	filling = true;
@@ -25,7 +24,7 @@ AWaterLevel::AWaterLevel()
 void AWaterLevel::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	maxWaterLevel = minWaterLevel + positionOffsetY;
 }
 
 // Called every frame

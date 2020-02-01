@@ -15,7 +15,12 @@ class GGJ20_API AWaterLevel : public AActor
 
 	UPROPERTY(VisibleAnywhere)
 		UStaticMeshComponent* WaterMesh;
-		
+	
+	UPROPERTY(EditAnywhere)
+	 float positionOffsetY = 20.0f;
+
+	UPROPERTY(EditAnywhere)
+		float fillSpeed = 0.1;
 
 public:	
 	// Sets default values for this actor's properties
@@ -37,8 +42,8 @@ private:
 	float maxWaterLevel;
 	float minWaterLevel;
 	float CurrentWaterLevel;
-	float positionOffsetY;
-	float fillSpeed = 0.1;
+	
+	
 	bool filling;
 	bool draining;
 };
