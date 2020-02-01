@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{489CF2F8-DF84-46F4-997C-30C14C802270}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{63166990-823B-4105-832F-5F3860E1CEC5}</UniqueIdentifier>
+>>>>>>> TestingIfBranchBroken
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{FF818F84-A539-4701-AC6B-E69EBE1B37EC}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{8676AF0B-5F1C-4D69-AD63-EB9D836F586E}</UniqueIdentifier>
+>>>>>>> TestingIfBranchBroken
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +35,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
+<<<<<<< HEAD
       <UniqueIdentifier>{2AA8EA0D-3D66-42E8-9718-DE3CF4FC2632}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{38BA2222-911D-48C5-A5CB-6D6DDEFD22B2}</UniqueIdentifier>
+>>>>>>> TestingIfBranchBroken
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,8 +57,15 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{9D5A7FD1-2795-43A4-9385-2FFBF242E736}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{8D65F3F4-655A-4C0E-8FFD-520A33A33675}</UniqueIdentifier>
+>>>>>>> TestingIfBranchBroken
     </Filter>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
@@ -69,8 +88,15 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
+<<<<<<< HEAD
       <UniqueIdentifier>{362490E4-C128-4498-B7B1-1AF220BCE329}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{2C79C93C-E158-49A7-9310-FA209FD24110}</UniqueIdentifier>
+>>>>>>> TestingIfBranchBroken
     </Filter>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>

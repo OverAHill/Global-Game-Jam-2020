@@ -21,8 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeGGJ20_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0x14F05D2B,
 				0xAB8869D8,
+=======
+				0x600F13D9,
+				0x20347F01,
+>>>>>>> TestingIfBranchBroken
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

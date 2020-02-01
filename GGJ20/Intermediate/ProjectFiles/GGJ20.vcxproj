@@ -376,13 +376,18 @@
     <ClInclude Include="..\..\Source\GGJ20\GGJ20.h"/>
     <ClCompile Include="..\..\Source\GGJ20\GGJ20GameModeBase.cpp"/>
     <ClInclude Include="..\..\Source\GGJ20\GGJ20GameModeBase.h"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseRoom.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\ILightControllerBase.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\IRepairableBase.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\RepairableEnum.cpp"/>
+<<<<<<< HEAD
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterLevel.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterRoom.cpp"/>
+=======
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h"/>
+>>>>>>> TestingIfBranchBroken
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseRoom.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\ILightControllerBase.h"/>

@@ -2,6 +2,10 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"GGJ20": "UE4Editor-GGJ20-1978.dll"
+=======
+		"GGJ20": "UE4Editor-GGJ20-6467.dll"
+>>>>>>> TestingIfBranchBroken
 	}
 }
