@@ -8,6 +8,11 @@ AGeneratorRepairable::AGeneratorRepairable()
 	m_RepairType = RepairTypes::GENERATOR_REPAIR;
 }
 
+void AGeneratorRepairable::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime); 
+}
+
 void AGeneratorRepairable::Break()
 {
 	Super::Break();

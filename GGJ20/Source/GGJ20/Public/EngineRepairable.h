@@ -17,6 +17,7 @@ class GGJ20_API AEngineRepairable : public AIRepairableBase
 public:
 	AEngineRepairable();
 
+	virtual void Tick(float DeltaTime) override;
 	virtual void Break() override;
 	virtual RepairTypes Repair() override;
 	virtual void SignalRepairCompleted(bool successful) override;

@@ -7,6 +7,11 @@ AHullRepairable::AHullRepairable()
 	m_RepairType = RepairTypes::HULL_REPAIR;
 }
 
+void AHullRepairable::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
+
 void AHullRepairable::Break()
 {
 	Super::Break();

@@ -8,6 +8,12 @@ AEngineRepairable::AEngineRepairable()
 	m_RepairType = RepairTypes::ENGINE_REPAIR;
 }
 
+
+void AEngineRepairable::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
+
 void AEngineRepairable::Break()
 {
 	Super::Break();
