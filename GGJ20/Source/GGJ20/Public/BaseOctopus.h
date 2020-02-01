@@ -20,6 +20,10 @@ protected:
 	float m_HeightChoiceCounter;
 	float m_HeightChoiceDecisionTime;
 	float m_HeightChoice;
+	FVector m_Momentum;
+	FVector m_PreviousPos;
+
+	float timeSinceHitMomentum = 0;
 
 public:	
 	UPROPERTY(EditAnywhere)
@@ -57,6 +61,8 @@ public:
 	float GetDistanceToPlayerShip();
 	void PickWanderPoint(FVector toPlayer);
 	void MoveToWanderPoint(FVector vectorToWander, float DeltaTime);
+	void UpdatePositionBasedOnMomentum(float DeltaTime);
+	void ChooseHeight(float DeltaTime);
 
 	UFUNCTION()
 		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);

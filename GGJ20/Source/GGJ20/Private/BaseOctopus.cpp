@@ -22,6 +22,8 @@ ABaseOctopus::ABaseOctopus()
 	boxCollider = CreateDefaultSubobject<UBoxComponent>(FName("Box Collider"));
 	boxCollider->OnComponentBeginOverlap.AddDynamic(this, &ABaseOctopus::OnOverlapBegin);
 	playerShip = nullptr;
+	m_Momentum = FVector();
+	m_PreviousPos = FVector();
 }
 
 // Called when the game starts or when spawned
@@ -35,7 +37,14 @@ void ABaseOctopus::BeginPlay()
 void ABaseOctopus::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	ChooseHeight(DeltaTime);
 	Wander(DeltaTime);
+	timeSinceHitMomentum += DeltaTime;
+	UpdatePositionBasedOnMomentum(DeltaTime);
+}
+
+void ABaseOctopus::ChooseHeight(float DeltaTime)
+{
 	m_HeightChoiceCounter += DeltaTime;
 	if (m_HeightChoiceCounter > m_HeightChoiceDecisionTime)
 	{
@@ -121,18 +130,25 @@ float ABaseOctopus::GetDistanceToPlayerShip()
 void ABaseOctopus::PickWanderPoint(FVector toPlayer)
 {
 	goalPos = GetActorLocation() + (toPlayer * wanderCastDistance);
-
 	timeSinceLastFind = 0;
 }
 
 void ABaseOctopus::MoveToWanderPoint(FVector vectorToWander, float DeltaTime)
 {
-	DrawDebugLine(GetWorld(), this->GetActorLocation(), goalPos, FColor(0, 255, 0), true);
-	this->SetActorLocation(this->GetActorLocation() + (vectorToWander * movementSpeed * DeltaTime));
+	DrawDebugLine(GetWorld(), this->GetActorLocation(), goalPos, FColor(0, 255, 0), false, 0.5f);
+	m_Momentum += vectorToWander * movementSpeed;
 }
 
 void ABaseOctopus::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	this->SetActorLocation(this->GetActorLocation() + ((goalPos - GetActorLocation()).Normalize() * (movementSpeed/2)), true);
+	this->SetActorLocation(m_PreviousPos);
 	PickWanderPoint(GetVectorToPointAroundPlayerShip());
+}
+
+void ABaseOctopus::UpdatePositionBasedOnMomentum(float DeltaTime)
+{
+	m_PreviousPos = GetActorLocation();
+	FVector usedMomentum = m_Momentum;
+	this->SetActorLocation(this->GetActorLocation() + usedMomentum * DeltaTime);
+	m_Momentum -= usedMomentum;
 }

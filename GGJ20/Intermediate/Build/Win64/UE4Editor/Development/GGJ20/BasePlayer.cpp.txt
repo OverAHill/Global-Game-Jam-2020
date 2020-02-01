@@ -1,5 +1,5 @@
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformNamedPipe.h
@@ -69,7 +69,7 @@ C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\BasePlayer.generated.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\BasePlayer.generated.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationAvoidanceTypes.h
 C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationAvoidanceTypes.generated.h
@@ -678,5 +678,5 @@ C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSpinBox.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Input/SSlider.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\IRepairableBase.h
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\IRepairableBase.generated.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\IRepairableBase.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\IRepairableBase.generated.h

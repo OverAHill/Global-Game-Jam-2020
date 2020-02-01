@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{61D600D6-5755-4022-A84B-BB1F91BCA969}</UniqueIdentifier>
+      <UniqueIdentifier>{E4A64587-BE33-42C6-880E-14F3A5BB3FA9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D9D23F58-7A7F-4152-B223-8B3A60E622E7}</UniqueIdentifier>
+      <UniqueIdentifier>{AB9AEEB6-8098-4A9D-B71A-251C732A21D2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{C65B8660-459F-4915-A8D2-4047133E3176}</UniqueIdentifier>
+      <UniqueIdentifier>{AAE754CE-7C7F-4193-B8BD-32C4041A6F3E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{204CEB5D-E939-41F2-8692-C0E16334AA0F}</UniqueIdentifier>
+      <UniqueIdentifier>{88E40583-CDBB-4A49-BBA6-AE743D0E771A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp">
       <Filter>Source\GGJ20\Private</Filter>
@@ -84,7 +84,7 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{CD846B1C-3179-4777-BA3B-364BFFC79F75}</UniqueIdentifier>
+      <UniqueIdentifier>{BE7CD38D-83CB-48A8-A9F2-E82321147534}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h">
       <Filter>Source\GGJ20\Public</Filter>
