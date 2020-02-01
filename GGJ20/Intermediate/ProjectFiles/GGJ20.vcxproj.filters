@@ -123,4 +123,14 @@
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\GGJ20\Public\LadderCollider.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GGJ20\Private\LadderCollider.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

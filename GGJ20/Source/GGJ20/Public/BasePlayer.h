@@ -36,6 +36,8 @@ public:
 	UPROPERTY(VisibleAnywhere)
 		UCameraComponent* PlayerFirstPersonCamera;
 
+	bool OnLadder = false;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -69,4 +71,10 @@ public:
 
 	bool currentlyRepairing;
 	AIRepairableBase* currentRepairTarget;
+
+	UFUNCTION(BlueprintCallable)
+	void SetOnLadder(bool b) { OnLadder = b; }
+
+	UFUNCTION(BlueprintCallable)
+	bool GetOnLadder() { return OnLadder; }
 };

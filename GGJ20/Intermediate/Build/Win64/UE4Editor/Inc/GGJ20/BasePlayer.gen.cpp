@@ -18,6 +18,8 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 	GGJ20_API UClass* Z_Construct_UClass_ABasePlayer_NoRegister();
 	GGJ20_API UClass* Z_Construct_UClass_ABasePlayer();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
+	GGJ20_API UFunction* Z_Construct_UFunction_ABasePlayer_GetOnLadder();
+	GGJ20_API UFunction* Z_Construct_UFunction_ABasePlayer_SetOnLadder();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
@@ -77,6 +79,86 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 	}
 	void ABasePlayer::StaticRegisterNativesABasePlayer()
 	{
+		UClass* Class = ABasePlayer::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "GetOnLadder", &ABasePlayer::execGetOnLadder },
+			{ "SetOnLadder", &ABasePlayer::execSetOnLadder },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics
+	{
+		struct BasePlayer_eventGetOnLadder_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((BasePlayer_eventGetOnLadder_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(BasePlayer_eventGetOnLadder_Parms), &Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BasePlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasePlayer, nullptr, "GetOnLadder", sizeof(BasePlayer_eventGetOnLadder_Parms), Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABasePlayer_GetOnLadder()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABasePlayer_GetOnLadder_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics
+	{
+		struct BasePlayer_eventSetOnLadder_Parms
+		{
+			bool b;
+		};
+		static void NewProp_b_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_b;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::NewProp_b_SetBit(void* Obj)
+	{
+		((BasePlayer_eventSetOnLadder_Parms*)Obj)->b = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::NewProp_b = { "b", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(BasePlayer_eventSetOnLadder_Parms), &Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::NewProp_b_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::NewProp_b,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/BasePlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABasePlayer, nullptr, "SetOnLadder", sizeof(BasePlayer_eventSetOnLadder_Parms), Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABasePlayer_SetOnLadder()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABasePlayer_SetOnLadder_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ABasePlayer_NoRegister()
 	{
@@ -85,6 +167,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 	struct Z_Construct_UClass_ABasePlayer_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -103,6 +186,10 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 	UObject* (*const Z_Construct_UClass_ABasePlayer_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_GGJ20,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABasePlayer_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABasePlayer_GetOnLadder, "GetOnLadder" }, // 3461785803
+		{ &Z_Construct_UFunction_ABasePlayer_SetOnLadder, "SetOnLadder" }, // 2713024523
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePlayer_Statics::Class_MetaDataParams[] = {
@@ -139,11 +226,11 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ABasePlayer_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_ABasePlayer_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -158,7 +245,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasePlayer, 733147982);
+	IMPLEMENT_CLASS(ABasePlayer, 2908584474);
 	template<> GGJ20_API UClass* StaticClass<ABasePlayer>()
 	{
 		return ABasePlayer::StaticClass();
