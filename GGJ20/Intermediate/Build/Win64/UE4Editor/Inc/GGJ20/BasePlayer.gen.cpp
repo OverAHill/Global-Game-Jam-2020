@@ -13,13 +13,68 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 // Cross Module References
+	GGJ20_API UEnum* Z_Construct_UEnum_GGJ20_Tools();
+	UPackage* Z_Construct_UPackage__Script_GGJ20();
 	GGJ20_API UClass* Z_Construct_UClass_ABasePlayer_NoRegister();
 	GGJ20_API UClass* Z_Construct_UClass_ABasePlayer();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
-	UPackage* Z_Construct_UPackage__Script_GGJ20();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
+	static UEnum* Tools_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_GGJ20_Tools, Z_Construct_UPackage__Script_GGJ20(), TEXT("Tools"));
+		}
+		return Singleton;
+	}
+	template<> GGJ20_API UEnum* StaticEnum<Tools>()
+	{
+		return Tools_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_Tools(Tools_StaticEnum, TEXT("/Script/GGJ20"), TEXT("Tools"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_GGJ20_Tools_Hash() { return 3392659712U; }
+	UEnum* Z_Construct_UEnum_GGJ20_Tools()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_GGJ20();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("Tools"), 0, Get_Z_Construct_UEnum_GGJ20_Tools_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "Tools::NO_TOOL", (int64)Tools::NO_TOOL },
+				{ "Tools::FIRE_EX", (int64)Tools::FIRE_EX },
+				{ "Tools::WELDER", (int64)Tools::WELDER },
+				{ "Tools::RIVET_GUN", (int64)Tools::RIVET_GUN },
+				{ "Tools::HAMMER", (int64)Tools::HAMMER },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "ModuleRelativePath", "Public/BasePlayer.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_GGJ20,
+				nullptr,
+				"Tools",
+				"Tools",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void ABasePlayer::StaticRegisterNativesABasePlayer()
 	{
 	}
@@ -54,6 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 		{ "HideCategories", "Navigation" },
 		{ "IncludePath", "BasePlayer.h" },
 		{ "ModuleRelativePath", "Public/BasePlayer.h" },
+		{ "ToolTip", "class RepairTypes;" },
 	};
 #endif
 #if WITH_METADATA
@@ -102,7 +158,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasePlayer, 1293227753);
+	IMPLEMENT_CLASS(ABasePlayer, 733147982);
 	template<> GGJ20_API UClass* StaticClass<ABasePlayer>()
 	{
 		return ABasePlayer::StaticClass();

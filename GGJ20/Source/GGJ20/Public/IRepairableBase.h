@@ -45,6 +45,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	virtual void Break();
 	virtual RepairTypes Repair();
+	virtual void SignalRepairCompleted(bool successful);
 
 protected:
 	RepairTypes m_RepairType;

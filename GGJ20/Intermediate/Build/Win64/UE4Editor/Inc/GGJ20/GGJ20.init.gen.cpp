@@ -22,12 +22,17 @@ void EmptyLinkFunctionForGeneratedCodeGGJ20_init() {}
 				0,
 				PKG_CompiledIn | 0x00000000,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				0x14F05D2B,
 				0xAB8869D8,
 =======
 				0x600F13D9,
 				0x20347F01,
 >>>>>>> TestingIfBranchBroken
+=======
+				0xC6011FD1,
+				0x3322F3CB,
+>>>>>>> WeldRepair
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
