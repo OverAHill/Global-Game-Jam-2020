@@ -11,11 +11,16 @@ AGeneratorRepairable::AGeneratorRepairable()
 void AGeneratorRepairable::Break()
 {
 	Super::Break();
+	//get water system
+	//turn draining off
+	//turn off lights
 }
 
 RepairTypes AGeneratorRepairable::Repair()
 {
 	Super::Repair();
+	//get ws, turn draining on
+	//turn lights back on
 	return m_RepairType;
 }
 

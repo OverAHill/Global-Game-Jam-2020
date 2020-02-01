@@ -18,6 +18,9 @@ ABasePlayer::ABasePlayer()
 	PlayerFirstPersonCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("First Person Camera"));
 	PlayerFirstPersonCamera->SetupAttachment(this->GetRootComponent());
 	PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 30.0f));
+
+	currentTool = Tools::NO_TOOL;
+	currentlyRepairing = false;
 }
 
 // Called when the game starts or when spawned
@@ -32,30 +35,36 @@ void ABasePlayer::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	//Rotate
-	FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
-	FRotator r = t.GetRotation().Rotator();		//clamp me daddy
-	//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
-	r.Yaw += CurrentRotation.X;
-	r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
-	PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
-
-
-	//Move
-	AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
-	AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
-
-	if (Crouched) //interpolate me you lazy bitch
+	if (!currentlyRepairing)
 	{
-		PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 10.0f));
-		this->SetActorScale3D(FVector(1.0f, 1.0f, 0.5f));
+		//Rotate
+		FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
+		FRotator r = t.GetRotation().Rotator();		//clamp me daddy
+		//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
+		r.Yaw += CurrentRotation.X;
+		r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
+		PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
+
+
+		//Move
+		AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
+		AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
+
+		if (Crouched) //interpolate me you lazy bitch
+		{
+			PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 10.0f));
+			this->SetActorScale3D(FVector(1.0f, 1.0f, 0.5f));
+		}
+		else
+		{
+			PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 30.0f));
+			this->SetActorScale3D(FVector(1.0f, 1.0f, 1.0f));
+		}
 	}
 	else
 	{
-		PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 30.0f));
-		this->SetActorScale3D(FVector(1.0f, 1.0f, 1.0f));
-	}
 
+	}
 }
 
 // Called to bind functionality to input
@@ -98,27 +107,69 @@ void ABasePlayer::MoveCameraHor(float value)
 
 void ABasePlayer::Repair()
 {
-	FHitResult* hitResult = new FHitResult();
-	FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();
-	FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
-	FVector EndTrace = StartTrace + (ForwardVector * 5000);
-	FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
-
-	if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+	if (!currentlyRepairing)
 	{
-		DrawDebugLine(GetWorld(), StartTrace, hitResult->Location, FColor(255,0,0), true);
-		AActor* hitObject = hitResult->GetActor();
-		AIRepairableBase* hitRepairable = Cast<AIRepairableBase>(hitObject);
-		if (hitRepairable != nullptr)
+		FHitResult* hitResult = new FHitResult();
+		FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();
+		FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
+		FVector EndTrace = StartTrace + (ForwardVector * 5000);
+		FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
+
+		if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
 		{
-			RepairTypes repair = hitRepairable->Repair();
-			switch (repair)
+			DrawDebugLine(GetWorld(), StartTrace, hitResult->Location, FColor(255, 0, 0), true);
+			AActor* hitObject = hitResult->GetActor();
+			AIRepairableBase* hitRepairable = Cast<AIRepairableBase>(hitObject);
+			if (hitRepairable != nullptr)
 			{
+				RepairTypes repair = hitRepairable->Repair();
+				switch (repair)
+				{
 				case RepairTypes::NOT_IMPLEMENTED:
 					hitRepairable->SignalRepairCompleted(true);
 					break;
+				default:
+					TryRepair(hitRepairable, repair);
+					break;
+
+				}
 			}
 		}
+	}
+	else
+	{
+
+	}
+}
+
+void ABasePlayer::TryRepair(AIRepairableBase* repairable, RepairTypes repairType)
+{
+	switch (currentTool)
+	{
+	case Tools::NO_TOOL:
+		repairable->SignalRepairCompleted(false);
+		break;
+
+	case Tools::FIRE_EX:
+		bool success = (repairType == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
+		repairable->SignalRepairCompleted(success);
+		break;
+
+	case Tools::WELDER:
+		currentlyRepairing = (repairType == RepairTypes::HULL_REPAIR) ? true : false;
+		currentRepairTarget = repairable;
+		break;
+
+	case Tools::RIVET_GUN:
+		currentlyRepairing = (repairType == RepairTypes::HULL_REPAIR) ? true : false;
+		currentRepairTarget = repairable;
+		break;
+
+	case Tools::HAMMER:
+		currentlyRepairing = (repairType == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
+		currentRepairTarget = repairable;
+		break;
+
 	}
 }
 
