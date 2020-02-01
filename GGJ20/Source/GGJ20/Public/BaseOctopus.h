@@ -6,6 +6,8 @@
 #include "GameFramework/Actor.h"
 #include "BaseOctopus.generated.h"
 
+class UBoxComponent;
+
 UCLASS()
 class GGJ20_API ABaseOctopus : public AActor
 {
@@ -27,8 +29,16 @@ public:
 		float wanderFindNewPointTime;
 	UPROPERTY(VisibleAnywhere)
 		float timeSinceLastFind;
+
 	UPROPERTY(EditAnywhere)
-		AActor* player;
+		AActor* playerShip;
+	UPROPERTY(EditAnywhere)
+		float shipWidth;
+	UPROPERTY(EditAnywhere)
+		float shipLength;
+
+	UPROPERTY(EditAnywhere)
+		UBoxComponent* boxCollider;
 
 	// Sets default values for this actor's properties
 	ABaseOctopus();
@@ -39,7 +49,13 @@ public:
 	void Wander(float DeltaTime);
 	FVector GetVectorOfPlayerShip();
 	FVector GetVectorToPlayerShip();
+	FVector GetVectorOfPointAroundPlayerShip();
+	FVector GetVectorToPointAroundPlayerShip();
 	float GetDistanceToPlayerShip();
 	void PickWanderPoint(FVector toPlayer);
 	void MoveToWanderPoint(FVector vectorToWander, float DeltaTime);
+
+	UFUNCTION()
+		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+
 };
