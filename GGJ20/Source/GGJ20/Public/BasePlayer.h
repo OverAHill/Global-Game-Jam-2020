@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Core.h"
 #include "GameFramework/Character.h"
 #include "BasePlayer.generated.h"
 
@@ -43,4 +43,6 @@ public:
 	 
 	virtual void MoveCameraHor(float value);
 	virtual void MoveCameraVer(float value);
+
+	virtual void Repair();
 };
