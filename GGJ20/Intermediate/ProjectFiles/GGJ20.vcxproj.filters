@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{489CF2F8-DF84-46F4-997C-30C14C802270}</UniqueIdentifier>
+      <UniqueIdentifier>{61D600D6-5755-4022-A84B-BB1F91BCA969}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{FF818F84-A539-4701-AC6B-E69EBE1B37EC}</UniqueIdentifier>
+      <UniqueIdentifier>{D9D23F58-7A7F-4152-B223-8B3A60E622E7}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{2AA8EA0D-3D66-42E8-9718-DE3CF4FC2632}</UniqueIdentifier>
+      <UniqueIdentifier>{C65B8660-459F-4915-A8D2-4047133E3176}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,12 +45,27 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{9D5A7FD1-2795-43A4-9385-2FFBF242E736}</UniqueIdentifier>
+      <UniqueIdentifier>{204CEB5D-E939-41F2-8692-C0E16334AA0F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseRoom.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\DefenseSystemRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\EngineRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\GeneratorRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\HullRepairable.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\ILightControllerBase.cpp">
@@ -69,12 +84,27 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{362490E4-C128-4498-B7B1-1AF220BCE329}</UniqueIdentifier>
+      <UniqueIdentifier>{CD846B1C-3179-4777-BA3B-364BFFC79F75}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseRoom.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\DefenseSystemRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\EngineRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\GeneratorRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\HullRepairable.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\ILightControllerBase.h">

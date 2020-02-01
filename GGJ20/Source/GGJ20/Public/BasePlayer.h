@@ -9,6 +9,19 @@
 class UCharacterMovementComponent;
 class UCameraComponent;
 
+UENUM(BlueprintType)
+enum class Tools : uint8
+{
+	NO_TOOL,
+	FIRE_EX,
+	WELDER,
+	RIVET_GUN,
+	HAMMER,
+};
+
+class AIRepairableBase;
+//class RepairTypes;
+
 UCLASS()
 class GGJ20_API ABasePlayer : public ACharacter
 {
@@ -45,9 +58,15 @@ public:
 	virtual void MoveCameraVer(float value);
 
 	virtual void Repair();
+	virtual void TryRepair(AIRepairableBase* repairable, int repairType);
 
 	virtual void Jump();
 	virtual void Crouch(float value);
 
 	bool Crouched = false;
+
+	Tools currentTool;
+
+	bool currentlyRepairing;
+	AIRepairableBase* currentRepairTarget;
 };

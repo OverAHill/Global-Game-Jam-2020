@@ -75,7 +75,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6C9D82E7-6E0E-4523-9411-C7C36FA69EA3}</ProjectGuid>
+    <ProjectGuid>{69D97BF3-177B-4AE9-8864-7C86FCCD6308}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>GGJ20</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -376,15 +376,25 @@
     <ClInclude Include="..\..\Source\GGJ20\GGJ20.h"/>
     <ClCompile Include="..\..\Source\GGJ20\GGJ20GameModeBase.cpp"/>
     <ClInclude Include="..\..\Source\GGJ20\GGJ20GameModeBase.h"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseRoom.cpp"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\DefenseSystemRepairable.cpp"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\EngineRepairable.cpp"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\GeneratorRepairable.cpp"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\HullRepairable.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\ILightControllerBase.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\IRepairableBase.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\RepairableEnum.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterLevel.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterRoom.cpp"/>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseRoom.h"/>
+    <ClInclude Include="..\..\Source\GGJ20\Public\DefenseSystemRepairable.h"/>
+    <ClInclude Include="..\..\Source\GGJ20\Public\EngineRepairable.h"/>
+    <ClInclude Include="..\..\Source\GGJ20\Public\GeneratorRepairable.h"/>
+    <ClInclude Include="..\..\Source\GGJ20\Public\HullRepairable.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\ILightControllerBase.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\IRepairableBase.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\RepairableEnum.h"/>
