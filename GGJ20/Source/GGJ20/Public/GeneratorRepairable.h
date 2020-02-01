@@ -14,4 +14,10 @@ class GGJ20_API AGeneratorRepairable : public AIRepairableBase
 {
 	GENERATED_BODY()
 	
+public:
+	AGeneratorRepairable();
+
+	virtual void Break() override;
+	virtual RepairTypes Repair() override;
+	virtual void SignalRepairCompleted(bool successful) override;
 };

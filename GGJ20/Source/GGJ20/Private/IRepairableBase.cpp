@@ -12,7 +12,7 @@ AIRepairableBase::AIRepairableBase()
 }
 
 // Called when the game starts or when spawned
-void AIRepairableBase::BeginPlay()  
+void AIRepairableBase::BeginPlay()   
 {
 	Super::BeginPlay();
 	m_RepairType = RepairTypes::NOT_IMPLEMENTED;
@@ -41,14 +41,20 @@ void AIRepairableBase::Break()
 
 RepairTypes AIRepairableBase::Repair()
 {
-	for (auto lightController : ControlledLights)
-	{
-		lightController->StopFlashing();
-	}
-
-	GenerateTimeToBreak();
-
 	return m_RepairType;
+}
+
+void AIRepairableBase::SignalRepairCompleted(bool successful)
+{
+	if (successful)
+	{
+		for (auto lightController : ControlledLights)
+		{
+			lightController->StopFlashing();
+		}
+
+		GenerateTimeToBreak();
+	}
 }
 
 void AIRepairableBase::GenerateTimeToBreak()

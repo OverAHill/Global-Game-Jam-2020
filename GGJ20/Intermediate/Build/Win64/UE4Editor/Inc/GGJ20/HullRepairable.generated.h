@@ -35,7 +35,7 @@ public: \
 
 #define GGJ20_Source_GGJ20_Public_HullRepairable_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AHullRepairable(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AHullRepairable(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHullRepairable) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AHullRepairable); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHullRepairable); \
@@ -47,8 +47,6 @@ public:
 
 
 #define GGJ20_Source_GGJ20_Public_HullRepairable_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AHullRepairable() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AHullRepairable(AHullRepairable&&); \

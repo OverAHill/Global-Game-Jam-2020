@@ -112,6 +112,12 @@ void ABasePlayer::Repair()
 		if (hitRepairable != nullptr)
 		{
 			RepairTypes repair = hitRepairable->Repair();
+			switch (repair)
+			{
+				case RepairTypes::NOT_IMPLEMENTED:
+					hitRepairable->SignalRepairCompleted(true);
+					break;
+			}
 		}
 	}
 }

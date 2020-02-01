@@ -13,5 +13,11 @@ UCLASS()
 class GGJ20_API AHullRepairable : public AIRepairableBase
 {
 	GENERATED_BODY()
-	
+
+public:
+	AHullRepairable();
+
+	virtual void Break() override;
+	virtual RepairTypes Repair() override;
+	virtual void SignalRepairCompleted(bool successful) override;
 };
