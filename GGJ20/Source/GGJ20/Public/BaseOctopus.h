@@ -17,16 +17,19 @@ protected:
 	FVector goalPos;
 
 public:	
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Cateogry = "Movement")
 		float movementSpeed;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = "Tracking")
 		float wanderCastDistance;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Cateogry = "Movement")
 		float wanderRadius;
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Cateogry = "Movement")
 		float wanderFindNewPointTime;
-	UPROPERTY(VisibleAnywhere)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Cateogry = "Movement")
 		float timeSinceLastFind;
+
+	//UPROPERTY(EditAnywhere, Category = "Tracking")
+		//AActor* playerShip;
 
 	// Sets default values for this actor's properties
 	ABaseOctopus();

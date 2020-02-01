@@ -1,15 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020).
-  Creating makefile for GGJ20Editor (ini files are newer than makefile)
+  Creating makefile for GGJ20Editor (no existing makefile)
   Parsing headers for GGJ20Editor
     Running UnrealHeaderTool "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 5.4065415 seconds
-  Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] BaseOctopus.cpp
-    [2/4] UE4Editor-GGJ20.lib
-       Creating library C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.lib and object C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.exp
-    [3/4] UE4Editor-GGJ20.dll
-       Creating library C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.lib and object C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.exp
-    [4/4] GGJ20Editor.target
-  Total time in Parallel executor: 10.51 seconds
-  Total execution time: 17.72 seconds
+  C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Source/GGJ20/Public/BaseOctopus.h(20) : LogCompile: Error: Unknown variable specifier 'Cateogry'
+  C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Source/GGJ20/Public/BaseOctopus.h(24) : LogCompile: Error: Unknown variable specifier 'Cateogry'
+  C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Source/GGJ20/Public/BaseOctopus.h(26) : LogCompile: Error: Unknown variable specifier 'Cateogry'
+  C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Source/GGJ20/Public/BaseOctopus.h(28) : LogCompile: Error: Unknown variable specifier 'Cateogry'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "C:\Epic\UE4\UE_4.22\Engine\Build\BatchFiles\Build.bat GGJ20Editor Win64 Development -Project="C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

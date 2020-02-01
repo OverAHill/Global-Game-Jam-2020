@@ -71,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 		{ "ModuleRelativePath", "Public/BaseOctopus.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind = { "timeSinceLastFind", nullptr, (EPropertyFlags)0x0010000000020001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseOctopus, timeSinceLastFind), METADATA_PARAMS(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind = { "timeSinceLastFind", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseOctopus, timeSinceLastFind), METADATA_PARAMS(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_timeSinceLastFind_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseOctopus_Statics::NewProp_wanderFindNewPointTime_MetaData[] = {
 		{ "Category", "BaseOctopus" },
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABaseOctopus_Statics::NewProp_wanderRadius = { "wanderRadius", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseOctopus, wanderRadius), METADATA_PARAMS(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_wanderRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseOctopus_Statics::NewProp_wanderRadius_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseOctopus_Statics::NewProp_wanderCastDistance_MetaData[] = {
-		{ "Category", "BaseOctopus" },
+		{ "Category", "Tracking" },
 		{ "ModuleRelativePath", "Public/BaseOctopus.h" },
 	};
 #endif
@@ -134,7 +134,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseOctopus() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseOctopus, 3611224634);
+	IMPLEMENT_CLASS(ABaseOctopus, 3662365108);
 	template<> GGJ20_API UClass* StaticClass<ABaseOctopus>()
 	{
 		return ABaseOctopus::StaticClass();

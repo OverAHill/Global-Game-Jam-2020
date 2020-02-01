@@ -35,7 +35,7 @@ void ABaseOctopus::Wander(float DeltaTime)
 {
 	FVector vectorToWander = goalPos - GetActorLocation();
 	timeSinceLastFind += DeltaTime;
-	if (timeSinceLastFind < wanderFindNewPointTime && vectorToWander.Size() > 200)
+	if ((timeSinceLastFind <= wanderFindNewPointTime) && (vectorToWander.Size() > 200))
 	{
 		MoveToWanderPoint(vectorToWander, DeltaTime);
 	}
@@ -68,13 +68,14 @@ float ABaseOctopus::GetDistanceToPlayerShip()
 
 void ABaseOctopus::PickWanderPoint(FVector toPlayer)
 {
-	float goalX = GetActorLocation().X + ((toPlayer.X + (GetDistanceToPlayerShip() / 500 * FMath::RandRange(-wanderRadius, wanderRadius))) * wanderCastDistance);
-	float goalY = GetActorLocation().Y + ((toPlayer.Y + (GetDistanceToPlayerShip() / 500 * FMath::RandRange(-wanderRadius, wanderRadius))) * wanderCastDistance);
+	timeSinceLastFind = 0;
+
+	float goalX = GetActorLocation().X + ((toPlayer.X + (FMath::RandRange(-wanderRadius, wanderRadius))) * wanderCastDistance);
+	float goalY = GetActorLocation().Y + ((toPlayer.Y + (FMath::RandRange(-wanderRadius, wanderRadius))) * wanderCastDistance);
 
 	goalPos = FVector(goalX, toPlayer.Z, goalY);
 	goalPos = GetActorLocation() + toPlayer;
 
-	timeSinceLastFind = 0;
 }
 
 void ABaseOctopus::MoveToWanderPoint(FVector vectorToWander, float DeltaTime)
