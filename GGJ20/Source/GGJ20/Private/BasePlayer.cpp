@@ -129,7 +129,7 @@ void ABasePlayer::Repair()
 					hitRepairable->SignalRepairCompleted(true);
 					break;
 				default:
-					TryRepair(hitRepairable, repair);
+					TryRepair(hitRepairable, (int)repair);
 					break;
 
 				}
@@ -142,8 +142,10 @@ void ABasePlayer::Repair()
 	}
 }
 
-void ABasePlayer::TryRepair(AIRepairableBase* repairable, RepairTypes repairType)
+void ABasePlayer::TryRepair(AIRepairableBase* repairable, int repairType)
 {
+	RepairTypes type = (RepairTypes)repairType;
+	bool success = false;
 	switch (currentTool)
 	{
 	case Tools::NO_TOOL:
@@ -151,22 +153,22 @@ void ABasePlayer::TryRepair(AIRepairableBase* repairable, RepairTypes repairType
 		break;
 
 	case Tools::FIRE_EX:
-		bool success = (repairType == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
+		success = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
 		repairable->SignalRepairCompleted(success);
 		break;
 
 	case Tools::WELDER:
-		currentlyRepairing = (repairType == RepairTypes::HULL_REPAIR) ? true : false;
+		currentlyRepairing = (type == RepairTypes::HULL_REPAIR) ? true : false;
 		currentRepairTarget = repairable;
 		break;
 
 	case Tools::RIVET_GUN:
-		currentlyRepairing = (repairType == RepairTypes::HULL_REPAIR) ? true : false;
+		currentlyRepairing = (type == RepairTypes::HULL_REPAIR) ? true : false;
 		currentRepairTarget = repairable;
 		break;
 
 	case Tools::HAMMER:
-		currentlyRepairing = (repairType == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
+		currentlyRepairing = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
 		currentRepairTarget = repairable;
 		break;
 

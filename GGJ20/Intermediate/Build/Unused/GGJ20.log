@@ -1,14 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020).
   Parsing headers for GGJ20Editor
     Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 6.1739221 seconds
-  Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] DefenseSystemRepairable.cpp
-    [2/4] UE4Editor-GGJ20.lib
-       Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.exp
-    [3/4] UE4Editor-GGJ20.dll
-       Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.exp
-    [4/4] GGJ20Editor.target
-  Total time in Parallel executor: 1.91 seconds
-  Total execution time: 8.88 seconds
+  Reflection code generated for GGJ20Editor in 5.4866441 seconds
+  Target is up to date
+  Total execution time: 6.14 seconds
