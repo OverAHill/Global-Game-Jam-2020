@@ -58,6 +58,9 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("RotateHorizontal", this, &ABasePlayer::MoveCameraHor);
 
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ABasePlayer::Repair);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ABasePlayer::Jump);
+	PlayerInputComponent->BindAction("Crouch", IE_Pressed, this, &ABasePlayer::Crouch);
 }
 
 void ABasePlayer::MoveForward(float value)
@@ -99,4 +102,14 @@ void ABasePlayer::Repair()
 			RepairTypes repair = hitRepairable->Repair();
 		}
 	}
+}
+
+void ABasePlayer::Jump()
+{
+	ACharacter::Jump();
+}
+
+void ABasePlayer::Crouch()
+{
+
 }

@@ -1,31 +1,24 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020).
+  Creating makefile for GGJ20Editor (ini files are newer than makefile)
   Parsing headers for GGJ20Editor
-<<<<<<< HEAD
-    Running UnrealHeaderTool "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 5.4011947 seconds
+    Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for GGJ20Editor in 5.532833 seconds
   Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] ILightControllerBase.cpp
-    [2/4] UE4Editor-GGJ20.lib
-       Creating library C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.lib and object C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.exp
-    [3/4] UE4Editor-GGJ20.dll
-       Creating library C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.lib and object C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.exp
-    [4/4] GGJ20Editor.target
-  Total time in Parallel executor: 1.88 seconds
-  Total execution time: 7.93 seconds
-=======
-    Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 6.0078165 seconds
-  Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 8 processes...
-    [1/6] GGJ20.init.gen.cpp
-    [2/6] WaterLevel.cpp
-    [3/6] WaterLevel.gen.cpp
-    [4/6] UE4Editor-GGJ20.lib
-       Creating library C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.lib and object C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.exp
-    [5/6] UE4Editor-GGJ20.dll
-       Creating library C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.lib and object C:\Users\h017026h\Documents\GitKra\Global Game Jam 2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.exp
-    [6/6] GGJ20Editor.target
-  Total time in Parallel executor: 2.14 seconds
-  Total execution time: 10.24 seconds
->>>>>>> WaterFill
+  Building 5 actions with 8 processes...
+    [1/5] BasePlayer.gen.cpp
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Public/BasePlayer.h(50): warning C4263: 'void ABasePlayer::Crouch(void)': member function does not override any base class virtual member function
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Public/BasePlayer.h(51): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+    [2/5] BasePlayer.cpp
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(50): warning C4263: 'void ABasePlayer::Crouch(void)': member function does not override any base class virtual member function
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(51): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+    [3/5] UE4Editor-GGJ20.lib
+       Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.exp
+    [4/5] UE4Editor-GGJ20.dll
+       Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.exp
+    [5/5] GGJ20Editor.target
+  Total time in Parallel executor: 11.56 seconds
+  Total execution time: 19.13 seconds

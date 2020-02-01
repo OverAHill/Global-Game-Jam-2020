@@ -3,11 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-<<<<<<< HEAD
-      <UniqueIdentifier>{9FE8111D-472F-4785-855B-70A471CB3E29}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{0E6091E0-578E-45CB-BAB1-B60B81516564}</UniqueIdentifier>
->>>>>>> WaterFill
+      <UniqueIdentifier>{489CF2F8-DF84-46F4-997C-30C14C802270}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -16,11 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-<<<<<<< HEAD
-      <UniqueIdentifier>{33DB06E3-1AA0-41F3-8D53-62E6C9DF4479}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{DC46A72C-6B54-443E-A416-E9D9271B6406}</UniqueIdentifier>
->>>>>>> WaterFill
+      <UniqueIdentifier>{FF818F84-A539-4701-AC6B-E69EBE1B37EC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -35,11 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-<<<<<<< HEAD
-      <UniqueIdentifier>{CFE04AF9-0A47-4273-BC2D-C7463D9A9AFB}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{490D28E7-57AE-47D2-9B8B-0A8F6C4168C5}</UniqueIdentifier>
->>>>>>> WaterFill
+      <UniqueIdentifier>{2AA8EA0D-3D66-42E8-9718-DE3CF4FC2632}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -57,16 +45,14 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-<<<<<<< HEAD
-      <UniqueIdentifier>{51ED04A6-F9D2-40C6-8AB4-48C711DABD48}</UniqueIdentifier>
-=======
-      <UniqueIdentifier>{27E61C7A-F2AC-4276-9A5E-6972AF174BF4}</UniqueIdentifier>
->>>>>>> WaterFill
+      <UniqueIdentifier>{9D5A7FD1-2795-43A4-9385-2FFBF242E736}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BasePlayer.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
-<<<<<<< HEAD
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseRoom.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\ILightControllerBase.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
@@ -76,12 +62,6 @@
     <ClCompile Include="..\..\Source\GGJ20\Private\RepairableEnum.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
-    <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{FB17C990-72E5-4C1A-BFCD-4DF292B42A60}</UniqueIdentifier>
-=======
-    <ClCompile Include="..\..\Source\GGJ20\Private\BaseRoom.cpp">
-      <Filter>Source\GGJ20\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterLevel.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
@@ -89,13 +69,14 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{3B037D36-7A4F-4140-B6ED-817EC443E510}</UniqueIdentifier>
->>>>>>> WaterFill
+      <UniqueIdentifier>{362490E4-C128-4498-B7B1-1AF220BCE329}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BasePlayer.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
-<<<<<<< HEAD
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseRoom.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\ILightControllerBase.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
@@ -103,15 +84,12 @@
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\RepairableEnum.h">
-=======
-    <ClInclude Include="..\..\Source\GGJ20\Public\BaseRoom.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterLevel.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterRoom.h">
->>>>>>> WaterFill
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
