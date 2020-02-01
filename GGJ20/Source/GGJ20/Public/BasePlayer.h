@@ -47,5 +47,7 @@ public:
 	virtual void Repair();
 
 	virtual void Jump();
-	virtual void Crouch();
+	virtual void Crouch(float value);
+
+	bool Crouched = false;
 };
