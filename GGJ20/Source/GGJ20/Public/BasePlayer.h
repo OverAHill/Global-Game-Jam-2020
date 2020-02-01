@@ -45,4 +45,9 @@ public:
 	virtual void MoveCameraVer(float value);
 
 	virtual void Repair();
+
+	virtual void Jump();
+	virtual void Crouch(float value);
+
+	bool Crouched = false;
 };

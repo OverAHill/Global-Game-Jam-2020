@@ -44,6 +44,18 @@ void ABasePlayer::Tick(float DeltaTime)
 	//Move
 	AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
 	AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
+
+	if (Crouched) //interpolate me you lazy bitch
+	{
+		PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 10.0f));
+		this->SetActorScale3D(FVector(1.0f, 1.0f, 0.5f));
+	}
+	else
+	{
+		PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 30.0f));
+		this->SetActorScale3D(FVector(1.0f, 1.0f, 1.0f));
+	}
+
 }
 
 // Called to bind functionality to input
@@ -58,6 +70,9 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 	PlayerInputComponent->BindAxis("RotateHorizontal", this, &ABasePlayer::MoveCameraHor);
 
 	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &ABasePlayer::Repair);
+
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ABasePlayer::Jump);
+	PlayerInputComponent->BindAxis("Crouch", this, &ABasePlayer::Crouch);
 }
 
 void ABasePlayer::MoveForward(float value)
@@ -98,5 +113,22 @@ void ABasePlayer::Repair()
 		{
 			RepairTypes repair = hitRepairable->Repair();
 		}
+	}
+}
+
+void ABasePlayer::Jump()
+{
+	ACharacter::Jump();
+}
+
+void ABasePlayer::Crouch(float value)
+{
+	if (value > 0)
+	{
+		Crouched = true;
+	}
+	else
+	{
+		Crouched = false;
 	}
 }
