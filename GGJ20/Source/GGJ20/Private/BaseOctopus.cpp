@@ -16,6 +16,9 @@ ABaseOctopus::ABaseOctopus()
 	movementSpeed = 200;
 	wanderCastDistance = 500;
 	wanderRadius = 50;
+	m_HeightChoiceDecisionTime = 5;
+	m_HeightChoice = 0;
+	m_HeightChoiceCounter = 0;
 	boxCollider = CreateDefaultSubobject<UBoxComponent>(FName("Box Collider"));
 	boxCollider->OnComponentBeginOverlap.AddDynamic(this, &ABaseOctopus::OnOverlapBegin);
 	playerShip = nullptr;
@@ -33,6 +36,24 @@ void ABaseOctopus::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	Wander(DeltaTime);
+	m_HeightChoiceCounter += DeltaTime;
+	if (m_HeightChoiceCounter > m_HeightChoiceDecisionTime)
+	{
+		float rand = FMath::RandRange(0, 1);
+		if (rand <= 0.25f)
+		{
+			m_HeightChoice = -400;
+		}
+		else if (rand <= 0.75f)
+		{
+			m_HeightChoice = 0;
+		}
+		else
+		{
+			m_HeightChoice = 400;
+		}
+		m_HeightChoiceCounter = 0;
+	}
 }
 
 void ABaseOctopus::Wander(float DeltaTime)
@@ -75,11 +96,11 @@ FVector ABaseOctopus::GetVectorOfPointAroundPlayerShip()
 
 	if (FMath::RandRange(0, 1) < 0.5f)
 	{
-		point = playerPos + FVector(x, y, playerPos.Z);
+		point = playerPos + FVector(x, y, m_HeightChoice);
 	}
 	else
 	{
-		point = playerPos + FVector(x, -y, playerPos.Z);
+		point = playerPos + FVector(x, -y, m_HeightChoice);
 	}
 
 	return point;

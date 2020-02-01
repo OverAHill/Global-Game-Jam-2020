@@ -17,6 +17,9 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	FVector goalPos;
+	float m_HeightChoiceCounter;
+	float m_HeightChoiceDecisionTime;
+	float m_HeightChoice;
 
 public:	
 	UPROPERTY(EditAnywhere)
