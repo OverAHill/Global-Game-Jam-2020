@@ -73,7 +73,11 @@ public:
 	AIRepairableBase* currentRepairTarget;
 
 	UFUNCTION(BlueprintCallable)
-	void SetOnLadder(bool b) { OnLadder = b; }
+		void SetOnLadder(bool b);
+	
+
+	
+
 
 	UFUNCTION(BlueprintCallable)
 	bool GetOnLadder() { return OnLadder; }

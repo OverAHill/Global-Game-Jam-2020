@@ -73,10 +73,16 @@ void ABasePlayer::Tick(float DeltaTime)
 	}
 	else
 	{
-		//this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Flyi
 		
-		//AddMovementInput(PlayerFirstPersonCamera->GetUpVector(), CurrentVelocity.Y * DeltaTime);
+		AddMovementInput(PlayerFirstPersonCamera->GetUpVector(), CurrentVelocity.Y * DeltaTime);
 		
+		//Rotate
+		FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
+		FRotator r = t.GetRotation().Rotator();		//clamp me daddy
+		//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
+		r.Yaw += CurrentRotation.X;
+		r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
+		PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
 
 		if (Crouched) //interpolate me you lazy bitch
 		{
@@ -214,5 +220,18 @@ void ABasePlayer::Crouch(float value)
 	else
 	{
 		Crouched = false;
+	}
+}
+
+void ABasePlayer::SetOnLadder(bool b)
+{
+	OnLadder = b;
+	if (OnLadder)
+	{
+		this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Flying;
+	}
+	else
+	{
+		this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Walking;
 	}
 }
