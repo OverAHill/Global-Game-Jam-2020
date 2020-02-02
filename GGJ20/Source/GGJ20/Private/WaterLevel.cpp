@@ -16,8 +16,9 @@ AWaterLevel::AWaterLevel()
 	maxWaterLevel = minWaterLevel + positionOffsetY;
 	CurrentWaterLevel = minWaterLevel;
 
-	filling = true;
+	filling = false;
 	draining = false;
+	genFixed = true;
 }
 
 // Called when the game starts or when spawned
@@ -38,17 +39,24 @@ void AWaterLevel::Tick(float DeltaTime)
 	{
 		if (filling)
 		{
-			CurrentWaterLevel += fillSpeed;
-			FVector newPosition = GetActorLocation();
-			newPosition.Z += fillSpeed;
-			SetActorLocation(newPosition);
+			if (CurrentWaterLevel < maxWaterLevel)
+			{
+				CurrentWaterLevel += fillSpeed;
+				FVector newPosition = GetActorLocation();
+				newPosition.Z += fillSpeed;
+				SetActorLocation(newPosition);
+			}
+			
 		}
 		else if(draining)
 		{
-			CurrentWaterLevel -= fillSpeed;
-			FVector newPosition = GetActorLocation();
-			newPosition.Z -= fillSpeed;
-			SetActorLocation(newPosition);
+			if (CurrentWaterLevel >= minWaterLevel)
+			{
+				CurrentWaterLevel -= drainSpeed;
+				FVector newPosition = GetActorLocation();
+				newPosition.Z -= drainSpeed;
+				SetActorLocation(newPosition);
+			}
 		}
 	}
 }
@@ -56,10 +64,8 @@ void AWaterLevel::Tick(float DeltaTime)
 
 void AWaterLevel::UpdateWaterLevel()
 {
-	//references to the hull repairable 
-	//only not filling if all of the hullrepairables are fixed
 
-	if (CurrentWaterLevel < maxWaterLevel && !draining)
+	/*if (CurrentWaterLevel < maxWaterLevel && !draining)
 	{
 		filling = true;
 	}
@@ -74,12 +80,29 @@ void AWaterLevel::UpdateWaterLevel()
 	{
 		filling = true;
 		draining = false;
+	}*/
+
+
+	if (amountOfBrokenHulls > 0) // any amount of holes  doesnt matter if gen fixed
+	{
+		filling = true;
+		draining = false;
+		fillSpeed = 0.01 * amountOfBrokenHulls;
+		//rate calc
+	}
+	else if(genFixed) //no holes and gen fixedd
+	{
+		draining = true;
+		filling = false;
+
+		fillSpeed = 0;
+	}
+	else // no holes but gen not fixed
+	{
+		filling = false;
+		draining = false;
+
+		fillSpeed = 0;
 	}
 
-
-//	for (int i = 0; i < hulls.Num(); i++)
-	//{
-		//if hull in pos I is broken
-		//drain false and fill is true 
-	//}
 }  

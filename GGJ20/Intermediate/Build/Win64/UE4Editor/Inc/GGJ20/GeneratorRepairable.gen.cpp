@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 	GGJ20_API UClass* Z_Construct_UClass_AGeneratorRepairable();
 	GGJ20_API UClass* Z_Construct_UClass_AIRepairableBase();
 	UPackage* Z_Construct_UPackage__Script_GGJ20();
+	GGJ20_API UClass* Z_Construct_UClass_AWaterLevel_NoRegister();
 // End Cross Module References
 	void AGeneratorRepairable::StaticRegisterNativesAGeneratorRepairable()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_refToWater_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_refToWater;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 		{ "ModuleRelativePath", "Public/GeneratorRepairable.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater_MetaData[] = {
+		{ "Category", "GeneratorRepairable" },
+		{ "ModuleRelativePath", "Public/GeneratorRepairable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater = { "refToWater", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGeneratorRepairable, refToWater), Z_Construct_UClass_AWaterLevel_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGeneratorRepairable_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGeneratorRepairable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGeneratorRepairable>::IsAbstract,
 	};
@@ -53,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AGeneratorRepairable_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_AGeneratorRepairable_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AGeneratorRepairable_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AGeneratorRepairable_Statics::Class_MetaDataParams))
@@ -71,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGeneratorRepairable, 1435806405);
+	IMPLEMENT_CLASS(AGeneratorRepairable, 2422323200);
 	template<> GGJ20_API UClass* StaticClass<AGeneratorRepairable>()
 	{
 		return AGeneratorRepairable::StaticClass();

@@ -7,6 +7,8 @@ C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/SphereCompon
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
 C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
 C:\Epic\UE4\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SphereComponent.generated.h
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\WaterLevel.h
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\WaterLevel.generated.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Public\Engine.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Core\Public\Core.h

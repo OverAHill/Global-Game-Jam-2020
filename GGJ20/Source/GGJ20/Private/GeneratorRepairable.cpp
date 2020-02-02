@@ -2,6 +2,7 @@
 
 
 #include "GeneratorRepairable.h"
+#include "WaterLevel.h"
 
 AGeneratorRepairable::AGeneratorRepairable()
 {
@@ -16,9 +17,9 @@ void AGeneratorRepairable::Tick(float DeltaTime)
 void AGeneratorRepairable::Break()
 {
 	Super::Break();
-	//get water system
-	//turn draining off
 	//turn off lights
+
+	refToWater->SetGenFixed(false);
 }
 
 RepairTypes AGeneratorRepairable::Repair()
@@ -26,6 +27,8 @@ RepairTypes AGeneratorRepairable::Repair()
 	Super::Repair();
 	//get ws, turn draining on
 	//turn lights back on
+
+	refToWater->SetGenFixed(true);
 	return m_RepairType;
 }
 

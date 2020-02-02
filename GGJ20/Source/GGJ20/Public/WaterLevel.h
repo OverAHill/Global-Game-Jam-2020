@@ -7,7 +7,6 @@
 #include "WaterLevel.generated.h"
 
 class UStaticMeshComponenent;
-//class HullRepairable;
 
 UCLASS()
 class GGJ20_API AWaterLevel : public AActor
@@ -23,11 +22,13 @@ class GGJ20_API AWaterLevel : public AActor
 	UPROPERTY(EditAnywhere)
 		float fillSpeed = 0.1;
 
+	UPROPERTY(EditAnywhere)
+		float drainSpeed = 0.2;
+
 public:	
 	// Sets default values for this actor's properties
 	AWaterLevel();
 
-	//TArray<HullRepairable*> hulls;
 
 protected:
 	// Called when the game starts or when spawned
@@ -39,13 +40,18 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	void increaseAmountOfBrokenHulls() { amountOfBrokenHulls++; }
+	void decreaseAmountOfBrokenHulls() { amountOfBrokenHulls--; }
+	void SetGenFixed(bool b) { genFixed = b; }
 
 private:
 	float maxWaterLevel;
 	float minWaterLevel;
 	float CurrentWaterLevel;
 	
-	
+	bool genFixed;
 	bool filling;
 	bool draining;
+
+	float amountOfBrokenHulls = 0.0f;
 };

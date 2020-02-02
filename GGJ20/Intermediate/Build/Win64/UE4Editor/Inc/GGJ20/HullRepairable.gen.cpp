@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeHullRepairable() {}
 	GGJ20_API UClass* Z_Construct_UClass_AHullRepairable();
 	GGJ20_API UClass* Z_Construct_UClass_AIRepairableBase();
 	UPackage* Z_Construct_UPackage__Script_GGJ20();
+	GGJ20_API UClass* Z_Construct_UClass_AWaterLevel_NoRegister();
 // End Cross Module References
 	void AHullRepairable::StaticRegisterNativesAHullRepairable()
 	{
@@ -31,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeHullRepairable() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_refWaterLevel_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_refWaterLevel;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeHullRepairable() {}
 		{ "ModuleRelativePath", "Public/HullRepairable.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHullRepairable_Statics::NewProp_refWaterLevel_MetaData[] = {
+		{ "Category", "HullRepairable" },
+		{ "ModuleRelativePath", "Public/HullRepairable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHullRepairable_Statics::NewProp_refWaterLevel = { "refWaterLevel", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AHullRepairable, refWaterLevel), Z_Construct_UClass_AWaterLevel_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHullRepairable_Statics::NewProp_refWaterLevel_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHullRepairable_Statics::NewProp_refWaterLevel_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHullRepairable_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHullRepairable_Statics::NewProp_refWaterLevel,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHullRepairable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHullRepairable>::IsAbstract,
 	};
@@ -53,11 +69,11 @@ void EmptyLinkFunctionForGeneratedCodeHullRepairable() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_AHullRepairable_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_AHullRepairable_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AHullRepairable_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AHullRepairable_Statics::Class_MetaDataParams))
@@ -71,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeHullRepairable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHullRepairable, 2598022124);
+	IMPLEMENT_CLASS(AHullRepairable, 491528238);
 	template<> GGJ20_API UClass* StaticClass<AHullRepairable>()
 	{
 		return AHullRepairable::StaticClass();

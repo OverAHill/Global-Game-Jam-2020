@@ -8,6 +8,7 @@
 #include "Engine/World.h"
 #include "IRepairableBase.h"
 #include "DefenseSystemRepairable.h"
+#include "HullRepairable.h"
 
 // Sets default values
 ABasePlayer::ABasePlayer()
@@ -22,6 +23,7 @@ ABasePlayer::ABasePlayer()
 
 	currentTool = Tools::HAMMER;
 	currentlyRepairing = false;
+	cameraLocked = false;
 }
 
 // Called when the game starts or when spawned
@@ -38,13 +40,17 @@ void ABasePlayer::Tick(float DeltaTime)
 
 	if (!OnLadder)
 	{
-		if (!currentlyRepairing)
+		if (!cameraLocked)
 		{
 			UpdatePlayerRotation();
 
-			//Move
-			AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
-			AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
+			if (!movementLocked)
+			{
+				//Move
+				AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
+				AddMovementInput(PlayerFirstPersonCamera->GetRightVector(), CurrentVelocity.X * DeltaTime);
+			}
+			
 
 			if (Crouched) //interpolate me you lazy bitch
 			{
@@ -175,6 +181,35 @@ void ABasePlayer::Repair()
 			bool success = defense->HammerDown();
 			defense->SignalRepairCompleted(success);
 			currentlyRepairing = false;
+			cameraLocked = false;
+			movementLocked = false;
+		}
+
+		if (currentTool == Tools::RIVET_GUN)
+		{
+			FHitResult* hitResult = new FHitResult();
+			FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();
+			FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
+			FVector EndTrace = StartTrace + (ForwardVector * 5000);
+			FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
+
+			if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+			{
+				auto component = hitResult->GetComponent();
+				USphereComponent* hitSphere = Cast<USphereComponent>(component);
+				if (hitSphere)
+				{
+					AHullRepairable* hull = Cast<AHullRepairable>(currentRepairTarget);
+					int fixedRivets = hull->HitRivets(hitSphere);
+					if (fixedRivets == 4)
+					{
+						hull->SignalRepairCompleted(true);
+						currentlyRepairing = false;
+						cameraLocked = false;
+						movementLocked = false;
+					}
+				}
+			}
 		}
 	}
 }
@@ -189,18 +224,24 @@ void ABasePlayer::TryRepair(AIRepairableBase* repairable, int repairType)
 	case Tools::FIRE_EX:
 		success = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
 		currentRepairTarget->SignalRepairCompleted(success);
+		movementLocked = true;
 		break;
 
 	case Tools::WELDER:
-		currentlyRepairing = (type == RepairTypes::HULL_REPAIR) ? true : false;
+		currentlyRepairing = (type == RepairTypes::ENGINE_REPAIR) ? true : false;
+		movementLocked = true;
 		break;
 
 	case Tools::RIVET_GUN:
 		currentlyRepairing = (type == RepairTypes::HULL_REPAIR) ? true : false;
+		cameraLocked = false;
+		movementLocked = true;
 		break;
 
 	case Tools::HAMMER:
 		currentlyRepairing = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
+		cameraLocked = true;
+		movementLocked = true;
 		break;
 	default:
 		currentRepairTarget->SignalRepairCompleted(false);
