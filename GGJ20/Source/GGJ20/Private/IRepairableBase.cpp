@@ -8,6 +8,7 @@ AIRepairableBase::AIRepairableBase()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+	m_RepairType = RepairTypes::NOT_IMPLEMENTED;
 
 }
 
@@ -15,7 +16,6 @@ AIRepairableBase::AIRepairableBase()
 void AIRepairableBase::BeginPlay()   
 {
 	Super::BeginPlay();
-	m_RepairType = RepairTypes::NOT_IMPLEMENTED;
 	Break();
 }
 

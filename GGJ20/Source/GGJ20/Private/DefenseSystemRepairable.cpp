@@ -14,7 +14,7 @@ ADefenseSystemRepairable::ADefenseSystemRepairable()
 	NeedleMesh->AddLocalOffset(FVector(0, 0, 20));
 	//NeedleMesh->SetRelativeRotation(FRotator(0, 0, 90));
 	posDir = true;
-	SetSuccRegion(80, 100);
+	SetSuccRegion(-10, 10);
 	beingRepaired = false;
 }
 
@@ -35,7 +35,6 @@ void ADefenseSystemRepairable::Break()
 
 RepairTypes ADefenseSystemRepairable::Repair()
 {
-	Super::Repair();
 	beingRepaired = true;
 	return m_RepairType;
 }
@@ -93,7 +92,7 @@ void ADefenseSystemRepairable::UpdateNeedle(float deltaTime)
 
 bool ADefenseSystemRepairable::HammerDown()
 {
-	if (needlePosition < minPos && needlePosition > maxPos)
+	if (needlePosition > minPos && needlePosition < maxPos)
 	{
 		return true;
 	}

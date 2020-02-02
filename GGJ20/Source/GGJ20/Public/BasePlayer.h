@@ -12,7 +12,6 @@ class UCameraComponent;
 UENUM(BlueprintType)
 enum class Tools : uint8
 {
-	NO_TOOL,
 	FIRE_EX,
 	WELDER,
 	RIVET_GUN,
@@ -45,6 +44,7 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+	void UpdatePlayerRotation();
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -59,6 +59,12 @@ public:
 	virtual void MoveCameraHor(float value);
 	virtual void MoveCameraVer(float value);
 
+	virtual void ChangeTool(float value);
+	virtual void SelectTool1();
+	virtual void SelectTool2();
+	virtual void SelectTool3();
+	virtual void SelectTool4();
+
 	virtual void Repair();
 	virtual void TryRepair(AIRepairableBase* repairable, int repairType);
 
@@ -67,6 +73,7 @@ public:
 
 	bool Crouched = false;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Interaction")
 	Tools currentTool;
 
 	bool currentlyRepairing;

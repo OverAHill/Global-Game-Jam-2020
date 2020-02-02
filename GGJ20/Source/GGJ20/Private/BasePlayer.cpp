@@ -20,7 +20,7 @@ ABasePlayer::ABasePlayer()
 	PlayerFirstPersonCamera->SetupAttachment(this->GetRootComponent());
 	PlayerFirstPersonCamera->SetRelativeLocation(FVector(0.0f, 0.0f, 30.0f));
 
-	currentTool = Tools::NO_TOOL;
+	currentTool = Tools::HAMMER;
 	currentlyRepairing = false;
 }
 
@@ -38,19 +38,9 @@ void ABasePlayer::Tick(float DeltaTime)
 
 	if (!OnLadder)
 	{
-		//this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Walking;
-		
-
 		if (!currentlyRepairing)
 		{
-			//Rotate
-			FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
-			FRotator r = t.GetRotation().Rotator();		//clamp me daddy
-			//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
-			r.Yaw += CurrentRotation.X;
-			r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
-			PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
-
+			UpdatePlayerRotation();
 
 			//Move
 			AddMovementInput(PlayerFirstPersonCamera->GetForwardVector(), CurrentVelocity.Y * DeltaTime);
@@ -74,16 +64,9 @@ void ABasePlayer::Tick(float DeltaTime)
 	}
 	else
 	{
-		
 		AddMovementInput(PlayerFirstPersonCamera->GetUpVector(), CurrentVelocity.Y * DeltaTime);
 		
-		//Rotate
-		FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
-		FRotator r = t.GetRotation().Rotator();		//clamp me daddy
-		//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
-		r.Yaw += CurrentRotation.X;
-		r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
-		PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
+		UpdatePlayerRotation();
 
 		if (Crouched) //interpolate me you lazy bitch
 		{
@@ -96,7 +79,17 @@ void ABasePlayer::Tick(float DeltaTime)
 			this->SetActorScale3D(FVector(1.0f, 1.0f, 1.0f));
 		}
 	}
-	
+}
+
+void ABasePlayer::UpdatePlayerRotation()
+{
+	//Rotate
+	FTransform t = PlayerFirstPersonCamera->GetRelativeTransform();
+	FRotator r = t.GetRotation().Rotator();		//clamp me daddy
+	//r.Yaw = FMath::Clamp(r.Yaw + CurrentRotation.X, -70.0f, 70.0f);
+	r.Yaw += CurrentRotation.X;
+	r.Pitch = FMath::Clamp(r.Pitch + CurrentRotation.Y, -60.0f, 60.0f);
+	PlayerFirstPersonCamera->SetRelativeRotation(FRotator(r.Pitch, r.Yaw, 0));
 }
 
 // Called to bind functionality to input
@@ -114,6 +107,12 @@ void ABasePlayer::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ABasePlayer::Jump);
 	PlayerInputComponent->BindAxis("Crouch", this, &ABasePlayer::Crouch);
+
+	PlayerInputComponent->BindAxis("ChangeTool", this, &ABasePlayer::ChangeTool);
+	PlayerInputComponent->BindAction("SelectTool_1", IE_Pressed, this, &ABasePlayer::SelectTool1);
+	PlayerInputComponent->BindAction("SelectTool_2", IE_Pressed, this, &ABasePlayer::SelectTool2);
+	PlayerInputComponent->BindAction("SelectTool_3", IE_Pressed, this, &ABasePlayer::SelectTool3);
+	PlayerInputComponent->BindAction("SelectTool_4", IE_Pressed, this, &ABasePlayer::SelectTool4);
 }
 
 void ABasePlayer::MoveForward(float value)
@@ -175,6 +174,7 @@ void ABasePlayer::Repair()
 			ADefenseSystemRepairable* defense = Cast<ADefenseSystemRepairable>(currentRepairTarget);
 			bool success = defense->HammerDown();
 			defense->SignalRepairCompleted(success);
+			currentlyRepairing = false;
 		}
 	}
 }
@@ -183,32 +183,28 @@ void ABasePlayer::TryRepair(AIRepairableBase* repairable, int repairType)
 {
 	RepairTypes type = (RepairTypes)repairType;
 	bool success = false;
+	currentRepairTarget = repairable;
 	switch (currentTool)
 	{
-	case Tools::NO_TOOL:
-		repairable->SignalRepairCompleted(false);
-		break;
-
 	case Tools::FIRE_EX:
 		success = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
-		repairable->SignalRepairCompleted(success);
+		currentRepairTarget->SignalRepairCompleted(success);
 		break;
 
 	case Tools::WELDER:
 		currentlyRepairing = (type == RepairTypes::HULL_REPAIR) ? true : false;
-		currentRepairTarget = repairable;
 		break;
 
 	case Tools::RIVET_GUN:
 		currentlyRepairing = (type == RepairTypes::HULL_REPAIR) ? true : false;
-		currentRepairTarget = repairable;
 		break;
 
 	case Tools::HAMMER:
 		currentlyRepairing = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
-		currentRepairTarget = repairable;
 		break;
-
+	default:
+		currentRepairTarget->SignalRepairCompleted(false);
+		break;
 	}
 }
 
@@ -240,4 +236,39 @@ void ABasePlayer::SetOnLadder(bool b)
 	{
 		this->GetCharacterMovement()->MovementMode = EMovementMode::MOVE_Walking;
 	}
+}
+
+void ABasePlayer::ChangeTool(float value)
+{
+	int toolAsInt = (int)currentTool;
+	toolAsInt += value;
+	if (toolAsInt < 0)
+	{
+		toolAsInt = 3;
+	}
+	if (toolAsInt > 3)
+	{
+		toolAsInt = 0;
+	}
+	currentTool = (Tools)toolAsInt;
+}
+
+void ABasePlayer::SelectTool1()
+{
+	currentTool = (Tools)0;
+}
+
+void ABasePlayer::SelectTool2()
+{
+	currentTool = (Tools)1;
+}
+
+void ABasePlayer::SelectTool3()
+{
+	currentTool = (Tools)2;
+}
+
+void ABasePlayer::SelectTool4()
+{
+	currentTool = (Tools)3;
 }
