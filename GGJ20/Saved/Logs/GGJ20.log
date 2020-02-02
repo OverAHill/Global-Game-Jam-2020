@@ -1,4 +1,4 @@
-﻿Log file open, 02/02/20 00:59:07
+﻿Log file open, 02/02/20 02:53:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: GGJ20
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.368598
+LogStats: Stats thread started at 0.370008
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,474 +156,463 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
-[2020.02.02-00.59.07:922][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.02.02-00.59.07:922][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.02.02-00.59.07:923][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.02.02-00.59.07:924][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.02.02-00.59.07:924][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.02.02-00.59.07:924][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.02.02-00.59.07:924][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.02.02-00.59.07:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
-[2020.02.02-00.59.07:924][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
-[2020.02.02-00.59.07:931][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.02-00.59.07:931][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.02-00.59.07:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.02-00.59.07:933][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.02-00.59.07:934][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.02-00.59.07:935][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.02-00.59.07:935][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.02-00.59.07:935][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.02.02-00.59.07:950][  0]LogHAL: Display: Platform has ~ 32 GB [34065854464 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.02.02-00.59.07:950][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2020.02.02-00.59.07:950][  0]LogInit: Going up to parent DeviceProfile []
-[2020.02.02-00.59.07:950][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:950][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.02.02-00.59.07:950][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.02.02-00.59.07:951][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.02.02-00.59.07:952][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.02.02-00.59.07:953][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.02.02-00.59.07:954][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.02.02-00.59.07:955][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
-[2020.02.02-00.59.07:956][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.02.02-00.59.07:956][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.02.02-00.59.07:956][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
-[2020.02.02-00.59.07:956][  0]LogInit: Computer: C117B-19
-[2020.02.02-00.59.07:956][  0]LogInit: User: w017177h
-[2020.02.02-00.59.07:957][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.02.02-00.59.07:957][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.02.02-00.59.07:957][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
-[2020.02.02-00.59.07:957][  0]LogMemory: Platform Memory Stats for Windows
-[2020.02.02-00.59.07:957][  0]LogMemory: Process Physical Memory: 97.92 MB used, 97.92 MB peak
-[2020.02.02-00.59.07:957][  0]LogMemory: Process Virtual Memory: 91.69 MB used, 91.69 MB peak
-[2020.02.02-00.59.07:957][  0]LogMemory: Physical Memory: 11288.83 MB used,  21198.90 MB free, 32487.73 MB total
-[2020.02.02-00.59.07:957][  0]LogMemory: Virtual Memory: 4645.30 MB used,  134213080.00 MB free, 134217728.00 MB total
-[2020.02.02-00.59.08:157][  0]LogInit: Using OS detected language (en-US).
-[2020.02.02-00.59.08:157][  0]LogInit: Using OS detected locale (en-GB).
-[2020.02.02-00.59.08:158][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.02.02-00.59.08:345][  0]LogInit: Setting process to per monitor DPI aware
-[2020.02.02-00.59.08:400][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.02.02-00.59.08:400][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.02.02-00.59.08:604][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.02-00.59.08:604][  0]LogD3D11RHI: D3D11 adapters:
-[2020.02.02-00.59.08:697][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2020.02.02-00.59.08:697][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2020.02.02-00.59.08:704][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.02.02-00.59.08:704][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.02.02-00.59.08:704][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.02.02-00.59.08:712][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.02.02-00.59.08:712][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2020.02.02-00.59.08:712][  0]LogWindows: EnumDisplayDevices:
-[2020.02.02-00.59.08:712][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2020.02.02-00.59.08:713][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2020.02.02-00.59.08:713][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.02.02-00.59.08:713][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2020.02.02-00.59.08:714][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.02.02-00.59.08:714][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2020.02.02-00.59.08:714][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
-[2020.02.02-00.59.08:714][  0]LogD3D11RHI:      Driver Date: 12-6-2019
-[2020.02.02-00.59.08:714][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2020.02.02-00.59.08:760][  0]LogD3D11RHI: Async texture creation enabled
-[2020.02.02-00.59.08:763][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.02.02-00.59.08:764][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.02.02-00.59.08:764][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2020.02.02-00.59.08:771][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.02.02-00.59.09:047][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.02.02-00.59.09:063][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.02.02-00.59.09:083][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.02.02-00.59.09:100][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.02.02-00.59.09:117][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.02.02-00.59.09:135][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.02.02-00.59.09:151][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.02.02-00.59.09:167][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.02.02-00.59.09:176][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.02.02-00.59.09:257][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.02.02-00.59.09:258][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.02.02-00.59.09:258][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.02.02-00.59.09:258][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.02.02-00.59.09:258][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.02.02-00.59.09:258][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.02.02-00.59.09:261][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.02.02-00.59.09:320][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.02.02-00.59.09:320][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.02.02-00.59.09:346][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.02.02-00.59.09:346][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.02.02-00.59.09:360][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.02.02-00.59.09:374][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.02.02-00.59.09:389][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.02.02-00.59.09:404][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.02.02-00.59.09:450][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.02.02-00.59.09:450][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.02.02-00.59.09:451][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.02.02-00.59.09:470][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.02.02-00.59.09:573][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Intermediate/Shaders/WorkingDirectory/17888/).
-[2020.02.02-00.59.09:573][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h/AppData/Local/Temp/UnrealShaderWorkingDir/DED47218410E152048172DA66C9ACF39/'.
-[2020.02.02-00.59.09:576][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.02.02-00.59.09:576][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.02.02-00.59.09:576][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.02.02-00.59.09:577][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.02.02-00.59.10:165][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.02.02-00.59.10:217][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2020.02.02-00.59.10:217][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2020.02.02-00.59.10:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.02.02-00.59.10:217][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.02.02-00.59.10:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.02-00.59.10:218][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.02.02-00.59.10:230][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.02.02-00.59.10:230][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.02.02-00.59.10:230][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.02.02-00.59.10:243][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.02.02-00.59.10:243][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.02.02-00.59.10:243][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.02.02-00.59.10:264][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.02.02-00.59.10:265][  0]LogSlate: Using FreeType 2.6.0
-[2020.02.02-00.59.10:266][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.02.02-00.59.10:348][  0]LogAssetRegistry: FAssetRegistry took 0.0357 seconds to start up
-[2020.02.02-00.59.10:675][  0]LogInit: Selected Device Profile: [Windows]
-[2020.02.02-00.59.10:825][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.02.02-00.59.10:825][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.02.02-00.59.10:825][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.02.02-00.59.10:825][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.02.02-00.59.10:825][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.02.02-00.59.10:839][  0]LogNetVersion: GGJ20 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2452190960)
-[2020.02.02-00.59.11:204][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.044906 seconds
-[2020.02.02-00.59.11:211][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2020.02.02-00.59.11:211][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2020.02.02-00.59.11:211][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.02.02-00.59.12:092][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.02.02-00.59.12:110][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.02.02-00.59.12:300][  0]SourceControl: Source control is disabled
-[2020.02.02-00.59.12:300][  0]SourceControl: Source control is disabled
-[2020.02.02-00.59.12:303][  0]SourceControl: Source control is disabled
-[2020.02.02-00.59.12:305][  0]SourceControl: Source control is disabled
-[2020.02.02-00.59.12:435][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.02.02-00.59.12:548][  0]LogOcInput: OculusInput pre-init called
-[2020.02.02-00.59.13:159][  0]LogEngine: Initializing Engine...
-[2020.02.02-00.59.13:160][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.02.02-00.59.13:161][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.02.02-00.59.13:350][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.02.02-00.59.13:369][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.02.02-00.59.13:393][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.02.02-00.59.13:415][  0]LogInit: FAudioDevice initialized.
-[2020.02.02-00.59.13:415][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.02.02-00.59.13:461][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2020.02.02-00.59.13:465][  0]LogInit: Texture streaming: Enabled
-[2020.02.02-00.59.13:490][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.02.02-00.59.13:515][  0]LogInit: Transaction tracking system initialized
-[2020.02.02-00.59.13:550][  0]BlueprintLog: New page: Editor Load
-[2020.02.02-00.59.13:679][  0]LocalizationService: Localization service is disabled
-[2020.02.02-00.59.14:036][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Content/' took 0.01s
-[2020.02.02-00.59.14:036][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.02.02-00.59.14:036][  0]LogCook: Display: Mobile HDR setting 1
-[2020.02.02-00.59.14:262][  0]SourceControl: Source control is disabled
-[2020.02.02-00.59.14:263][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.02-00.59.14:263][  0]LightingResults: New page: Lighting Build
-[2020.02.02-00.59.14:266][  0]MapCheck: New page: Map Check
-[2020.02.02-00.59.14:266][  0]LightingResults: New page: Lighting Build
-[2020.02.02-00.59.14:295][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
-[2020.02.02-00.59.14:372][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2020.02.02-00.59.14:383][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.02-00.59.14:415][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
-[2020.02.02-00.59.14:415][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.02-00.59.14:415][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.301ms to complete.
-[2020.02.02-00.59.14:415][  0]LogFileHelpers: Loading map 'Template_Default' took 0.153
-[2020.02.02-00.59.14:538][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.02-00.59.14:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.02-00.59.14:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.02-00.59.14:561][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.02-00.59.14:570][  0]LogCollectionManager: Loaded 0 collections in 0.001799 seconds
-[2020.02.02-00.59.14:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Collections/' took 0.01s
-[2020.02.02-00.59.14:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Content/Developers/w017177h/Collections/' took 0.01s
-[2020.02.02-00.59.14:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Content/Collections/' took 0.01s
-[2020.02.02-00.59.14:615][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.02.02-00.59.14:625][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2745 classes and 662 folders.
-[2020.02.02-00.59.14:631][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.02.02-00.59.14:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:633][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:634][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:635][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:636][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:638][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:639][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:640][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:642][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:643][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:644][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:645][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:646][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:647][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:648][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2020.02.02-00.59.14:679][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.02.02-00.59.14:686][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2020.02.02-00.59.14:700][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.02.02-00.59.14:703][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.02.02-00.59.14:708][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.02.02-00.59.14:764][  0]LogRenderer: Reallocating scene render targets to support 1052x604 Format 10 NumSamples 1 (Frame:1).
-[2020.02.02-00.59.14:876][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.02.02-00.59.14:876][  0]LogLoad: (Engine Initialization) Total time: 8.85 seconds
-[2020.02.02-00.59.14:876][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.02.02-00.59.14:908][  0]LogAssetRegistry: Asset discovery search completed in 4.5842 seconds
-[2020.02.02-00.59.14:910][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.02.02-00.59.14:911][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000137 seconds (updated 0 objects)
-[2020.02.02-00.59.14:912][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.02.02-00.59.14:973][  0]LogRenderer: Reallocating scene render targets to support 1052x620 Format 10 NumSamples 1 (Frame:3).
-[2020.02.02-00.59.14:973][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.02-00.59.17:641][312]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.02-00.59.19:059][481]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.02.02-00.59.19:101][481]LogAIModule: Creating AISystem for world JohnsTestLevel
-[2020.02.02-00.59.19:106][481]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/JohnsTestLevel.JohnsTestLevel
-[2020.02.02-00.59.19:136][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
-[2020.02.02-00.59.19:137][481]Cmd: MAP LOAD FILE="../../../../../../Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Content/Maps/JohnsTestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.02.02-00.59.19:137][481]LightingResults: New page: Lighting Build
-[2020.02.02-00.59.19:138][481]LoadErrors: New page: Loading map: JohnsTestLevel.umap
-[2020.02.02-00.59.19:139][481]MapCheck: New page: Map Check
-[2020.02.02-00.59.19:139][481]LightingResults: New page: Lighting Build
-[2020.02.02-00.59.19:169][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2020.02.02-00.59.19:174][481]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.02.02-00.59.19:204][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
-[2020.02.02-00.59.19:227][481]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.02.02-00.59.19:228][481]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.218ms to complete.
-[2020.02.02-00.59.19:228][481]LogFileHelpers: Loading map 'JohnsTestLevel' took 0.091
-[2020.02.02-00.59.20:616][637]LogTemp: Repeating last play command: Selected Viewport
-[2020.02.02-00.59.20:629][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel' with GeneratedClass '/Game/Maps/JohnsTestLevel.JohnsTestLevel_C' with ClassGeneratedBy '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel'
-[2020.02.02-00.59.20:629][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.02.02-00.59.20:629][637]PIE: New page: PIE session: JohnsTestLevel (2 Feb 2020 00:59:20)
-[2020.02.02-00.59.20:642][637]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JohnsTestLevel
-[2020.02.02-00.59.20:646][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003068s)
-[2020.02.02-00.59.20:647][637]LogAIModule: Creating AISystem for world JohnsTestLevel
-[2020.02.02-00.59.20:647][637]LogPlayLevel: PIE: World Init took: (0.001105s)
-[2020.02.02-00.59.20:647][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JohnsTestLevel.JohnsTestLevel to /Game/Maps/UEDPIE_0_JohnsTestLevel.JohnsTestLevel (0.004877s)
-[2020.02.02-00.59.20:673][637]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
-[2020.02.02-00.59.20:685][637]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.02.02-00.59.20:695][637]LogInit: FAudioDevice initialized.
-[2020.02.02-00.59.20:750][637]LogLoad: Game class is 'TestLevel_C'
-[2020.02.02-00.59.20:752][637]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JohnsTestLevel.JohnsTestLevel up for play (max tick rate 0) at 2020.02.02-00.59.20
-[2020.02.02-00.59.20:753][637]LogWorld: Bringing up level for play took: 0.001178
-[2020.02.02-00.59.20:772][637]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
-[2020.02.02-00.59.20:774][637]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_JohnsTestLevel 1.086
-[2020.02.02-00.59.20:774][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel' with GeneratedClass '/Game/Maps/JohnsTestLevel.JohnsTestLevel_C' with ClassGeneratedBy '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel'
-[2020.02.02-00.59.49:370][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel' with GeneratedClass '/Game/Maps/JohnsTestLevel.JohnsTestLevel_C' with ClassGeneratedBy '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel'
-[2020.02.02-00.59.49:371][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.02-00.59.49:405][612]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.02.02-00.59.49:406][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel' with GeneratedClass '/Game/Maps/JohnsTestLevel.JohnsTestLevel_C' with ClassGeneratedBy '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel'
-[2020.02.02-00.59.49:438][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.02.02-00.59.49:442][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
-[2020.02.02-00.59.49:473][615]LogPlayLevel: Display: Destroying online subsystem :Context_1
-[2020.02.02-00.59.50:899][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2020.02.02-00.59.51:440][829]LogEditorViewport: Clicking on Actor (LMB): BPDefenseSystemRepairable_C (BPDefenseSystemRepairable)
-[2020.02.02-00.59.53:633][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.02.02-00.59.58:418][649]LogTemp: Repeating last play command: Selected Viewport
-[2020.02.02-00.59.58:433][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel' with GeneratedClass '/Game/Maps/JohnsTestLevel.JohnsTestLevel_C' with ClassGeneratedBy '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel'
-[2020.02.02-00.59.58:433][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.02.02-00.59.58:433][649]PIE: New page: PIE session: JohnsTestLevel (2 Feb 2020 00:59:58)
-[2020.02.02-00.59.58:433][649]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_JohnsTestLevel
-[2020.02.02-00.59.58:437][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003266s)
-[2020.02.02-00.59.58:438][649]LogAIModule: Creating AISystem for world JohnsTestLevel
-[2020.02.02-00.59.58:438][649]LogPlayLevel: PIE: World Init took: (0.000812s)
-[2020.02.02-00.59.58:438][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/JohnsTestLevel.JohnsTestLevel to /Game/Maps/UEDPIE_0_JohnsTestLevel.JohnsTestLevel (0.004434s)
-[2020.02.02-00.59.58:465][649]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
-[2020.02.02-00.59.58:476][649]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.02.02-00.59.58:487][649]LogInit: FAudioDevice initialized.
-[2020.02.02-00.59.58:518][649]LogLoad: Game class is 'TestLevel_C'
-[2020.02.02-00.59.58:520][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_JohnsTestLevel.JohnsTestLevel up for play (max tick rate 0) at 2020.02.02-00.59.58
-[2020.02.02-00.59.58:520][649]LogWorld: Bringing up level for play took: 0.001256
-[2020.02.02-00.59.58:534][649]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_JohnsTestLevel 0.847
-[2020.02.02-00.59.58:535][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel' with GeneratedClass '/Game/Maps/JohnsTestLevel.JohnsTestLevel_C' with ClassGeneratedBy '/Game/Maps/JohnsTestLevel.JohnsTestLevel:PersistentLevel.JohnsTestLevel'
+[2020.02.02-02.53.35:437][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.02-02.53.35:437][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.02-02.53.35:437][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-02.53.35:437][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-02.53.35:438][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.02-02.53.35:438][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.02-02.53.35:439][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.02-02.53.35:440][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.02-02.53.35:440][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.02-02.53.35:440][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-02.53.35:440][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-02.53.35:449][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-02.53.35:449][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-02.53.35:450][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:450][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-02.53.35:451][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-02.53.35:452][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-02.53.35:453][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-02.53.35:454][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-02.53.35:455][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-02.53.35:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.02-02.53.35:470][  0]LogHAL: Display: Platform has ~ 32 GB [34065854464 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.02-02.53.35:470][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.02-02.53.35:471][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.02-02.53.35:471][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-02.53.35:471][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-02.53.35:471][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-02.53.35:471][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-02.53.35:472][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-02.53.35:473][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-02.53.35:474][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-02.53.35:475][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-02.53.35:476][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-02.53.35:477][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-02.53.35:477][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-02.53.35:477][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-02.53.35:477][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-02.53.35:477][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-02.53.35:477][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.02-02.53.35:477][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.02-02.53.35:477][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.02-02.53.35:477][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-02.53.35:478][  0]LogInit: Computer: C117B-19
+[2020.02.02-02.53.35:478][  0]LogInit: User: w017177h
+[2020.02.02-02.53.35:478][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.02-02.53.35:478][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.02-02.53.35:478][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2020.02.02-02.53.35:478][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.02-02.53.35:479][  0]LogMemory: Process Physical Memory: 97.94 MB used, 97.95 MB peak
+[2020.02.02-02.53.35:479][  0]LogMemory: Process Virtual Memory: 89.04 MB used, 89.04 MB peak
+[2020.02.02-02.53.35:479][  0]LogMemory: Physical Memory: 10294.27 MB used,  22193.46 MB free, 32487.73 MB total
+[2020.02.02-02.53.35:479][  0]LogMemory: Virtual Memory: 4642.67 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2020.02.02-02.53.35:664][  0]LogInit: Using OS detected language (en-US).
+[2020.02.02-02.53.35:665][  0]LogInit: Using OS detected locale (en-GB).
+[2020.02.02-02.53.35:666][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.02-02.53.35:856][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.02-02.53.35:928][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.02-02.53.35:928][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.02-02.53.36:144][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-02.53.36:144][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.02-02.53.36:244][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.02.02-02.53.36:244][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.02-02.53.36:252][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.02-02.53.36:252][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.02-02.53.36:252][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.02-02.53.36:261][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.02-02.53.36:261][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.02-02.53.36:261][  0]LogWindows: EnumDisplayDevices:
+[2020.02.02-02.53.36:261][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.02.02-02.53.36:262][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.02.02-02.53.36:262][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-02.53.36:263][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-02.53.36:263][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.02-02.53.36:263][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.02.02-02.53.36:263][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.02.02-02.53.36:263][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.02.02-02.53.36:263][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.02.02-02.53.36:312][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.02-02.53.36:317][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-02.53.36:317][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-02.53.36:317][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-02.53.36:325][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.02-02.53.36:651][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.02-02.53.36:667][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.02-02.53.36:687][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.02-02.53.36:705][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.02-02.53.36:725][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.02-02.53.36:744][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.02-02.53.36:763][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.02-02.53.36:779][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.02-02.53.36:790][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.02-02.53.36:892][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.02-02.53.36:893][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.02-02.53.36:893][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.02-02.53.36:893][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.02-02.53.36:893][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.02-02.53.36:893][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.02-02.53.36:893][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.02-02.53.36:893][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.02-02.53.36:897][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.02-02.53.36:957][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.02-02.53.36:957][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.02-02.53.36:989][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.02-02.53.36:989][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.02-02.53.37:003][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.02-02.53.37:019][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.02-02.53.37:034][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.02-02.53.37:051][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.02-02.53.37:105][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.02-02.53.37:105][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.02-02.53.37:105][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.02-02.53.37:128][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.02-02.53.37:251][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Intermediate/Shaders/WorkingDirectory/10700/).
+[2020.02.02-02.53.37:251][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w017177h/AppData/Local/Temp/UnrealShaderWorkingDir/3519D5E3456391A5E35454A18B9D364D/'.
+[2020.02.02-02.53.37:255][  0]LogXGEController: Cleaning working directory: C:/Users/w017177h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.02-02.53.37:256][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.02-02.53.37:256][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.02-02.53.37:256][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.02-02.53.37:813][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.02-02.53.37:867][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-02.53.37:867][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w017177h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.02-02.53.37:867][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.02-02.53.37:867][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.02-02.53.37:867][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-02.53.37:867][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.02-02.53.37:879][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.02-02.53.37:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-02.53.37:880][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.02-02.53.37:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w017177h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.02-02.53.37:893][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.02-02.53.37:893][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.02-02.53.37:915][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.02-02.53.37:916][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.02-02.53.37:917][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.02-02.53.38:001][  0]LogAssetRegistry: FAssetRegistry took 0.0378 seconds to start up
+[2020.02.02-02.53.38:396][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-02.53.38:605][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.02-02.53.38:605][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.02-02.53.38:605][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.02-02.53.38:605][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.02-02.53.38:605][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.02-02.53.38:624][  0]LogNetVersion: GGJ20 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2452190960)
+[2020.02.02-02.53.39:079][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.049188 seconds
+[2020.02.02-02.53.39:087][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.02-02.53.39:088][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.02-02.53.39:088][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.02-02.53.40:034][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.02-02.53.40:052][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.02-02.53.40:255][  0]SourceControl: Source control is disabled
+[2020.02.02-02.53.40:255][  0]SourceControl: Source control is disabled
+[2020.02.02-02.53.40:259][  0]SourceControl: Source control is disabled
+[2020.02.02-02.53.40:262][  0]SourceControl: Source control is disabled
+[2020.02.02-02.53.40:440][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.02-02.53.40:595][  0]LogOcInput: OculusInput pre-init called
+[2020.02.02-02.53.41:296][  0]LogEngine: Initializing Engine...
+[2020.02.02-02.53.41:298][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-02.53.41:300][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.02-02.53.41:503][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.02-02.53.41:522][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-02.53.41:547][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.02.02-02.53.41:577][  0]LogInit: FAudioDevice initialized.
+[2020.02.02-02.53.41:578][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.02-02.53.41:625][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/w017177h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-02.53.41:636][  0]LogInit: Texture streaming: Enabled
+[2020.02.02-02.53.41:668][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.02-02.53.41:690][  0]LogInit: Transaction tracking system initialized
+[2020.02.02-02.53.41:728][  0]BlueprintLog: New page: Editor Load
+[2020.02.02-02.53.41:883][  0]LocalizationService: Localization service is disabled
+[2020.02.02-02.53.42:242][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Content/' took 0.01s
+[2020.02.02-02.53.42:242][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.02-02.53.42:242][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.02-02.53.42:544][  0]SourceControl: Source control is disabled
+[2020.02.02-02.53.42:545][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-02.53.42:545][  0]LightingResults: New page: Lighting Build
+[2020.02.02-02.53.42:549][  0]MapCheck: New page: Map Check
+[2020.02.02-02.53.42:549][  0]LightingResults: New page: Lighting Build
+[2020.02.02-02.53.42:582][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2020.02.02-02.53.42:674][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.02.02-02.53.42:684][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-02.53.42:713][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.02.02-02.53.42:713][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-02.53.42:714][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.359ms to complete.
+[2020.02.02-02.53.42:714][  0]LogFileHelpers: Loading map 'Template_Default' took 0.169
+[2020.02.02-02.53.42:856][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-02.53.42:866][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-02.53.42:875][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-02.53.42:885][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-02.53.42:895][  0]LogCollectionManager: Loaded 0 collections in 0.002955 seconds
+[2020.02.02-02.53.42:942][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Saved/Collections/' took 0.01s
+[2020.02.02-02.53.42:942][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Content/Developers/w017177h/Collections/' took 0.01s
+[2020.02.02-02.53.42:942][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/Content/Collections/' took 0.01s
+[2020.02.02-02.53.42:942][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.02-02.53.42:951][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2750 classes and 662 folders.
+[2020.02.02-02.53.42:958][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.02-02.53.42:960][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:961][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:961][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:962][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:962][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:963][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:964][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:964][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:965][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:966][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:966][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:967][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:967][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:968][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:968][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:969][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:970][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:970][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:971][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:971][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:972][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:973][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:974][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:974][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:975][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.42:975][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-02.53.43:001][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.02-02.53.43:010][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.02.02-02.53.43:024][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-02.53.43:027][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-02.53.43:033][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-02.53.43:096][  0]LogRenderer: Reallocating scene render targets to support 1052x572 Format 10 NumSamples 1 (Frame:1).
+[2020.02.02-02.53.43:135][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-02.53.43:207][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.02.02-02.53.43:207][  0]LogLoad: (Engine Initialization) Total time: 9.89 seconds
+[2020.02.02-02.53.43:207][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.02-02.53.43:244][  0]LogAssetRegistry: Asset discovery search completed in 5.2692 seconds
+[2020.02.02-02.53.43:247][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.02-02.53.43:248][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000147 seconds (updated 0 objects)
+[2020.02.02-02.53.43:250][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.02-02.53.43:315][  1]LogRenderer: Reallocating scene render targets to support 1052x588 Format 10 NumSamples 1 (Frame:3).
+[2020.02.02-02.53.52:670][118]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-02.53.57:301][667]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-02.53.57:349][667]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-02.54.08:170][937]Candidate modules for hot reload:
+[2020.02.02-02.54.08:170][937]  GGJ20
+[2020.02.02-02.54.08:170][937]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ20,626 Win64 Development -TargetType=Editor -Project="C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/GGJ20.uproject" "C:/Users/w017177h/Documents/GGJ2020/Global-Game-Jam-2020/GGJ20/GGJ20.uproject"  -IgnoreJunk]
+[2020.02.02-02.54.21:369][937]CompilerResultsLog: New page: Compilation - 2 Feb 2020 02:54:21
+[2020.02.02-02.54.21:369][937]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020).
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Creating makefile for GGJ20Editor (ini files are newer than makefile)
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Parsing headers for GGJ20Editor
+[2020.02.02-02.54.21:370][937]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Reflection code generated for GGJ20Editor in 6.4186413 seconds
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Failed to delete file 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb'
+[2020.02.02-02.54.21:370][937]CompilerResultsLog:     Exception: Access to the path 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb' is denied.
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Attempting to retry...
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Failed to delete file 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb'
+[2020.02.02-02.54.21:370][937]CompilerResultsLog:     Exception: Access to the path 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb' is denied.
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Attempting to retry...
+[2020.02.02-02.54.21:370][937]CompilerResultsLog: Failed to delete file 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb'
+[2020.02.02-02.54.21:371][937]CompilerResultsLog:     Exception: Access to the path 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb' is denied.
+[2020.02.02-02.54.21:371][937]CompilerResultsLog: ERROR: Exhausted all retries!
+[2020.02.02-02.54.21:371][937]CompilerResultsLog: Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.02-02.54.21:371][937]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.02.02-02.54.21:371][937]CompilerResultsLog:   [1/6] BaseDoor.cpp
+[2020.02.02-02.54.21:371][937]CompilerResultsLog:   [2/6] GGJ20.init.gen.cpp
+[2020.02.02-02.54.21:371][937]CompilerResultsLog:   [3/6] BaseDoor.gen.cpp
+[2020.02.02-02.54.21:371][937]CompilerResultsLog:   [4/6] UE4Editor-GGJ20-0626.lib
+[2020.02.02-02.54.21:371][937]CompilerResultsLog:      Creating library C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-0626.lib and object C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-0626.exp
+[2020.02.02-02.54.21:371][937]CompilerResultsLog:   [5/6] UE4Editor-GGJ20-0626.dll
+[2020.02.02-02.54.21:372][937]CompilerResultsLog:      Creating library C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-0626.suppressed.lib and object C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-0626.suppressed.exp
+[2020.02.02-02.54.21:372][937]CompilerResultsLog:   [6/6] GGJ20Editor.target
+[2020.02.02-02.54.21:372][937]CompilerResultsLog: Total time in Parallel executor: 2.34 seconds
+[2020.02.02-02.54.21:372][937]CompilerResultsLog: Total execution time: 13.11 seconds
+[2020.02.02-02.54.21:372][937]LogMainFrame: MainFrame: Module compiling took 13.207 seconds
+[2020.02.02-02.54.21:403][937]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2020.02.02-02.54.21:418][937]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2751 classes and 664 folders.
+[2020.02.02-02.54.21:418][937]Display: HotReload took 13.3s.
+[2020.02.02-02.54.21:420][937]Warning: HotReload operation took 13.3s.
+[2020.02.02-02.54.21:710][937]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.02-02.54.21:721][937]LogHotReload: New module detected: UE4Editor-GGJ20-0626.dll
+[2020.02.02-02.54.21:750][938]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.02-02.54.21:805][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2020.02.02-02.54.21:839][938]LogClass: Could not find existing class BaseDoor in package /Script/GGJ20 for HotReload, assuming new class
+[2020.02.02-02.54.21:868][938]LogClass: Tools HotReload.
+[2020.02.02-02.54.21:869][938]LogClass: RepairTypes HotReload.
+[2020.02.02-02.54.21:880][938]LogContentBrowser: Native class hierarchy updated for 'GGJ20' in 0.0007 seconds. Added 19 classes and 3 folders.
+[2020.02.02-02.54.21:885][938]Display: HotReload successful (6 functions remapped  0 scriptstructs remapped)
+[2020.02.02-02.54.22:030][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2020.02.02-02.54.22:049][938]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2752 classes and 664 folders.
+[2020.02.02-02.54.22:051][938]Display: HotReload took  0.3s.

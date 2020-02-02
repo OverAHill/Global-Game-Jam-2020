@@ -135,7 +135,7 @@ void ABaseOctopus::PickWanderPoint(FVector toPlayer)
 
 void ABaseOctopus::MoveToWanderPoint(FVector vectorToWander, float DeltaTime)
 {
-	DrawDebugLine(GetWorld(), this->GetActorLocation(), goalPos, FColor(0, 255, 0), false, 0.5f);
+	//DrawDebugLine(GetWorld(), this->GetActorLocation(), goalPos, FColor(0, 255, 0), false, 0.5f);
 	m_Momentum += vectorToWander * movementSpeed;
 }
 
