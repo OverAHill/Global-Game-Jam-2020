@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ﻿Log file open, 02/02/20 15:51:10
+=======
+﻿Log file open, 02/02/20 13:45:18
+>>>>>>> MergingMatt'sLevel
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +14,11 @@ LogInit: Display: Running engine for game: GGJ20
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+<<<<<<< HEAD
 LogStats: Stats thread started at 0.382537
+=======
+LogStats: Stats thread started at 0.272542
+>>>>>>> MergingMatt'sLevel
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,6 +164,7 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
+<<<<<<< HEAD
 [2020.02.02-15.51.10:783][  0]LogConfig: Setting CVar [[r.VSync:0]]
 [2020.02.02-15.51.10:783][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
 [2020.02.02-15.51.10:783][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
@@ -6207,3 +6216,888 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.02.02-15.57.07:429][505]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
 [2020.02.02-15.57.07:429][505]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
 [2020.02.02-15.57.07:429][505]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+=======
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.45.19:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.02-13.45.19:563][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.02-13.45.19:564][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.45.19:564][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.45.19:574][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-13.45.19:575][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-13.45.19:576][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-13.45.19:577][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-13.45.19:577][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-13.45.19:577][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.02-13.45.19:652][  0]LogHAL: Display: Platform has ~ 32 GB [34065854464 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.02-13.45.19:652][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.02-13.45.19:652][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.02-13.45.19:652][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:652][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-13.45.19:652][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-13.45.19:652][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:652][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-13.45.19:652][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:652][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-13.45.19:653][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-13.45.19:654][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-13.45.19:655][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.02-13.45.19:656][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.02-13.45.19:656][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.02-13.45.19:656][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.45.19:656][  0]LogInit: Computer: C117B-29
+[2020.02.02-13.45.19:656][  0]LogInit: User: w018030h
+[2020.02.02-13.45.19:656][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.02-13.45.19:656][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.02-13.45.19:657][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2020.02.02-13.45.19:657][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.02-13.45.19:657][  0]LogMemory: Process Physical Memory: 99.11 MB used, 99.11 MB peak
+[2020.02.02-13.45.19:657][  0]LogMemory: Process Virtual Memory: 95.96 MB used, 95.96 MB peak
+[2020.02.02-13.45.19:657][  0]LogMemory: Physical Memory: 13456.98 MB used,  19030.75 MB free, 32487.73 MB total
+[2020.02.02-13.45.19:657][  0]LogMemory: Virtual Memory: 4649.73 MB used,  134213080.00 MB free, 134217728.00 MB total
+[2020.02.02-13.45.19:698][  0]LogInit: Using OS detected language (en-US).
+[2020.02.02-13.45.19:698][  0]LogInit: Using OS detected locale (en-GB).
+[2020.02.02-13.45.19:699][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.02-13.45.19:855][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.02-13.45.19:918][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.02-13.45.19:918][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.02-13.45.20:091][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-13.45.20:091][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.02-13.45.20:151][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.02.02-13.45.20:151][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.02-13.45.20:154][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.02-13.45.20:154][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.02-13.45.20:154][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.02-13.45.20:167][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.02-13.45.20:168][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.02-13.45.20:168][  0]LogWindows: EnumDisplayDevices:
+[2020.02.02-13.45.20:168][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.02.02-13.45.20:168][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.02.02-13.45.20:169][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-13.45.20:169][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-13.45.20:169][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.02-13.45.20:169][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.02.02-13.45.20:169][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.02.02-13.45.20:169][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.02.02-13.45.20:170][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.02.02-13.45.20:216][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.02-13.45.20:220][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-13.45.20:220][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-13.45.20:220][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-13.45.20:228][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.02-13.45.20:572][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.02-13.45.20:584][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.02-13.45.20:597][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.02-13.45.20:611][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.02-13.45.20:624][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.02-13.45.20:637][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.02-13.45.20:649][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.02-13.45.20:663][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.02-13.45.20:669][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.02-13.45.20:751][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.02-13.45.20:753][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.02-13.45.20:808][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.02-13.45.20:808][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.02-13.45.20:830][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.02-13.45.20:830][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.02-13.45.20:842][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.02-13.45.20:853][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.02-13.45.20:864][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.02-13.45.20:876][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.02-13.45.20:934][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.02-13.45.20:934][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.02-13.45.20:934][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.02-13.45.20:944][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.02-13.45.21:009][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Intermediate/Shaders/WorkingDirectory/5920/).
+[2020.02.02-13.45.21:009][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w018030h/AppData/Local/Temp/UnrealShaderWorkingDir/6578A77242EBB828ADA3ACAD0B7A35A8/'.
+[2020.02.02-13.45.21:011][  0]LogXGEController: Cleaning working directory: C:/Users/w018030h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.02-13.45.21:011][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.02-13.45.21:012][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.02-13.45.21:012][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.02-13.45.21:527][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.02-13.45.21:577][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/w018030h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-13.45.21:577][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w018030h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.02-13.45.21:577][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.02-13.45.21:577][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.02-13.45.21:577][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-13.45.21:577][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.02-13.45.21:589][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.02-13.45.21:589][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-13.45.21:589][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.02-13.45.21:601][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w018030h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.02-13.45.21:601][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.02-13.45.21:601][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.02-13.45.21:621][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.02-13.45.21:622][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.02-13.45.21:623][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.02-13.45.21:700][  0]LogAssetRegistry: FAssetRegistry took 0.0330 seconds to start up
+[2020.02.02-13.45.22:051][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-13.45.22:191][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.02-13.45.22:191][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.02-13.45.22:191][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.02-13.45.22:191][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.02-13.45.22:191][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.02-13.45.22:205][  0]LogNetVersion: GGJ20 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2452190960)
+[2020.02.02-13.45.23:494][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.522239 seconds
+[2020.02.02-13.45.23:508][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.02-13.45.23:508][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.02-13.45.23:508][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.02-13.45.24:249][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.02-13.45.24:263][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.02-13.45.24:397][  0]SourceControl: Source control is disabled
+[2020.02.02-13.45.24:397][  0]SourceControl: Source control is disabled
+[2020.02.02-13.45.24:398][  0]SourceControl: Source control is disabled
+[2020.02.02-13.45.24:400][  0]SourceControl: Source control is disabled
+[2020.02.02-13.45.24:525][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.02-13.45.24:676][  0]LogOcInput: OculusInput pre-init called
+[2020.02.02-13.45.25:302][  0]LogEngine: Initializing Engine...
+[2020.02.02-13.45.25:303][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-13.45.25:304][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.02-13.45.25:527][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.02-13.45.25:546][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.45.25:566][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.45.25:604][  0]LogInit: FAudioDevice initialized.
+[2020.02.02-13.45.25:605][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.02-13.45.25:658][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/w018030h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-13.45.25:671][  0]LogInit: Texture streaming: Enabled
+[2020.02.02-13.45.25:696][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.02-13.45.25:716][  0]LogInit: Transaction tracking system initialized
+[2020.02.02-13.45.25:774][  0]BlueprintLog: New page: Editor Load
+[2020.02.02-13.45.26:121][  0]LocalizationService: Localization service is disabled
+[2020.02.02-13.45.26:461][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.02-13.45.26:461][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.02-13.45.26:626][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/' took 0.03s
+[2020.02.02-13.45.26:626][  0]SourceControl: Source control is disabled
+[2020.02.02-13.45.26:626][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.45.26:627][  0]LightingResults: New page: Lighting Build
+[2020.02.02-13.45.26:629][  0]MapCheck: New page: Map Check
+[2020.02.02-13.45.26:629][  0]LightingResults: New page: Lighting Build
+[2020.02.02-13.45.26:665][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.02.02-13.45.26:735][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.02.02-13.45.26:744][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.45.26:779][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2020.02.02-13.45.26:780][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.45.26:780][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.115ms to complete.
+[2020.02.02-13.45.26:780][  0]LogFileHelpers: Loading map 'Template_Default' took 0.154
+[2020.02.02-13.45.26:907][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.26:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.26:923][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.26:929][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.26:935][  0]LogCollectionManager: Loaded 0 collections in 0.001849 seconds
+[2020.02.02-13.45.26:977][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Collections/' took 0.01s
+[2020.02.02-13.45.26:978][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Developers/w018030h/Collections/' took 0.01s
+[2020.02.02-13.45.26:978][  0]LogFileCache: Scanning file cache for directory 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Collections/' took 0.01s
+[2020.02.02-13.45.26:978][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.02-13.45.26:989][  0]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2745 classes and 662 folders.
+[2020.02.02-13.45.26:995][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.02-13.45.26:997][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.26:998][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.26:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:000][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:002][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:003][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:005][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:006][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:008][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:008][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:009][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:010][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:010][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:011][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:012][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.45.27:042][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.02-13.45.27:047][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.02.02-13.45.27:062][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.45.27:064][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.45.27:069][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.45.27:124][  0]LogRenderer: Reallocating scene render targets to support 1208x536 Format 10 NumSamples 1 (Frame:1).
+[2020.02.02-13.45.27:247][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2020.02.02-13.45.27:247][  0]LogLoad: (Engine Initialization) Total time: 10.94 seconds
+[2020.02.02-13.45.27:247][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.02-13.45.27:298][  0]LogAssetRegistry: Asset discovery search completed in 5.6213 seconds
+[2020.02.02-13.45.27:301][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.02.02-13.45.27:301][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2020.02.02-13.45.27:303][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.02-13.45.27:370][  0]LogRenderer: Reallocating scene render targets to support 1208x552 Format 10 NumSamples 1 (Frame:5).
+[2020.02.02-13.45.27:370][  0]LogSlate: Took 0.000189 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.45.27:380][  1]LogFileCache: Retrieving MD5 hashes for directory 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/' took 0.11s
+[2020.02.02-13.45.28:288][102]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.45.30:690][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.45.37:968][233]LogSlate: Window 'Failed Renames' being destroyed
+[2020.02.02-13.48.54:007][246]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield_gen_doors.fbx)
+[2020.02.02-13.48.54:021][246]LogFbx: Loading FBX Scene from F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield_gen_doors.fbx
+[2020.02.02-13.48.54:028][246]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-13.48.55:807][246]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.02.02-13.48.57:110][246]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.02.02-13.48.57:196][246]LogFbx: Display: Triangulating static mesh polySurface9
+[2020.02.02-13.48.57:200][246]LogStaticMesh: Building static mesh shield_gen_doors...
+[2020.02.02-13.48.57:208][246]LogStaticMesh: Built static mesh [0.01s] /Game/ModularEnvironment/Props/Shield_gen/shield_gen_doors.shield_gen_doors
+[2020.02.02-13.48.57:222][246]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-13.48.57:252][246]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Shield_gen.fbx)
+[2020.02.02-13.48.57:269][246]LogFbx: Loading FBX Scene from F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Shield_gen.fbx
+[2020.02.02-13.48.57:290][246]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-13.48.57:324][246]LogFbx: Display: Triangulating static mesh pCylinder32
+[2020.02.02-13.48.58:203][246]LogStaticMesh: Building static mesh Shield_gen...
+[2020.02.02-13.48.59:033][246]LogStaticMesh: Built static mesh [0.83s] /Game/ModularEnvironment/Props/Shield_gen/Shield_gen.Shield_gen
+[2020.02.02-13.48.59:102][246]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-13.49.00:783][434]LogSlate: Window 'Message Log' being destroyed
+[2020.02.02-13.49.07:622][650]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield gen\Shield gen_lambert1_Metallic.png)
+[2020.02.02-13.49.07:636][650]LogTexture: Display: Building textures: Shield_gen_lambert1_Metallic (AutoDXT, 2048X2048)
+[2020.02.02-13.49.07:865][650]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield gen\Shield gen_lambert1_Normal.png)
+[2020.02.02-13.49.08:045][650]LogTexture: Display: Building textures: Shield_gen_lambert1_Normal (BC5, 2048X2048)
+[2020.02.02-13.49.08:284][650]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield gen\Shield gen_lambert1_Roughness.png)
+[2020.02.02-13.49.08:298][650]LogTexture: Display: Building textures: Shield_gen_lambert1_Roughness (AutoDXT, 2048X2048)
+[2020.02.02-13.49.08:532][650]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield gen\Shield gen_lambert1_BaseColor.png)
+[2020.02.02-13.49.08:729][650]LogTexture: Display: Building textures: Shield_gen_lambert1_BaseColor (AutoDXT, 2048X2048)
+[2020.02.02-13.49.20:530][687]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Shield gen doors\shield gen doors_lambert1_Metallic.png)
+[2020.02.02-13.49.20:539][687]LogTexture: Display: Building textures: shield_gen_doors_lambert1_Metallic (AutoDXT, 2048X2048)
+[2020.02.02-13.49.20:790][687]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Shield gen doors\shield gen doors_lambert1_Normal.png)
+[2020.02.02-13.49.21:033][687]LogTexture: Display: Building textures: shield_gen_doors_lambert1_Normal (BC5, 2048X2048)
+[2020.02.02-13.49.21:255][687]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Shield gen doors\shield gen doors_lambert1_Roughness.png)
+[2020.02.02-13.49.21:266][687]LogTexture: Display: Building textures: shield_gen_doors_lambert1_Roughness (AutoDXT, 2048X2048)
+[2020.02.02-13.49.21:522][687]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Shield gen doors\shield gen doors_lambert1_BaseColor.png)
+[2020.02.02-13.49.21:706][687]LogTexture: Display: Building textures: shield_gen_doors_lambert1_BaseColor (AutoDXT, 2048X2048)
+[2020.02.02-13.49.44:135][210]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Shield_Gen6C5D65EE476356921887FB833A91F298.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/M_Shield_Gen.uasset'
+[2020.02.02-13.49.44:323][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.02.02-13.49.44:353][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.02.02-13.49.44:379][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.02.02-13.49.47:239][541]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen.M_Shield_Gen
+[2020.02.02-13.49.47:693][541]LogRenderer: Reallocating scene render targets to support 1208x564 Format 10 NumSamples 1 (Frame:1).
+[2020.02.02-13.50.20:241][244]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/ModularEnvironment/Props/Shield_gen/Shield_gen.Shield_gen
+[2020.02.02-13.50.20:536][244]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.02-13.50.27:237][827]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Shield_gen770C583C463427015C299B9514303D04.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/Shield_gen.uasset'
+[2020.02.02-13.50.59:780][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.51.17:929][626]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen_Doors.M_Shield_Gen_Doors
+[2020.02.02-13.51.36:580][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.02.02-13.51.36:589][557]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.02-13.51.37:017][557]TextureStreamingBuild: Display: Compiling optional shaders took 0.437 seconds.
+[2020.02.02-13.51.37:045][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.02.02-13.51.37:066][557]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Shield_Gen_DoorsB78B035A4D1C54D2D8AE379B07B596E1.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/M_Shield_Gen_Doors.uasset'
+[2020.02.02-13.51.38:677][624]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/ModularEnvironment/Props/Shield_gen/shield_gen_doors.shield_gen_doors
+[2020.02.02-13.51.45:979][221]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/shield_gen_doors06EF321C43435176DD77CC9229A53E2B.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/shield_gen_doors.uasset'
+[2020.02.02-13.51.48:884][529]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-13.51.48:886][529]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-13.51.49:280][569]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-13.51.49:295][569]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-13.51.55:113][102]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_gen_doors)
+[2020.02.02-13.51.57:384][302]Cmd: TRANSACTION UNDO
+[2020.02.02-13.51.57:384][302]LogEditorTransaction: Undo Rotate Actors
+[2020.02.02-13.52.05:393][ 16]Cmd: TRANSACTION UNDO
+[2020.02.02-13.52.05:393][ 16]LogEditorTransaction: Undo Move Actors
+[2020.02.02-13.52.51:765][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_gen_doors2)
+[2020.02.02-13.53.03:076][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.53.03:230][373]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-13.53.03:232][373]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-13.53.03:521][396]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-13.53.03:536][396]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-13.53.05:747][565]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_gen_doors4)
+[2020.02.02-13.53.06:813][664]Cmd: TRANSACTION UNDO
+[2020.02.02-13.53.06:814][664]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.02-13.53.07:546][701]Cmd: DELETE
+[2020.02.02-13.53.07:546][701]Cmd: ACTOR DELETE
+[2020.02.02-13.53.07:548][701]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.02-13.53.07:549][701]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.02-13.53.07:579][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.02.02-13.53.07:580][701]LogEditorActor: Deleted 2 Actors (0.033 secs)
+[2020.02.02-13.53.11:376][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.53.14:788][438]LogAIModule: Creating AISystem for world Final_Level
+[2020.02.02-13.53.14:817][438]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Final_Level.Final_Level
+[2020.02.02-13.53.14:850][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.02.02-13.53.15:870][438]LogSlate: Window 'Save Content' being destroyed
+[2020.02.02-13.53.16:580][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/lambert1AA599D4B46D13DA61C268AAD50FDE3EC.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/lambert1.uasset'
+[2020.02.02-13.53.16:719][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Shield_GenEEAA566A46590BE3DCF6E78B64268F31.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/M_Shield_Gen.uasset'
+[2020.02.02-13.53.16:844][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Shield_Gen_Doors87F12FF9400A860C416534977DCF714A.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/M_Shield_Gen_Doors.uasset'
+[2020.02.02-13.53.17:108][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/shield_gen_doors_lambert1_BaseCo665DAE1A425524E1297E51A6CDFE886E.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/shield_gen_doors_lambert1_BaseColor.uasset'
+[2020.02.02-13.53.17:284][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/shield_gen_doors_lambert1_Metall498808784C76D6464538E19E874AFF0A.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/shield_gen_doors_lambert1_Metallic.uasset'
+[2020.02.02-13.53.17:937][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/shield_gen_doors_lambert1_NormalB23B3C714B50C4D116AE3094B12C0180.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/shield_gen_doors_lambert1_Normal.uasset'
+[2020.02.02-13.53.18:142][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/shield_gen_doors_lambert1_Roughn2CA197C044FB37AEB1FD0D945B81C138.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/shield_gen_doors_lambert1_Roughness.uasset'
+[2020.02.02-13.53.18:444][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Shield_gen_lambert1_BaseColor64774BB54F5E0ED1138C1B9AC088D9E6.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/Shield_gen_lambert1_BaseColor.uasset'
+[2020.02.02-13.53.18:608][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Shield_gen_lambert1_Metallic7005C06042AFCE2ACD22C4890E27312A.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/Shield_gen_lambert1_Metallic.uasset'
+[2020.02.02-13.53.19:407][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Shield_gen_lambert1_Normal38E685B74A7492027B38D581385A22D8.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/Shield_gen_lambert1_Normal.uasset'
+[2020.02.02-13.53.20:870][438]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Shield_gen_lambert1_RoughnessC10835E04931452582B0718C757441B3.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/Shield_gen_lambert1_Roughness.uasset'
+[2020.02.02-13.53.22:886][438]LogSlate: Window 'Save Level As' being destroyed
+[2020.02.02-13.53.26:428][812]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Final_Level.Final_Level
+[2020.02.02-13.53.26:456][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.02.02-13.53.27:693][812]LogSlate: Window 'Save Content' being destroyed
+[2020.02.02-13.53.27:698][812]Cmd: MAP LOAD FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.53.27:701][812]LightingResults: New page: Lighting Build
+[2020.02.02-13.53.27:702][812]LoadErrors: New page: Loading map: Final_Level.umap
+[2020.02.02-13.53.27:703][812]MapCheck: New page: Map Check
+[2020.02.02-13.53.27:703][812]LightingResults: New page: Lighting Build
+[2020.02.02-13.53.27:739][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.02.02-13.53.27:751][812]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.53.27:785][812]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.02.02-13.53.27:823][812]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.53.27:823][812]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.259ms to complete.
+[2020.02.02-13.53.27:829][812]LogFileHelpers: Loading map 'Final_Level' took 0.131
+[2020.02.02-13.54.07:770][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_Ladder)
+[2020.02.02-13.54.12:195][765]Cmd: TRANSACTION UNDO
+[2020.02.02-13.54.12:195][765]LogEditorTransaction: Undo Scale Actors
+[2020.02.02-13.54.14:393][907]Cmd: TRANSACTION UNDO
+[2020.02.02-13.54.14:393][907]LogEditorTransaction: Undo Scale Actors
+[2020.02.02-13.57.32:728][621]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-13.57.44:734][291]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_wall_low30)
+[2020.02.02-13.57.45:196][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_wall_low31)
+[2020.02.02-13.57.45:798][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_wall_low30)
+[2020.02.02-13.57.46:119][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_wall_low31)
+[2020.02.02-13.58.00:600][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.58.34:455][190]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.00.02:142][825]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Engine\Engine.fbx)
+[2020.02.02-14.00.02:162][825]LogFbx: Loading FBX Scene from F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\Engine\Engine.fbx
+[2020.02.02-14.00.02:190][825]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.00.03:675][825]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.02.02-14.00.05:121][825]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2020.02.02-14.00.05:151][825]LogFbx: Display: Triangulating static mesh pCube22
+[2020.02.02-14.00.05:834][825]LogStaticMesh: Building static mesh Engine...
+[2020.02.02-14.00.06:093][825]LogStaticMesh: Built static mesh [0.26s] /Game/ModularEnvironment/Props/Engine/Engine.Engine
+[2020.02.02-14.00.06:127][825]LogStaticMesh: Warning: Engine has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2020.02.02-14.00.06:127][825]LogStaticMesh: Warning: Engine has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2020.02.02-14.00.06:163][825]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.00.06:163][825]FBXImport: Warning: Engine has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2020.02.02-14.00.06:163][825]FBXImport: Warning: Engine has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2020.02.02-14.00.07:560][864]LogSlate: Window 'Message Log' being destroyed
+[2020.02.02-14.00.07:565][864]LogSlate: Window 'Message Log' being destroyed
+[2020.02.02-14.00.11:988][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.00.12:103][107]LogActorFactory: Actor Factory created Engine
+[2020.02.02-14.00.13:000][186]LogActorFactory: Actor Factory created Engine
+[2020.02.02-14.00.20:357][838]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.00.21:331][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.00.51:807][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.01.05:132][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.01.06:365][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engine)
+[2020.02.02-14.01.06:657][607]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel40)
+[2020.02.02-14.01.07:295][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.01.07:375][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.01.07:425][656]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2020.02.02-14.01.07:934][656]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level3A47528A4E0CB9674A658BB3591D85BB.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.01.08:083][656]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.01.08:242][656]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData992DED8A480B43DAD3F2029511617D65.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.01.16:059][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.01.26:215][194]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.01.26:285][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.01.26:469][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.02.02-14.01.26:817][200]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_LevelDF999CE74E264453E95FE7948F2F0592.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.01.26:923][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.01.26:999][200]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltDataC21037F54B9452B743A17982E992FE8B.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.01.36:801][122]Cmd: TRANSACTION UNDO
+[2020.02.02-14.01.36:801][122]LogEditorTransaction: Undo Scale Actors
+[2020.02.02-14.01.45:054][927]Cmd: TRANSACTION UNDO
+[2020.02.02-14.01.45:054][927]LogEditorTransaction: Undo Scale Actors
+[2020.02.02-14.01.49:297][274]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.01.49:373][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.01.49:552][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.02.02-14.01.50:878][281]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_LevelB1B3069F457D1EF55C9613BC710DD3CE.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.01.50:979][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.01.51:103][281]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData52E5A6BF43E9E9814A6311BD6B21CF96.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.01.51:561][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Engine)
+[2020.02.02-14.02.00:505][113]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.02.07:240][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.02.07:327][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.02.07:826][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.02.02-14.02.08:194][729]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level6607D4754D92F293376AEF91FCE7F11B.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.02.08:355][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.02.08:442][729]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData700086EC4ACE8FDC7A27DB9A956693C9.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.02.18:061][658]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel41)
+[2020.02.02-14.02.19:147][733]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel40)
+[2020.02.02-14.02.39:894][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.03.05:773][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel89)
+[2020.02.02-14.03.06:628][613]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MOD_pack_MOD_floor_panel90)
+[2020.02.02-14.03.07:270][667]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MOD_pack_MOD_floor_panel95)
+[2020.02.02-14.03.07:526][684]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MOD_pack_MOD_floor_panel94)
+[2020.02.02-14.03.07:700][694]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-14.03.07:707][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.03.08:069][694]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.02.02-14.03.08:450][694]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_LevelE4B52D134C38982FC544D1939E6B6B52.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.03.08:617][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.03.08:715][694]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData62918EED47F3827EAC726981C4BA28DB.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.03.14:160][999]Cmd: TRANSACTION UNDO
+[2020.02.02-14.03.14:160][999]LogEditorTransaction: Undo Move Actors
+[2020.02.02-14.03.29:324][874]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel112)
+[2020.02.02-14.03.30:090][940]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel112)
+[2020.02.02-14.03.30:336][956]Cmd: TRANSACTION UNDO
+[2020.02.02-14.03.30:336][956]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.02-14.03.31:224][ 12]Cmd: TRANSACTION UNDO
+[2020.02.02-14.03.31:224][ 12]LogEditorTransaction: Undo Clicking on Actors
+[2020.02.02-14.03.39:275][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_wall_low61)
+[2020.02.02-14.03.41:557][918]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel111)
+[2020.02.02-14.03.42:206][970]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MOD_pack_MOD_floor_panel112)
+[2020.02.02-14.03.42:699][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MOD_pack_MOD_floor_panel110)
+[2020.02.02-14.03.43:033][ 36]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MOD_pack_MOD_floor_panel109)
+[2020.02.02-14.03.45:266][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel111)
+[2020.02.02-14.03.46:026][263]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (MOD_pack_MOD_floor_panel112)
+[2020.02.02-14.03.49:224][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel109)
+[2020.02.02-14.03.49:902][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_Gateway8)
+[2020.02.02-14.03.50:754][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.03.50:818][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.03.50:875][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.02.02-14.03.51:391][635]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level547288D54861388F4BB828A651DD5965.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.03.51:508][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.03.51:636][635]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData821D72644DF5F74F76132694E6B400F4.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.03.53:893][823]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.03.55:320][942]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-14.03.56:085][  2]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-14.04.04:437][723]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.04.10:031][205]Cmd: TRANSACTION UNDO
+[2020.02.02-14.04.10:031][205]LogEditorTransaction: Undo Scale Actors
+[2020.02.02-14.04.29:766][569]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-14.04.31:256][681]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.04.31:933][740]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-14.04.32:644][797]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-14.04.38:419][203]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-14.04.42:321][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_gen)
+[2020.02.02-14.04.44:720][741]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_gen_doors)
+[2020.02.02-14.04.45:620][807]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-14.05.11:269][566]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx]
+[2020.02.02-14.05.11:291][566]LogFbx: Loading FBX Scene from F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx
+[2020.02.02-14.05.11:307][566]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.05.11:324][566]LogFbx: Display: Triangulating static mesh pCylinder32
+[2020.02.02-14.05.12:139][566]LogStaticMesh: Building static mesh Shield_gen...
+[2020.02.02-14.05.12:890][566]LogStaticMesh: Built static mesh [0.75s] /Game/ModularEnvironment/Props/Shield_gen/Shield_gen.Shield_gen
+[2020.02.02-14.05.12:982][566]LogEditorFactories: -- imported successfully
+[2020.02.02-14.05.12:986][566]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.08.33:838][658]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx]
+[2020.02.02-14.08.33:861][658]LogFbx: Loading FBX Scene from F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx
+[2020.02.02-14.08.33:877][658]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.08.33:895][658]LogFbx: Display: Triangulating static mesh ShieldFrame
+[2020.02.02-14.08.34:639][658]LogFbx: Display: Triangulating static mesh Shield_Door
+[2020.02.02-14.08.34:686][658]LogStaticMesh: Building static mesh Shield_gen...
+[2020.02.02-14.08.35:584][658]LogStaticMesh: Built static mesh [0.90s] /Game/ModularEnvironment/Props/Shield_gen/Shield_gen.Shield_gen
+[2020.02.02-14.08.37:490][658]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2020.02.02-14.08.37:499][658]LogEditorFactories: -- imported successfully
+[2020.02.02-14.08.37:504][658]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.08.40:947][879]Cmd: TRANSACTION UNDO
+[2020.02.02-14.08.40:947][879]LogEditorTransaction: Undo Move Actors
+[2020.02.02-14.08.41:300][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_gen)
+[2020.02.02-14.08.49:771][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.08.55:367][  2]Cmd: DELETE
+[2020.02.02-14.08.55:367][  2]Cmd: ACTOR DELETE
+[2020.02.02-14.08.55:381][  2]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.02-14.08.55:408][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2020.02.02-14.08.55:408][  2]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2020.02.02-14.08.57:434][176]Cmd: TRANSACTION UNDO
+[2020.02.02-14.08.57:434][176]LogEditorTransaction: Undo Delete Actors
+[2020.02.02-14.08.58:217][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.09.08:224][388]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx]
+[2020.02.02-14.09.08:243][388]LogFbx: Loading FBX Scene from F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx
+[2020.02.02-14.09.08:258][388]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.09.08:289][388]LogFbx: Display: Triangulating static mesh ShieldFrame
+[2020.02.02-14.09.09:212][388]LogFbx: Display: Triangulating static mesh Shield_Door
+[2020.02.02-14.09.09:257][388]LogStaticMesh: Building static mesh Shield_gen...
+[2020.02.02-14.09.10:152][388]LogStaticMesh: Built static mesh [0.89s] /Game/ModularEnvironment/Props/Shield_gen/Shield_gen.Shield_gen
+[2020.02.02-14.09.10:287][388]LogEditorFactories: -- imported successfully
+[2020.02.02-14.09.10:291][388]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.09.15:688][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shield_gen_doors)
+[2020.02.02-14.09.16:886][852]Cmd: DELETE
+[2020.02.02-14.09.16:886][852]Cmd: ACTOR DELETE
+[2020.02.02-14.09.16:892][852]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.02-14.09.16:919][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.02.02-14.09.16:920][852]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2020.02.02-14.09.17:877][936]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.09.17:950][942]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-14.09.18:195][963]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-14.09.20:461][139]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.09.22:151][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.02.02-14.09.23:286][264]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.02-14.09.24:522][264]LogSlate: Window 'shield_gen_doors' being destroyed
+[2020.02.02-14.09.25:628][264]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/ModularEnvironment/Props/Shield_gen/shield_gen_doors.shield_gen_doors
+[2020.02.02-14.09.26:218][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.02.02-14.09.26:250][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.02.02-14.09.26:277][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.02.02-14.09.49:327][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.09.53:358][505]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx]
+[2020.02.02-14.09.53:376][505]LogFbx: Loading FBX Scene from F:/Uni Work/Jams/GGJ20/Enviro/Hero Assets/Shield_gen.fbx
+[2020.02.02-14.09.53:391][505]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.09.53:408][505]LogFbx: Display: Triangulating static mesh ShieldFrame
+[2020.02.02-14.09.54:133][505]LogFbx: Display: Triangulating static mesh Shield_Door
+[2020.02.02-14.09.54:171][505]LogStaticMesh: Building static mesh Shield_gen...
+[2020.02.02-14.09.55:018][505]LogStaticMesh: Built static mesh [0.85s] /Game/ModularEnvironment/Props/Shield_gen/Shield_gen.Shield_gen
+[2020.02.02-14.09.55:155][505]LogEditorFactories: -- imported successfully
+[2020.02.02-14.09.55:162][505]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.10.01:583][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_gen)
+[2020.02.02-14.10.46:888][950]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield_gen_doors.fbx)
+[2020.02.02-14.10.46:897][950]LogFbx: Loading FBX Scene from F:\Uni Work\Jams\GGJ20\Enviro\Hero Assets\shield_gen_doors.fbx
+[2020.02.02-14.10.46:902][950]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.10.46:911][950]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-14.10.48:015][950]LogSlate: Window 'FBX Import Options' being destroyed
+[2020.02.02-14.10.49:307][950]LogMaterial: Display: Missing cached shader map for material lambert17, compiling. 
+[2020.02.02-14.10.49:346][950]LogFbx: Display: Triangulating static mesh Shield_Door
+[2020.02.02-14.10.49:372][950]LogStaticMesh: Building static mesh shield_gen_doors...
+[2020.02.02-14.10.49:383][950]LogStaticMesh: Built static mesh [0.01s] /Game/ModularEnvironment/Props/Shield_gen/shield_gen_doors.shield_gen_doors
+[2020.02.02-14.10.49:399][950]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.10.50:849][ 67]LogSlate: Window 'Message Log' being destroyed
+[2020.02.02-14.10.52:562][209]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/ModularEnvironment/Props/Shield_gen/shield_gen_doors.shield_gen_doors
+[2020.02.02-14.11.02:922][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.11.03:275][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2020.02.02-14.11.03:660][ 29]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level64F7C20043723A38351E949446100E2B.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.11.03:837][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.11.04:003][ 29]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltDataE28D9F9E4A4AD714808E8BB79956F629.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.11.04:457][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_gen)
+[2020.02.02-14.11.10:379][641]Cmd: DELETE
+[2020.02.02-14.11.10:379][641]Cmd: ACTOR DELETE
+[2020.02.02-14.11.10:384][641]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.02.02-14.11.10:412][641]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.02.02-14.11.10:413][641]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2020.02.02-14.11.10:963][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.11.11:062][700]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-14.11.12:351][839]LogActorFactory: Actor Factory created Shield_gen
+[2020.02.02-14.11.17:918][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.11.18:064][363]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-14.11.18:795][425]LogActorFactory: Actor Factory created shield_gen_doors
+[2020.02.02-14.11.58:717][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.11.58:803][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.11.59:214][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.02.02-14.11.59:587][ 49]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_LevelF887886A49E4770BBACB0AACC436A630.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.11.59:737][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.11.59:823][ 49]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData2F087615478B2D63DF00E8806D2CD7B7.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.12.00:693][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_gen)
+[2020.02.02-14.12.02:159][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.13.57:406][402]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.13.58:638][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.02.02-14.13.59:535][513]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.02-14.13.59:641][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.02.02-14.13.59:678][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.02.02-14.13.59:705][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.02.02-14.14.06:129][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.14.25:190][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.14.25:259][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.14.25:403][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.02.02-14.14.25:811][ 41]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_LevelC65003444F0107A7896119829CAD46E7.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.14.25:957][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.14.26:042][ 41]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData1BEFD4FC4FB76E2B94D9A5A7CB475B8B.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.14.26:845][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Shield_gen)
+[2020.02.02-14.14.38:352][269]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.14.41:309][555]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.14.58:768][298]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.14.58:847][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.14.59:026][306]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.02.02-14.14.59:434][306]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level17F52B694378BF9D8342A9A2B33C1151.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.14.59:547][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.14.59:617][306]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData59F43A084320258D1DE85B84EB648F3D.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.15.00:364][363]LogEditorViewport: Clicking on Actor (LMB): Emitter (Smoke_System5)
+[2020.02.02-14.15.00:931][392]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel33)
+[2020.02.02-14.15.19:437][232]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_Corridor_3)
+[2020.02.02-14.15.33:324][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.15.38:276][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.15.38:411][787]LogActorFactory: Actor Factory created MOD_pack_MOD_wall_corner_inner
+[2020.02.02-14.15.39:380][868]LogActorFactory: Actor Factory created MOD_pack_MOD_wall_corner_inner
+[2020.02.02-14.15.54:219][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_Gateway3)
+[2020.02.02-14.15.55:067][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MOD_pack_MOD_floor_panel6)
+[2020.02.02-14.15.56:783][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.15.56:857][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.15.58:226][377]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.02.02-14.15.58:585][377]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_LevelADF9BA5D43A74D4BCD38E4A51B981998.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.15.58:685][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.15.58:784][377]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltDataD77052DB48D1BF48D2F893AEC15CB88C.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+[2020.02.02-14.21.05:730][920]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.21.16:800][672]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\MOD\Materials\Corridor_1\MOD_corridor01_WallMat_Normal.png)
+[2020.02.02-14.21.17:729][672]LogTexture: Display: Building textures: MOD_corridor01_WallMat_Normal (BC5, 1024X1024)
+[2020.02.02-14.21.17:822][672]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\MOD\Materials\Corridor_1\MOD_corridor01_WallMat_Roughness.png)
+[2020.02.02-14.21.17:831][672]LogTexture: Display: Building textures: MOD_corridor01_WallMat_Roughness (AutoDXT, 1024X1024)
+[2020.02.02-14.21.17:987][672]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\MOD\Materials\Corridor_1\MOD_corridor01_WallMat_BaseColor.png)
+[2020.02.02-14.21.18:027][672]LogTexture: Display: Building textures: MOD_corridor01_WallMat_BaseColor (AutoDXT, 1024X1024)
+[2020.02.02-14.21.18:134][672]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 F:\Uni Work\Jams\GGJ20\Enviro\MOD\Materials\Corridor_1\MOD_corridor01_WallMat_Metallic.png)
+[2020.02.02-14.21.18:143][672]LogTexture: Display: Building textures: MOD_corridor01_WallMat_Metallic (AutoDXT, 1024X1024)
+[2020.02.02-14.21.34:184][982]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Corridor_1AD05E4F54E2D2E4E9FEB01A4550555B8.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Walls/Materials/Corridor_1/M_Corridor_1.uasset'
+[2020.02.02-14.21.34:330][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2020.02.02-14.21.34:361][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.02.02-14.21.34:388][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.02.02-14.21.35:801][110]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/ModularEnvironment/Walls/Materials/Corridor_1/M_Corridor_1.M_Corridor_1
+[2020.02.02-14.21.50:197][358]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.02.02-14.21.50:201][358]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.02.02-14.21.50:607][358]TextureStreamingBuild: Display: Compiling optional shaders took 0.409 seconds.
+[2020.02.02-14.21.50:647][358]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2020.02.02-14.21.50:678][358]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Corridor_179AFABAE4117D55436F94EB6D7D539C0.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Walls/Materials/Corridor_1/M_Corridor_1.uasset'
+[2020.02.02-14.21.53:716][474]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/shield_gen_doorsC69BDA124CF3DF0EBBEC70B9E09C861C.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Props/Shield_gen/shield_gen_doors.uasset'
+[2020.02.02-14.22.03:370][212]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01.MOD_pack_MOD_Corridor_01
+[2020.02.02-14.22.13:732][958]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/MOD_pack_MOD_Corridor_012CEDF1924B8F1FA9D3EC4BABFD440DEB.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01.uasset'
+[2020.02.02-14.22.18:896][348]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/MOD/MOD_pack.fbx]
+[2020.02.02-14.22.18:917][348]LogFbx: Loading FBX Scene from F:/Uni Work/Jams/GGJ20/Enviro/MOD/MOD_pack.fbx
+[2020.02.02-14.22.18:930][348]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.22.18:932][348]LogFbx: Display: Triangulating static mesh MOD_Corridor_01
+[2020.02.02-14.22.18:951][348]LogStaticMesh: Building static mesh MOD_pack_MOD_Corridor_01...
+[2020.02.02-14.22.18:959][348]LogStaticMesh: Built static mesh [0.01s] /Game/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01.MOD_pack_MOD_Corridor_01
+[2020.02.02-14.22.18:979][348]LogEditorFactories: -- imported successfully
+[2020.02.02-14.22.18:986][348]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.25.57:134][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.02.02-14.25.57:956][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_Auto1AB381A5F406B60A553A7C9BE77EADF17.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/Levels/Final_Level_Auto1.umap'
+[2020.02.02-14.25.58:767][733]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Final_Level' took 1.672
+[2020.02.02-14.25.58:767][733]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.672
+[2020.02.02-14.25.58:788][733]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen] ([1] browsable assets)...
+[2020.02.02-14.25.58:788][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen]
+[2020.02.02-14.25.58:868][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Shield_Gen_Auto1E06233E144F3C6A9E79918963FCC2F1B.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen_Auto1.uasset'
+[2020.02.02-14.25.58:873][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Props/Shield_gen/Shield_gen] ([1] browsable assets)...
+[2020.02.02-14.25.58:898][733]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularEnvironment/Props/Shield_gen/Shield_gen.Shield_gen]
+[2020.02.02-14.25.58:898][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Props/Shield_gen/Shield_gen]
+[2020.02.02-14.25.59:042][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Shield_gen_Auto1D8125EF74884B7BBA91040959921E617.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Props/Shield_gen/Shield_gen_Auto1.uasset'
+[2020.02.02-14.25.59:044][733]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen_Doors] ([1] browsable assets)...
+[2020.02.02-14.25.59:045][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen_Doors]
+[2020.02.02-14.25.59:139][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/M_Shield_Gen_Doors_Auto14F610E5540EF21D3FB1AB4A8373FBED5.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Props/Shield_gen/M_Shield_Gen_Doors_Auto1.uasset'
+[2020.02.02-14.25.59:144][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01] ([1] browsable assets)...
+[2020.02.02-14.25.59:169][733]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01.MOD_pack_MOD_Corridor_01]
+[2020.02.02-14.25.59:169][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01]
+[2020.02.02-14.25.59:309][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/MOD_pack_MOD_Corridor_01_Auto119CDFC334C1736A7A9A262B4864A4604.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01_Auto1.uasset'
+[2020.02.02-14.25.59:316][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Props/Engine/Engine] ([1] browsable assets)...
+[2020.02.02-14.25.59:337][733]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/ModularEnvironment/Props/Engine/Engine.Engine]
+[2020.02.02-14.25.59:337][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Props/Engine/Engine]
+[2020.02.02-14.25.59:476][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Engine_Auto15A07DBD349694E3C3B0F4895DDD02F08.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Props/Engine/Engine_Auto1.uasset'
+[2020.02.02-14.25.59:479][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Props/Engine/lambert1] ([1] browsable assets)...
+[2020.02.02-14.25.59:498][733]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ModularEnvironment/Props/Engine/lambert1.lambert1]
+[2020.02.02-14.25.59:498][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Props/Engine/lambert1]
+[2020.02.02-14.25.59:577][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/lambert1_Auto1B2A146FC4AD080A637FE0B957FBA6214.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Props/Engine/lambert1_Auto1.uasset'
+[2020.02.02-14.25.59:582][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Normal] ([1] browsable assets)...
+[2020.02.02-14.25.59:605][733]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Normal.MOD_corridor01_WallMat_Normal]
+[2020.02.02-14.25.59:605][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Normal]
+[2020.02.02-14.25.59:697][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/MOD_corridor01_WallMat_Normal_AuC19E5AA349723D69C0F89AAC0EB8CAC6.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Normal_Auto1.uasset'
+[2020.02.02-14.25.59:702][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Roughness] ([1] browsable assets)...
+[2020.02.02-14.25.59:721][733]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Roughness.MOD_corridor01_WallMat_Roughness]
+[2020.02.02-14.25.59:721][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Roughness]
+[2020.02.02-14.25.59:878][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/MOD_corridor01_WallMat_Roughness6E7AC37B45F868EB4F8167AEDFDB3A11.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Roughness_Auto1.uasset'
+[2020.02.02-14.25.59:883][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_BaseColor] ([1] browsable assets)...
+[2020.02.02-14.25.59:903][733]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_BaseColor.MOD_corridor01_WallMat_BaseColor]
+[2020.02.02-14.25.59:903][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_BaseColor]
+[2020.02.02-14.25.59:985][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/MOD_corridor01_WallMat_BaseColor7F0F612B41AC4DB849F184AB1A09E199.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_BaseColor_Auto1.uasset'
+[2020.02.02-14.25.59:990][733]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Metallic] ([1] browsable assets)...
+[2020.02.02-14.26.00:002][733]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Metallic.MOD_corridor01_WallMat_Metallic]
+[2020.02.02-14.26.00:002][733]OBJ SavePackage: Finished generating thumbnails for package [/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Metallic]
+[2020.02.02-14.26.00:140][733]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/MOD_corridor01_WallMat_Metallic_5E7904F34F69616C394A87B00F008867.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Autosaves/Game/ModularEnvironment/Walls/Materials/Corridor_1/MOD_corridor01_WallMat_Metallic_Auto1.uasset'
+[2020.02.02-14.26.00:145][733]LogFileHelpers: Auto-saving content packages took 1.373
+[2020.02.02-14.28.45:071][225]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-14.28.57:512][223]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/MOD/MOD_pack.fbx]
+[2020.02.02-14.28.57:535][223]LogFbx: Loading FBX Scene from F:/Uni Work/Jams/GGJ20/Enviro/MOD/MOD_pack.fbx
+[2020.02.02-14.28.57:550][223]LogFbx: FBX Scene Loaded Succesfully
+[2020.02.02-14.28.57:551][223]LogFbx: Display: Triangulating static mesh MOD_Corridor_01
+[2020.02.02-14.28.57:570][223]LogStaticMesh: Building static mesh MOD_pack_MOD_Corridor_01...
+[2020.02.02-14.28.57:577][223]LogStaticMesh: Built static mesh [0.01s] /Game/ModularEnvironment/Walls/MOD_pack_MOD_Corridor_01.MOD_pack_MOD_Corridor_01
+[2020.02.02-14.28.57:592][223]LogEditorFactories: -- imported successfully
+[2020.02.02-14.28.57:596][223]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2020.02.02-14.29.04:305][732]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_BaseColor.png]
+[2020.02.02-14.29.04:306][732]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_BaseColor.png)
+[2020.02.02-14.29.04:329][732]LogTexture: Display: Building textures: MOD_corridor01_WallMat_BaseColor (AutoDXT, 1024X1024)
+[2020.02.02-14.29.04:388][732]LogEditorFactories: -- imported successfully
+[2020.02.02-14.29.04:403][732]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_Metallic.png]
+[2020.02.02-14.29.04:404][732]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_Metallic.png)
+[2020.02.02-14.29.04:411][732]LogTexture: Display: Building textures: MOD_corridor01_WallMat_Metallic (AutoDXT, 1024X1024)
+[2020.02.02-14.29.04:462][732]LogEditorFactories: -- imported successfully
+[2020.02.02-14.29.04:477][732]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_Normal.png]
+[2020.02.02-14.29.04:480][732]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_Normal.png)
+[2020.02.02-14.29.04:511][732]LogTexture: Display: Building textures: MOD_corridor01_WallMat_Normal (BC5, 1024X1024)
+[2020.02.02-14.29.04:583][732]LogEditorFactories: -- imported successfully
+[2020.02.02-14.29.04:601][732]LogEditorFactories: Performing atomic reimport of [F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_Roughness.png]
+[2020.02.02-14.29.04:602][732]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 F:/Uni Work/Jams/GGJ20/Enviro/MOD/Materials/Corridor_1/MOD_corridor01_WallMat_Roughness.png)
+[2020.02.02-14.29.04:610][732]LogTexture: Display: Building textures: MOD_corridor01_WallMat_Roughness (AutoDXT, 1024X1024)
+[2020.02.02-14.29.04:671][732]LogEditorFactories: -- imported successfully
+[2020.02.02-14.29.21:664][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-14.29.21:727][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2020.02.02-14.29.21:912][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2020.02.02-14.29.22:271][ 45]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level9B53160144A7F84CAFD5D7A261DD1E2F.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level.umap'
+[2020.02.02-14.29.22:419][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Final_Level_BuiltData" FILE="F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset" SILENT=true
+[2020.02.02-14.29.22:550][ 45]LogSavePackage: Moving 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Saved/Final_Level_BuiltData7783E07D417A2CB51C3BD58F61B4A410.tmp' to 'F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Content/Levels/Final_Level_BuiltData.uasset'
+>>>>>>> MergingMatt'sLevel
