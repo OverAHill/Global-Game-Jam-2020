@@ -17,7 +17,12 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+
+
 public:	
+	/*static float movementSpeed;
+	static float perTickFallFromWater;*/
+
 	UPROPERTY(EditAnywhere, Category="Rooms")
 		TArray<ABaseRoom*> rooms;
 
@@ -27,4 +32,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	static void SetMovementSpeed(float speed);
+	static void SetPerTickFallFromWater(float tick);
+	static void IncreaseMovementSpeed(float change);
+	static void IncreasePerTickFallFromWater(float change);
 };

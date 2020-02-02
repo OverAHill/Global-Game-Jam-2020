@@ -55,6 +55,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseSubmarine() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseSubmarine_Statics::NewProp_rooms_MetaData[] = {
 		{ "Category", "Rooms" },
 		{ "ModuleRelativePath", "Public/BaseSubmarine.h" },
+		{ "ToolTip", "static float movementSpeed;\n       static float perTickFallFromWater;" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABaseSubmarine_Statics::NewProp_rooms = { "rooms", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseSubmarine, rooms), METADATA_PARAMS(Z_Construct_UClass_ABaseSubmarine_Statics::NewProp_rooms_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABaseSubmarine_Statics::NewProp_rooms_MetaData)) };
@@ -90,7 +91,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseSubmarine() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseSubmarine, 1848949170);
+	IMPLEMENT_CLASS(ABaseSubmarine, 1443879204);
 	template<> GGJ20_API UClass* StaticClass<ABaseSubmarine>()
 	{
 		return ABaseSubmarine::StaticClass();

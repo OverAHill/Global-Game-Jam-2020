@@ -13,7 +13,6 @@ ALadderCollider::ALadderCollider()
 	boxCollider = CreateDefaultSubobject<UBoxComponent>(FName("Box Collider"));
 	boxCollider->OnComponentBeginOverlap.AddDynamic(this, &ALadderCollider::OnOverlapBegin);
 	boxCollider->OnComponentEndOverlap.AddDynamic(this, &ALadderCollider::OnOverlapEnd);
-
 }
 
 // Called when the game starts or when spawned
