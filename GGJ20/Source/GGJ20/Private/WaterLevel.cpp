@@ -56,6 +56,9 @@ void AWaterLevel::Tick(float DeltaTime)
 
 void AWaterLevel::UpdateWaterLevel()
 {
+	//references to the hull repairable 
+	//only not filling if all of the hullrepairables are fixed
+
 	if (CurrentWaterLevel < maxWaterLevel && !draining)
 	{
 		filling = true;
@@ -72,4 +75,11 @@ void AWaterLevel::UpdateWaterLevel()
 		filling = true;
 		draining = false;
 	}
+
+
+//	for (int i = 0; i < hulls.Num(); i++)
+	//{
+		//if hull in pos I is broken
+		//drain false and fill is true 
+	//}
 }  

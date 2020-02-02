@@ -6,6 +6,8 @@
 #include "IRepairableBase.h"
 #include "HullRepairable.generated.h"
 
+class USphereComponent;
+//class WaterLevel;
 /**
  * 
  */
@@ -21,4 +23,12 @@ public:
 	virtual void Break() override;
 	virtual RepairTypes Repair() override;
 	virtual void SignalRepairCompleted(bool successful) override;
+
+	TArray<USphereComponent*> Rivets;
+	TArray<FVector2D> BaseColliderCoords;
+
+	virtual void GenerateRivets();
+	virtual void ResetRivetPos();
+
+	//WaterLevel* refWaterLevel;
 };

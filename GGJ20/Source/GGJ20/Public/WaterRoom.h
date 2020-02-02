@@ -6,6 +6,7 @@
 #include "BaseRoom.h"
 #include "WaterRoom.generated.h"
 
+//class HullRepairable;
 /**
  * 
  */
@@ -13,5 +14,7 @@ UCLASS()
 class GGJ20_API AWaterRoom : public ABaseRoom
 {
 	GENERATED_BODY()
-	
+
+
+		//HullRepairable* repairSpot;
 };

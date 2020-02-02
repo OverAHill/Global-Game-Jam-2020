@@ -56,6 +56,7 @@ void EmptyLinkFunctionForGeneratedCodeWaterLevel() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWaterLevel_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "WaterLevel.h" },
 		{ "ModuleRelativePath", "Public/WaterLevel.h" },
+		{ "ToolTip", "class HullRepairable;" },
 	};
 #endif
 #if WITH_METADATA
@@ -112,7 +113,7 @@ void EmptyLinkFunctionForGeneratedCodeWaterLevel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWaterLevel, 611672546);
+	IMPLEMENT_CLASS(AWaterLevel, 1097895379);
 	template<> GGJ20_API UClass* StaticClass<AWaterLevel>()
 	{
 		return AWaterLevel::StaticClass();
