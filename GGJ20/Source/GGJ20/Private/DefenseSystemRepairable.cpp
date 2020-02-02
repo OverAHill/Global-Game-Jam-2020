@@ -25,24 +25,6 @@ void ADefenseSystemRepairable::Tick(float DeltaTime)
 
 	UpdateNeedle(DeltaTime);
 
-
-	//update physical position of needle (Needle Mesh)
-	//It will depend on the style of dial
-
-	if (posDir)
-	{
-		FTransform t = NeedleMesh->GetRelativeTransform();
-		FRotator r = t.GetRotation().Rotator();
-		r.Add(0, 0, 1);
-		NeedleMesh->SetRelativeRotation(r);
-	}
-	else
-	{
-		FTransform t = NeedleMesh->GetRelativeTransform();
-		FRotator r = t.GetRotation().Rotator();
-		r.Add(0, 0, -1);
-		NeedleMesh->SetRelativeRotation(r);
-	}
 }
 
 
@@ -86,6 +68,25 @@ void ADefenseSystemRepairable::UpdateNeedle(float deltaTime)
 		else
 		{
 			needlePosition--;
+		}
+
+
+		//update physical position of needle (Needle Mesh)
+		//It will depend on the style of dial
+
+		if (posDir)
+		{
+			FTransform t = NeedleMesh->GetRelativeTransform();
+			FRotator r = t.GetRotation().Rotator();
+			r.Add(0, 0, 1);
+			NeedleMesh->SetRelativeRotation(r);
+		}
+		else
+		{
+			FTransform t = NeedleMesh->GetRelativeTransform();
+			FRotator r = t.GetRotation().Rotator();
+			r.Add(0, 0, -1);
+			NeedleMesh->SetRelativeRotation(r);
 		}
 	}
 }

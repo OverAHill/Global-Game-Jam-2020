@@ -1,6 +1,65 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020).
+  Creating makefile for GGJ20Editor (no existing makefile)
   Parsing headers for GGJ20Editor
-    Running UnrealHeaderTool "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 5.4701792 seconds
-  Target is up to date
-  Total execution time: 6.11 seconds
+    Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for GGJ20Editor in 5.9361698 seconds
+  Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 34 actions with 8 processes...
+    [1/34] Default.rc2
+    [2/34] SharedPCH.Engine.cpp
+    [3/34] GGJ20.cpp
+    [4/34] BaseRoom.cpp
+    [5/34] EngineRepairable.cpp
+    [6/34] IRepairableBase.cpp
+    [7/34] DefenseSystemRepairable.cpp
+    [8/34] HullRepairable.cpp
+    [9/34] ILightControllerBase.cpp
+    [10/34] RepairableEnum.cpp
+    [11/34] WaterLevel.cpp
+    [12/34] WaterRoom.cpp
+    [13/34] GeneratorRepairable.cpp
+    [14/34] BaseOctopus.gen.cpp
+    [15/34] HullRepairable.gen.cpp
+    [16/34] LadderCollider.cpp
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(66): warning C4263: 'void ABasePlayer::Crouch(float)': member function does not override any base class virtual member function
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(80): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+    [17/34] BaseRoom.gen.cpp
+    [18/34] DefenseSystemRepairable.gen.cpp
+    [19/34] EngineRepairable.gen.cpp
+    [20/34] GGJ20.init.gen.cpp
+    [21/34] GeneratorRepairable.gen.cpp
+    [22/34] BasePlayer.gen.cpp
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Public/BasePlayer.h(66): warning C4263: 'void ABasePlayer::Crouch(float)': member function does not override any base class virtual member function
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Public/BasePlayer.h(80): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+    [23/34] GGJ20GameModeBase.gen.cpp
+    [24/34] GGJ20GameModeBase.cpp
+    [25/34] ILightControllerBase.gen.cpp
+    [26/34] IRepairableBase.gen.cpp
+    [27/34] WaterLevel.gen.cpp
+    [28/34] WaterRoom.gen.cpp
+    [29/34] LadderCollider.gen.cpp
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(66): warning C4263: 'void ABasePlayer::Crouch(float)': member function does not override any base class virtual member function
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(80): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+    [30/34] BasePlayer.cpp
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(66): warning C4263: 'void ABasePlayer::Crouch(float)': member function does not override any base class virtual member function
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(80): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+    [31/34] BaseOctopus.cpp
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(66): warning C4263: 'void ABasePlayer::Crouch(float)': member function does not override any base class virtual member function
+C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(80): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
+    C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
+    [32/34] UE4Editor-GGJ20.lib
+       Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.exp
+    [33/34] UE4Editor-GGJ20.dll
+       Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.exp
+    [34/34] GGJ20Editor.target
+  Total time in Parallel executor: 37.49 seconds
+  Total execution time: 45.65 seconds
