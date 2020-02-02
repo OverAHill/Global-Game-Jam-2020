@@ -194,11 +194,19 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"
-/I C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine
-/Yc"C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h.obj"
+<<<<<<< HEAD
+/I C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine
+/Yc"C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h.obj"
+=======
+/I "F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine"
+/Yc"F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h"
+/Fp"F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h.pch"
+"F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\Engine\SharedPCH.Engine.h.obj"
+>>>>>>> MattLevel
 /TP
 /GR-
 /W4
