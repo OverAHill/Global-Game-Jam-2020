@@ -9,6 +9,8 @@
 /**
  * 
  */
+class AWaterLevel;
+
 UCLASS()
 class GGJ20_API AGeneratorRepairable : public AIRepairableBase
 {
@@ -21,4 +23,7 @@ public:
 	virtual void Break() override;
 	virtual RepairTypes Repair() override;
 	virtual void SignalRepairCompleted(bool successful) override;
+
+	UPROPERTY(EditAnywhere)
+		AWaterLevel* refToWater;
 };

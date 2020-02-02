@@ -387,6 +387,7 @@
     <ClCompile Include="..\..\Source\GGJ20\Private\IRepairableBase.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\LadderCollider.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\RepairableEnum.cpp"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\Rivet.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterLevel.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterRoom.cpp"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h"/>
@@ -400,6 +401,7 @@
     <ClInclude Include="..\..\Source\GGJ20\Public\IRepairableBase.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\LadderCollider.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\RepairableEnum.h"/>
+    <ClInclude Include="..\..\Source\GGJ20\Public\Rivet.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterLevel.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterRoom.h"/>
   </ItemGroup>

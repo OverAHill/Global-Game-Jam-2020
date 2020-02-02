@@ -33,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeWaterLevel() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_drainSpeed_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_drainSpeed;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fillSpeed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_fillSpeed;
@@ -59,6 +63,13 @@ void EmptyLinkFunctionForGeneratedCodeWaterLevel() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWaterLevel_Statics::NewProp_drainSpeed_MetaData[] = {
+		{ "Category", "WaterLevel" },
+		{ "ModuleRelativePath", "Public/WaterLevel.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AWaterLevel_Statics::NewProp_drainSpeed = { "drainSpeed", nullptr, (EPropertyFlags)0x0040000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWaterLevel, drainSpeed), METADATA_PARAMS(Z_Construct_UClass_AWaterLevel_Statics::NewProp_drainSpeed_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWaterLevel_Statics::NewProp_drainSpeed_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AWaterLevel_Statics::NewProp_fillSpeed_MetaData[] = {
 		{ "Category", "WaterLevel" },
 		{ "ModuleRelativePath", "Public/WaterLevel.h" },
@@ -81,6 +92,7 @@ void EmptyLinkFunctionForGeneratedCodeWaterLevel() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AWaterLevel_Statics::NewProp_WaterMesh = { "WaterMesh", nullptr, (EPropertyFlags)0x00400000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AWaterLevel, WaterMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AWaterLevel_Statics::NewProp_WaterMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_AWaterLevel_Statics::NewProp_WaterMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AWaterLevel_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWaterLevel_Statics::NewProp_drainSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWaterLevel_Statics::NewProp_fillSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWaterLevel_Statics::NewProp_positionOffsetY,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AWaterLevel_Statics::NewProp_WaterMesh,
@@ -112,7 +124,7 @@ void EmptyLinkFunctionForGeneratedCodeWaterLevel() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AWaterLevel, 611672546);
+	IMPLEMENT_CLASS(AWaterLevel, 3420101032);
 	template<> GGJ20_API UClass* StaticClass<AWaterLevel>()
 	{
 		return AWaterLevel::StaticClass();

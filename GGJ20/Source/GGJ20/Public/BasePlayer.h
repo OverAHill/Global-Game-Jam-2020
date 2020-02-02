@@ -41,6 +41,9 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	bool cameraLocked;
+	bool movementLocked;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -52,6 +55,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
 		FVector CurrentVelocity;
 		FVector CurrentRotation;
+
+		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
+			FVector vectorToPrint;
 
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);

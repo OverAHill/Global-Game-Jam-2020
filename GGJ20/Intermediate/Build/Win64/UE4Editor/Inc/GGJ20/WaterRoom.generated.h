@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GGJ20_WaterRoom_generated_h
 
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_RPC_WRAPPERS
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_INCLASS_NO_PURE_DECLS \
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_RPC_WRAPPERS
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWaterRoom(); \
 	friend struct Z_Construct_UClass_AWaterRoom_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AWaterRoom)
 
 
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_INCLASS \
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAWaterRoom(); \
 	friend struct Z_Construct_UClass_AWaterRoom_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AWaterRoom)
 
 
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_STANDARD_CONSTRUCTORS \
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWaterRoom(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWaterRoom) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_ENHANCED_CONSTRUCTORS \
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWaterRoom() { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWaterRoom); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AWaterRoom)
 
 
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_PRIVATE_PROPERTY_OFFSET
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_12_PROLOG
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_GENERATED_BODY_LEGACY \
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_PRIVATE_PROPERTY_OFFSET
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_13_PROLOG
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_PRIVATE_PROPERTY_OFFSET \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_RPC_WRAPPERS \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_INCLASS \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_STANDARD_CONSTRUCTORS \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_PRIVATE_PROPERTY_OFFSET \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_RPC_WRAPPERS \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_INCLASS \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GGJ20_Source_GGJ20_Public_WaterRoom_h_15_GENERATED_BODY \
+#define GGJ20_Source_GGJ20_Public_WaterRoom_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_PRIVATE_PROPERTY_OFFSET \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_INCLASS_NO_PURE_DECLS \
-	GGJ20_Source_GGJ20_Public_WaterRoom_h_15_ENHANCED_CONSTRUCTORS \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_PRIVATE_PROPERTY_OFFSET \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_INCLASS_NO_PURE_DECLS \
+	GGJ20_Source_GGJ20_Public_WaterRoom_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

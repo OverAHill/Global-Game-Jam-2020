@@ -176,6 +176,10 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_currentTool;
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_currentTool_Underlying;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_vectorToPrint_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_vectorToPrint;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentVelocity_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_CurrentVelocity;
@@ -212,6 +216,13 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABasePlayer_Statics::NewProp_currentTool = { "currentTool", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasePlayer, currentTool), Z_Construct_UEnum_GGJ20_Tools, METADATA_PARAMS(Z_Construct_UClass_ABasePlayer_Statics::NewProp_currentTool_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABasePlayer_Statics::NewProp_currentTool_MetaData)) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABasePlayer_Statics::NewProp_currentTool_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePlayer_Statics::NewProp_vectorToPrint_MetaData[] = {
+		{ "Category", "Player_Movement" },
+		{ "ModuleRelativePath", "Public/BasePlayer.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ABasePlayer_Statics::NewProp_vectorToPrint = { "vectorToPrint", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABasePlayer, vectorToPrint), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ABasePlayer_Statics::NewProp_vectorToPrint_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABasePlayer_Statics::NewProp_vectorToPrint_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasePlayer_Statics::NewProp_CurrentVelocity_MetaData[] = {
 		{ "Category", "Player_Movement" },
 		{ "ModuleRelativePath", "Public/BasePlayer.h" },
@@ -229,6 +240,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABasePlayer_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePlayer_Statics::NewProp_currentTool,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePlayer_Statics::NewProp_currentTool_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePlayer_Statics::NewProp_vectorToPrint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePlayer_Statics::NewProp_CurrentVelocity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasePlayer_Statics::NewProp_PlayerFirstPersonCamera,
 	};
@@ -259,7 +271,7 @@ void EmptyLinkFunctionForGeneratedCodeBasePlayer() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABasePlayer, 2411334429);
+	IMPLEMENT_CLASS(ABasePlayer, 1093803918);
 	template<> GGJ20_API UClass* StaticClass<ABasePlayer>()
 	{
 		return ABasePlayer::StaticClass();

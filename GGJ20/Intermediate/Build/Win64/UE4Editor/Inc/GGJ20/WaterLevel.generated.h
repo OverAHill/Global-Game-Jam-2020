@@ -60,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AWaterLevel); \
 #define GGJ20_Source_GGJ20_Public_WaterLevel_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__WaterMesh() { return STRUCT_OFFSET(AWaterLevel, WaterMesh); } \
 	FORCEINLINE static uint32 __PPO__positionOffsetY() { return STRUCT_OFFSET(AWaterLevel, positionOffsetY); } \
-	FORCEINLINE static uint32 __PPO__fillSpeed() { return STRUCT_OFFSET(AWaterLevel, fillSpeed); }
+	FORCEINLINE static uint32 __PPO__fillSpeed() { return STRUCT_OFFSET(AWaterLevel, fillSpeed); } \
+	FORCEINLINE static uint32 __PPO__drainSpeed() { return STRUCT_OFFSET(AWaterLevel, drainSpeed); }
 
 
 #define GGJ20_Source_GGJ20_Public_WaterLevel_h_11_PROLOG
