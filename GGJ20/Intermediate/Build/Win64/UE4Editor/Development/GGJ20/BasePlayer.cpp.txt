@@ -680,3 +680,5 @@ C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
 C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\IRepairableBase.h
 C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\IRepairableBase.generated.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\DefenseSystemRepairable.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\DefenseSystemRepairable.generated.h
