@@ -1,7 +1,7 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020).
-  Creating makefile for GGJ20Editor (ini files are newer than makefile)
+  Creating makefile for GGJ20Editor (no existing makefile)
   Parsing headers for GGJ20Editor
     Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 6.860336 seconds
+  Reflection code generated for GGJ20Editor in 6.5468764 seconds
   Target is up to date
-  Total execution time: 8.85 seconds
+  Total execution time: 9.26 seconds
