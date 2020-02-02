@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
@@ -5,3 +6,12 @@ C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Publi
 C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\IRepairableBase.h
 C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\IRepairableBase.generated.h
 C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\DefenseSystemRepairable.generated.h
+=======
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Public/DefenseSystemRepairable.h
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\IRepairableBase.h
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\IRepairableBase.generated.h
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\DefenseSystemRepairable.generated.h
+>>>>>>> MattLevel

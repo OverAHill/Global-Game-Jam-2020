@@ -3,7 +3,11 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
+<<<<<<< HEAD
       <UniqueIdentifier>{B97E52AD-602C-4463-84FF-7EBAC0BA0C45}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{CBFE4688-94C6-4CD8-B2BA-254314FA2B0A}</UniqueIdentifier>
+>>>>>>> MattLevel
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +16,11 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
+<<<<<<< HEAD
       <UniqueIdentifier>{95DB614A-4512-47F3-B81A-B9342CFE1872}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{8CEF505E-9465-455B-9F1E-F799F67DD978}</UniqueIdentifier>
+>>>>>>> MattLevel
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +35,11 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
+<<<<<<< HEAD
       <UniqueIdentifier>{B4470BF0-0FFF-455B-B949-A908967464B3}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{5883D72B-547E-4D04-A058-228C7F892021}</UniqueIdentifier>
+>>>>>>> MattLevel
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,7 +57,11 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
+<<<<<<< HEAD
       <UniqueIdentifier>{F10ADFD9-E299-49A7-BAF3-1F9626017446}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{CE819EF8-C34A-4C81-8387-FFFE1850B8BD}</UniqueIdentifier>
+>>>>>>> MattLevel
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp">
       <Filter>Source\GGJ20\Private</Filter>
@@ -90,7 +106,11 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
+<<<<<<< HEAD
       <UniqueIdentifier>{3B44DC10-539E-4DE7-BE25-DBB1D3DDB9F2}</UniqueIdentifier>
+=======
+      <UniqueIdentifier>{96E13C57-B923-457A-9BF9-2C9764936043}</UniqueIdentifier>
+>>>>>>> MattLevel
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h">
       <Filter>Source\GGJ20\Public</Filter>
@@ -135,6 +155,7 @@
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseSubmarine.h">
       <Filter>Source\GGJ20\Public</Filter>
@@ -176,3 +197,6 @@
     </ClCompile>
   </ItemGroup>
 </Project>
+=======
+</Project>
+>>>>>>> MattLevel
