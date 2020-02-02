@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20\GGJ20.Build.cs
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20.Target.cs
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20Editor.Target.cs
+=======
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\GGJ20.Build.cs
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20.Target.cs
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20Editor.Target.cs
+>>>>>>> MattFinalLevelBranch

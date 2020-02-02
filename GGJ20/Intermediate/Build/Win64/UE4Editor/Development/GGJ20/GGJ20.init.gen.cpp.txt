@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+=======
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+>>>>>>> MattFinalLevelBranch
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

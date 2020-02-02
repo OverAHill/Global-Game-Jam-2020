@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Public/WeldingPoint.h
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\WeldingPoint.generated.h
+=======
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20/Public/WeldingPoint.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\WeldingPoint.generated.h
+>>>>>>> MattFinalLevelBranch

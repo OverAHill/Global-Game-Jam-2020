@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\GeneratorRepairable.h
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\IRepairableBase.h
@@ -5,3 +6,12 @@ F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\GeneratorRepairable.generated.h
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\WaterLevel.h
 F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\WaterLevel.generated.h
+=======
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\GeneratorRepairable.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\IRepairableBase.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\IRepairableBase.generated.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\GeneratorRepairable.generated.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\WaterLevel.h
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\WaterLevel.generated.h
+>>>>>>> MattFinalLevelBranch
