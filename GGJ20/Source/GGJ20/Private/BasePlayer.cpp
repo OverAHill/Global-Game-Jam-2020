@@ -201,8 +201,11 @@ void ABasePlayer::Repair()
 				if (hitSphere)
 				{
 					AHullRepairable* hull = Cast<AHullRepairable>(currentRepairTarget);
-					int fixedRivets = hull->HitRivets(hitSphere);
-					if (fixedRivets == 4)
+					//int fixedRivets = hull->HitRivets(hitSphere);
+					hull->RepairRivet();
+					int fixedRivets = hull->amountOfFixedRivets;
+
+					if (fixedRivets >= 4)
 					{
 						hull->SignalRepairCompleted(true);
 						currentlyRepairing = false;

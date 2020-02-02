@@ -35,6 +35,8 @@ public:
 	float verticalHeight;
 	int amountOfFixedRivets = 4;
 
+	void RepairRivet() { amountOfFixedRivets++; }
+
 	virtual void GenerateRivets();
 
 	UPROPERTY(EditAnywhere)

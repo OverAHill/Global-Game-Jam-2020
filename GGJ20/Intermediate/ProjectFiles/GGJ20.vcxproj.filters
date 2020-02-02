@@ -4,10 +4,14 @@
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{B97E52AD-602C-4463-84FF-7EBAC0BA0C45}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{CBFE4688-94C6-4CD8-B2BA-254314FA2B0A}</UniqueIdentifier>
 >>>>>>> MattLevel
+=======
+      <UniqueIdentifier>{14E360CF-E44D-4C71-B812-5631433816F1}</UniqueIdentifier>
+>>>>>>> AngAttemptToFix
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -17,10 +21,14 @@
     </None>
     <Filter Include="Config">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{95DB614A-4512-47F3-B81A-B9342CFE1872}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{8CEF505E-9465-455B-9F1E-F799F67DD978}</UniqueIdentifier>
 >>>>>>> MattLevel
+=======
+      <UniqueIdentifier>{50F5F5E2-65C4-4EB9-BBE9-D9F810E35F9D}</UniqueIdentifier>
+>>>>>>> AngAttemptToFix
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -36,10 +44,14 @@
     </None>
     <Filter Include="Source\GGJ20">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{B4470BF0-0FFF-455B-B949-A908967464B3}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{5883D72B-547E-4D04-A058-228C7F892021}</UniqueIdentifier>
 >>>>>>> MattLevel
+=======
+      <UniqueIdentifier>{98E62296-A3EC-4C83-B67C-CB01C4C0B795}</UniqueIdentifier>
+>>>>>>> AngAttemptToFix
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -58,11 +70,18 @@
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{F10ADFD9-E299-49A7-BAF3-1F9626017446}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{CE819EF8-C34A-4C81-8387-FFFE1850B8BD}</UniqueIdentifier>
 >>>>>>> MattLevel
+=======
+      <UniqueIdentifier>{811E902B-560E-40EE-94AF-14454741E2FA}</UniqueIdentifier>
+>>>>>>> AngAttemptToFix
     </Filter>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseDoor.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
@@ -72,13 +91,25 @@
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseRoom.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\BaseSubmarine.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\DefenceRoom.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\DefenseSystemRepairable.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\EngineRepairable.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\EngineRoom.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\GeneratorRepairable.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\GeneratorRoom.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\HullRepairable.cpp">
@@ -105,13 +136,23 @@
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterRoom.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\WinRegion.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\GGJ20\Public">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <UniqueIdentifier>{3B44DC10-539E-4DE7-BE25-DBB1D3DDB9F2}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{96E13C57-B923-457A-9BF9-2C9764936043}</UniqueIdentifier>
 >>>>>>> MattLevel
+=======
+      <UniqueIdentifier>{0DA0D5DD-1B7F-4107-BE59-EA5FD6A7277F}</UniqueIdentifier>
+>>>>>>> AngAttemptToFix
     </Filter>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseDoor.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
@@ -121,13 +162,25 @@
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseRoom.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\BaseSubmarine.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\DefenceRoom.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\DefenseSystemRepairable.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\EngineRepairable.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\EngineRoom.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\GeneratorRepairable.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\GeneratorRoom.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\HullRepairable.h">
@@ -154,6 +207,7 @@
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterRoom.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
+<<<<<<< HEAD
   </ItemGroup>
 <<<<<<< HEAD
   <ItemGroup>
@@ -169,34 +223,16 @@
     <ClInclude Include="..\..\Source\GGJ20\Public\DefenceRoom.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
+=======
+>>>>>>> AngAttemptToFix
     <ClInclude Include="..\..\Source\GGJ20\Public\WinRegion.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\GGJ20\Public\BaseDoor.h">
-      <Filter>Source\GGJ20\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\GGJ20\Private\BaseSubmarine.cpp">
-      <Filter>Source\GGJ20\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GGJ20\Private\EngineRoom.cpp">
-      <Filter>Source\GGJ20\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GGJ20\Private\GeneratorRoom.cpp">
-      <Filter>Source\GGJ20\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GGJ20\Private\DefenceRoom.cpp">
-      <Filter>Source\GGJ20\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GGJ20\Private\WinRegion.cpp">
-      <Filter>Source\GGJ20\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\GGJ20\Private\BaseDoor.cpp">
-      <Filter>Source\GGJ20\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
+<<<<<<< HEAD
 =======
 </Project>
 >>>>>>> MattLevel
+=======
+>>>>>>> AngAttemptToFix

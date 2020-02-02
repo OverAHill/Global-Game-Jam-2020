@@ -1,0 +1,1591 @@
+﻿Log file open, 02/02/20 12:14:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GGJ20
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.377079
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.02-12.14.48:173][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.02-12.14.48:173][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.02-12.14.48:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-12.14.48:173][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.02-12.14.48:173][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.02-12.14.48:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-12.14.48:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.02-12.14.48:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.02-12.14.48:175][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-12.14.48:175][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-12.14.48:183][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:183][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-12.14.48:183][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-12.14.48:183][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-12.14.48:184][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-12.14.48:185][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-12.14.48:186][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-12.14.48:187][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-12.14.48:188][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-12.14.48:189][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-12.14.48:189][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-12.14.48:189][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-12.14.48:189][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-12.14.48:189][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:189][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-12.14.48:189][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-12.14.48:189][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-12.14.48:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.02-12.14.48:208][  0]LogHAL: Display: Platform has ~ 32 GB [34065854464 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.02-12.14.48:208][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.02-12.14.48:208][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.02-12.14.48:208][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:208][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-12.14.48:208][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-12.14.48:208][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:208][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-12.14.48:208][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:208][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-12.14.48:209][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-12.14.48:210][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-12.14.48:211][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-12.14.48:212][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-12.14.48:213][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.02-12.14.48:214][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.02-12.14.48:214][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.02-12.14.48:214][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-12.14.48:214][  0]LogInit: Computer: C117B-20
+[2020.02.02-12.14.48:214][  0]LogInit: User: h017026h
+[2020.02.02-12.14.48:214][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.02-12.14.48:214][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.02-12.14.48:214][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2020.02.02-12.14.48:214][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.02-12.14.48:214][  0]LogMemory: Process Physical Memory: 97.94 MB used, 97.95 MB peak
+[2020.02.02-12.14.48:215][  0]LogMemory: Process Virtual Memory: 89.11 MB used, 89.11 MB peak
+[2020.02.02-12.14.48:215][  0]LogMemory: Physical Memory: 10478.82 MB used,  22008.91 MB free, 32487.73 MB total
+[2020.02.02-12.14.48:215][  0]LogMemory: Virtual Memory: 4642.67 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2020.02.02-12.14.48:403][  0]LogInit: Using OS detected language (en-US).
+[2020.02.02-12.14.48:403][  0]LogInit: Using OS detected locale (en-GB).
+[2020.02.02-12.14.48:404][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.02-12.14.48:591][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.02-12.14.48:646][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.02-12.14.48:646][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.02-12.14.48:859][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-12.14.48:859][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.02-12.14.48:949][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.02.02-12.14.48:949][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.02-12.14.48:957][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.02-12.14.48:957][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.02-12.14.48:957][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.02-12.14.48:965][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.02-12.14.48:965][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.02-12.14.48:965][  0]LogWindows: EnumDisplayDevices:
+[2020.02.02-12.14.48:966][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.02.02-12.14.48:966][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.02.02-12.14.48:966][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-12.14.48:966][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-12.14.48:967][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.02-12.14.48:967][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.02.02-12.14.48:967][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.02.02-12.14.48:967][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.02.02-12.14.48:967][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.02.02-12.14.49:014][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.02-12.14.49:018][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-12.14.49:018][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-12.14.49:018][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-12.14.49:026][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.02-12.14.49:343][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.02-12.14.49:363][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.02-12.14.49:379][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.02-12.14.49:395][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.02-12.14.49:411][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.02-12.14.49:427][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.02-12.14.49:449][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.02-12.14.49:465][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.02-12.14.49:476][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.02-12.14.49:564][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.02-12.14.49:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.02-12.14.49:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.02-12.14.49:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.02-12.14.49:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.02-12.14.49:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.02-12.14.49:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.02-12.14.49:565][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.02-12.14.49:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.02-12.14.49:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.02-12.14.49:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.02-12.14.49:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.02-12.14.49:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.02-12.14.49:566][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.02-12.14.49:567][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.02-12.14.49:567][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.02-12.14.49:567][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.02-12.14.49:567][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.02-12.14.49:583][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.02-12.14.49:657][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.02-12.14.49:657][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.02-12.14.49:683][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.02-12.14.49:683][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.02-12.14.49:704][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.02-12.14.49:722][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.02-12.14.49:741][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.02-12.14.49:759][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.02-12.14.49:811][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.02-12.14.49:811][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.02-12.14.49:811][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.02-12.14.49:835][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.02-12.14.49:966][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Intermediate/Shaders/WorkingDirectory/7332/).
+[2020.02.02-12.14.49:966][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/4974CD2546715C134872949044AD4D98/'.
+[2020.02.02-12.14.49:969][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.02-12.14.49:970][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.02-12.14.49:970][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.02-12.14.49:970][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.02-12.14.50:551][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.02-12.14.50:603][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-12.14.50:603][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.02-12.14.50:603][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.02-12.14.50:603][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.02-12.14.50:604][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-12.14.50:604][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.02-12.14.50:617][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.02-12.14.50:617][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-12.14.50:617][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.02-12.14.50:631][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.02-12.14.50:631][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.02-12.14.50:632][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.02-12.14.50:654][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.02-12.14.50:658][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.02-12.14.50:659][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.02-12.14.50:739][  0]LogAssetRegistry: FAssetRegistry took 0.0355 seconds to start up
+[2020.02.02-12.14.51:130][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-12.14.51:305][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.02-12.14.51:305][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.02-12.14.51:305][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.02-12.14.51:305][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.02-12.14.51:305][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.02-12.14.51:319][  0]LogNetVersion: GGJ20 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2452190960)
+[2020.02.02-12.14.51:737][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.056560 seconds
+[2020.02.02-12.14.51:747][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.02-12.14.51:747][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.02-12.14.51:747][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.02-12.14.52:678][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.02-12.14.52:696][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.02-12.14.52:915][  0]SourceControl: Source control is disabled
+[2020.02.02-12.14.52:915][  0]SourceControl: Source control is disabled
+[2020.02.02-12.14.52:917][  0]SourceControl: Source control is disabled
+[2020.02.02-12.14.52:920][  0]SourceControl: Source control is disabled
+[2020.02.02-12.14.53:065][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.02-12.14.53:185][  0]LogOcInput: OculusInput pre-init called
+[2020.02.02-12.14.53:889][  0]LogEngine: Initializing Engine...
+[2020.02.02-12.14.53:891][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-12.14.53:893][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.02-12.14.54:100][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.02-12.14.54:120][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-12.14.54:141][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-12.14.54:167][  0]LogInit: FAudioDevice initialized.
+[2020.02.02-12.14.54:167][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.02-12.14.54:216][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-12.14.54:225][  0]LogInit: Texture streaming: Enabled
+[2020.02.02-12.14.54:251][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.02-12.14.54:251][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={EC42F245-466D-14A9-BB3E-D3BAE915FACB}
+[2020.02.02-12.14.54:270][  0]LogInit: Transaction tracking system initialized
+[2020.02.02-12.14.54:322][  0]BlueprintLog: New page: Editor Load
+[2020.02.02-12.14.54:468][  0]LocalizationService: Localization service is disabled
+[2020.02.02-12.14.54:806][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/' took 0.01s
+[2020.02.02-12.14.54:806][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.02-12.14.54:806][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.02-12.14.55:060][  0]SourceControl: Source control is disabled
+[2020.02.02-12.14.55:061][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-12.14.55:061][  0]LightingResults: New page: Lighting Build
+[2020.02.02-12.14.55:064][  0]MapCheck: New page: Map Check
+[2020.02.02-12.14.55:064][  0]LightingResults: New page: Lighting Build
+[2020.02.02-12.14.55:103][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2020.02.02-12.14.55:179][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.02.02-12.14.55:188][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-12.14.55:226][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2020.02.02-12.14.55:226][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-12.14.55:227][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.349ms to complete.
+[2020.02.02-12.14.55:227][  0]LogFileHelpers: Loading map 'Template_Default' took 0.167
+[2020.02.02-12.14.55:356][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-12.14.55:363][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-12.14.55:370][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-12.14.55:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-12.14.55:392][  0]LogCollectionManager: Loaded 0 collections in 0.001745 seconds
+[2020.02.02-12.14.55:450][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Collections/' took 0.01s
+[2020.02.02-12.14.55:450][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Developers/h017026h/Collections/' took 0.02s
+[2020.02.02-12.14.55:450][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Collections/' took 0.02s
+[2020.02.02-12.14.55:450][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.02-12.14.55:471][  0]LogContentBrowser: Native class hierarchy populated in 0.0202 seconds. Added 2752 classes and 662 folders.
+[2020.02.02-12.14.55:485][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.02-12.14.55:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:488][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:491][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:492][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:493][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:494][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:496][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:497][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:499][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:501][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:503][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:504][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:506][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:506][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:507][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:508][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:509][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:511][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:512][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:513][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:515][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:516][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-12.14.55:543][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.02-12.14.55:551][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.02.02-12.14.55:575][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-12.14.55:579][  0]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-12.14.55:585][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-12.14.55:648][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.02.02-12.14.55:760][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.02-12.14.55:760][  0]LogLoad: (Engine Initialization) Total time: 9.64 seconds
+[2020.02.02-12.14.55:760][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.02-12.14.55:797][  0]LogAssetRegistry: Asset discovery search completed in 5.0832 seconds
+[2020.02.02-12.14.55:801][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.02.02-12.14.55:801][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000193 seconds (updated 0 objects)
+[2020.02.02-12.14.55:803][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.02-12.14.55:830][  0]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-12.15.19:778][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-12.15.20:993][  4]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-12.15.21:043][  4]LogLinker: Warning: Can't find file '/Game/Maps/Untitled_BuiltData'
+[2020.02.02-12.15.21:044][  4]LogLinker: Warning: Can't find file for asset '/Game/Maps/Untitled_BuiltData' while loading NULL.
+[2020.02.02-12.15.21:047][  4]LogLinker: Warning: Can't find file '/Game/Maps/Untitled_BuiltData'
+[2020.02.02-12.15.21:048][  4]LogLinker: Warning: Can't find file for asset '/Game/Maps/Untitled_BuiltData' while loading NULL.
+[2020.02.02-12.15.21:049][  4]LogLinker: Warning: Can't find file '/Game/Maps/Untitled_BuiltData'
+[2020.02.02-12.15.21:050][  4]LogLinker: Warning: Can't find file for asset '/Game/Maps/Untitled_BuiltData' while loading NULL.
+[2020.02.02-12.15.21:050][  4]LogLinker: Warning: Can't find file '/Game/Maps/Untitled_BuiltData'
+[2020.02.02-12.15.21:051][  4]LogLinker: Warning: Can't find file for asset '/Game/Maps/Untitled_BuiltData' while loading NULL.
+[2020.02.02-12.15.21:066][  4]LogLinker: Warning: Can't find file '/Game/Maps/Untitled_BuiltData'
+[2020.02.02-12.15.21:067][  4]LoadErrors: Failed to load /Game/Maps/Untitled_BuiltData.Untitled_BuiltData Referenced by PersistentLevel
+[2020.02.02-12.15.21:068][  4]LogLinker: Warning: Can't find file for asset '/Game/Maps/Untitled_BuiltData' while loading NULL.
+[2020.02.02-12.15.21:079][  4]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-12.15.21:080][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:081][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:081][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:082][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:083][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_30 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:084][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:084][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_32 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:085][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:089][  4]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Untitled.Untitled
+[2020.02.02-12.15.21:119][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.02.02-12.15.21:120][  4]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-12.15.21:120][  4]LightingResults: New page: Lighting Build
+[2020.02.02-12.15.21:121][  4]LoadErrors: New page: Loading map: Untitled.umap
+[2020.02.02-12.15.21:121][  4]MapCheck: New page: Map Check
+[2020.02.02-12.15.21:121][  4]LightingResults: New page: Lighting Build
+[2020.02.02-12.15.21:148][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.02.02-12.15.21:150][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:151][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:151][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:152][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:154][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_42 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:155][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_43 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:155][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_44 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:156][  4]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_45 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.21:158][  4]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-12.15.21:185][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2020.02.02-12.15.21:210][  4]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-12.15.21:211][  4]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.189ms to complete.
+[2020.02.02-12.15.21:211][  4]LogFileHelpers: Loading map 'Untitled' took 0.091
+[2020.02.02-12.15.26:430][617]LogActor: Warning: BP_WaterLevel_C /Engine/Transient.World_1:PersistentLevel.BP_WaterLevel_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.26:460][619]LogActor: Warning: BPRivet_C /Engine/Transient.World_2:PersistentLevel.BPRivet_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.26:471][620]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.26:472][620]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.26:472][620]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.26:473][620]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.26:488][621]LogActor: Warning: BPDefenseSystemRepairable_C /Engine/Transient.World_4:PersistentLevel.BPDefenseSystemRepairable_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.37:501][933]LogActor: Warning: BP_LightControllerBase_C /Game/Maps/Untitled.Untitled:PersistentLevel.BP_LightControllerBase_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.37:856][975]LogActor: Warning: BP_LightControllerBase_C /Game/Maps/Untitled.Untitled:PersistentLevel.BP_LightControllerBase_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.44:158][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-12.15.47:594][ 75]LogSlate: Window 'Color Picker' being destroyed
+[2020.02.02-12.15.50:532][413]LogEditorViewport: Clicking on Actor (LMB): BPHullRepairable_C (BPHullRepairable)
+[2020.02.02-12.15.53:938][800]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-12.15.54:066][813]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.54:067][813]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.54:068][813]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.54:069][813]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.54:828][900]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
+[2020.02.02-12.15.56:159][ 51]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_58 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.56:159][ 51]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_59 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.56:160][ 51]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_60 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.15.56:160][ 51]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_61 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.00:180][516]Candidate modules for hot reload:
+[2020.02.02-12.16.00:180][516]  GGJ20
+[2020.02.02-12.16.00:180][516]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GGJ20,8682 Win64 Development -TargetType=Editor -Project="C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/GGJ20.uproject" "C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/GGJ20.uproject"  -IgnoreJunk]
+[2020.02.02-12.16.00:186][516]Warning: Starting HotReload took  0.0s.
+[2020.02.02-12.16.12:443][152]CompilerResultsLog: New page: Compilation - 2 Feb 2020 12:16:12
+[2020.02.02-12.16.12:443][152]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020).
+[2020.02.02-12.16.12:443][152]CompilerResultsLog: Creating makefile for GGJ20Editor (ini files are newer than makefile)
+[2020.02.02-12.16.12:443][152]CompilerResultsLog: Parsing headers for GGJ20Editor
+[2020.02.02-12.16.12:443][152]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.02-12.16.12:443][152]CompilerResultsLog: Reflection code generated for GGJ20Editor in 6.349755 seconds
+[2020.02.02-12.16.12:444][152]CompilerResultsLog: Failed to delete file 'C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb'
+[2020.02.02-12.16.12:444][152]CompilerResultsLog:     Exception: Access to the path 'C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb' is denied.
+[2020.02.02-12.16.12:444][152]CompilerResultsLog: Attempting to retry...
+[2020.02.02-12.16.12:444][152]CompilerResultsLog: Failed to delete file 'C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb'
+[2020.02.02-12.16.12:444][152]CompilerResultsLog:     Exception: Access to the path 'C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb' is denied.
+[2020.02.02-12.16.12:444][152]CompilerResultsLog: Attempting to retry...
+[2020.02.02-12.16.12:444][152]CompilerResultsLog: Failed to delete file 'C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb'
+[2020.02.02-12.16.12:444][152]CompilerResultsLog:     Exception: Access to the path 'C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb' is denied.
+[2020.02.02-12.16.12:445][152]CompilerResultsLog: ERROR: Exhausted all retries!
+[2020.02.02-12.16.12:445][152]CompilerResultsLog: Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.02-12.16.12:445][152]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.02-12.16.12:445][152]CompilerResultsLog:   [1/3] UE4Editor-GGJ20-8682.lib
+[2020.02.02-12.16.12:445][152]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-8682.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-8682.exp
+[2020.02.02-12.16.12:445][152]CompilerResultsLog:   [2/3] UE4Editor-GGJ20-8682.dll
+[2020.02.02-12.16.12:445][152]CompilerResultsLog:      Creating library C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-8682.suppressed.lib and object C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20-8682.suppressed.exp
+[2020.02.02-12.16.12:445][152]CompilerResultsLog:   [3/3] GGJ20Editor.target
+[2020.02.02-12.16.12:446][152]CompilerResultsLog: Total time in Parallel executor: 1.52 seconds
+[2020.02.02-12.16.12:446][152]CompilerResultsLog: Total execution time: 12.16 seconds
+[2020.02.02-12.16.12:446][152]LogMainFrame: MainFrame: Module compiling took 12.269 seconds
+[2020.02.02-12.16.12:474][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.02.02-12.16.12:545][152]LogClass: Tools HotReload.
+[2020.02.02-12.16.12:545][152]LogClass: RepairTypes HotReload.
+[2020.02.02-12.16.12:554][152]LogHotReload: Re-instancing Rivet after hot-reload.
+[2020.02.02-12.16.12:559][152]LogActor: Warning: BPRivet_C /Engine/Transient.World_2:PersistentLevel.BPRivet_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:559][152]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_25 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:560][152]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:560][152]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:561][152]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:561][152]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_13 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:562][152]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:562][152]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:563][152]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:639][152]LogActor: Warning: Rivet /Game/Maps/Untitled.Untitled:PersistentLevel.Rivet 1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:640][152]LogActor: Warning: Rivet /Game/Maps/Untitled.Untitled:PersistentLevel.Rivet 2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:641][152]LogActor: Warning: Rivet /Game/Maps/Untitled.Untitled:PersistentLevel.Rivet 3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:642][152]LogActor: Warning: Rivet /Game/Maps/Untitled.Untitled:PersistentLevel.Rivet 4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-12.16.12:713][152]LogContentBrowser: Native class hierarchy updated for 'GGJ20' in 0.0005 seconds. Added 20 classes and 3 folders.
+[2020.02.02-12.16.12:718][152]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.02-12.16.12:878][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2020.02.02-12.16.12:890][152]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2753 classes and 664 folders.
+[2020.02.02-12.16.12:891][152]Display: HotReload took 12.7s.
+[2020.02.02-12.16.13:470][219]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-12.16.13:486][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-12.16.13:487][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-12.16.13:487][219]PIE: New page: PIE session: Untitled (2 Feb 2020 12:16:13)
+[2020.02.02-12.16.13:501][219]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2020.02.02-12.16.13:506][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003772s)
+[2020.02.02-12.16.13:506][219]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-12.16.13:507][219]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2020.02.02-12.16.13:507][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.005493s)
+[2020.02.02-12.16.13:535][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.02.02-12.16.13:546][219]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-12.16.13:562][219]LogInit: FAudioDevice initialized.
+[2020.02.02-12.16.13:627][219]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-12.16.13:630][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-12.16.13
+[2020.02.02-12.16.13:631][219]LogWorld: Bringing up level for play took: 0.001878
+[2020.02.02-12.16.13:690][219]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.02.02-12.16.13:692][219]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Untitled 0.754
+[2020.02.02-12.16.13:692][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-12.16.13:693][219]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:731][220]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:742][221]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:750][222]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:759][223]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:767][224]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:775][225]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:784][226]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:792][227]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:800][228]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:808][229]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:817][230]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:825][231]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:834][232]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:842][233]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:850][234]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:858][235]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:867][236]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:875][237]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:884][238]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:892][239]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:900][240]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:908][241]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:917][242]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:925][243]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:934][244]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:942][245]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:950][246]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:959][247]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:967][248]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:975][249]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:984][250]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.13:992][251]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:000][252]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:009][253]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:017][254]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:025][255]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:034][256]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:042][257]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:050][258]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:058][259]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:066][260]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:075][261]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:083][262]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:091][263]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:100][264]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:108][265]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:117][266]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:125][267]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:133][268]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:142][269]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:150][270]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:158][271]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:168][272]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:176][273]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:184][274]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:193][275]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:201][276]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:209][277]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:218][278]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:229][279]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:236][280]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:245][281]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:254][282]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:262][283]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:271][284]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:279][285]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:287][286]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:296][287]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:304][288]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:312][289]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:321][290]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:329][291]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:337][292]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:346][293]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:354][294]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:362][295]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:371][296]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:379][297]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:387][298]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:396][299]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:404][300]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:413][301]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:422][302]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:433][303]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:442][304]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:450][305]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:460][306]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:469][307]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:481][308]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:489][309]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:497][310]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:505][311]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:513][312]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:522][313]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:530][314]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:539][315]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:547][316]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:555][317]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:564][318]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:572][319]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:581][320]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:589][321]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:598][322]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:606][323]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:614][324]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:623][325]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:630][326]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:638][327]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:647][328]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:655][329]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:664][330]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:675][331]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:684][332]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:693][333]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:701][334]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:709][335]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:717][336]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:726][337]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:735][338]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:743][339]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:751][340]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:760][341]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:768][342]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:775][343]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:784][344]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:792][345]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:801][346]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:809][347]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:817][348]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:826][349]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:834][350]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:842][351]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:851][352]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:859][353]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:867][354]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:876][355]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:885][356]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:893][357]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:901][358]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:910][359]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:918][360]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:926][361]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:935][362]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:943][363]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:951][364]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:960][365]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:967][366]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:976][367]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:985][368]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.14:993][369]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:001][370]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:009][371]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:018][372]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:026][373]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:035][374]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:043][375]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:051][376]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:060][377]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:068][378]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:077][379]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:085][380]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:093][381]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:102][382]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:110][383]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:118][384]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:127][385]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:135][386]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:142][387]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:151][388]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:159][389]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:168][390]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:176][391]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:185][392]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:193][393]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:201][394]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:209][395]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:218][396]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:226][397]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:234][398]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:243][399]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:251][400]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:259][401]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:268][402]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:276][403]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:284][404]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:293][405]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:301][406]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:309][407]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:318][408]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:326][409]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:335][410]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:343][411]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:352][412]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:360][413]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:369][414]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:377][415]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:385][416]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:393][417]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:402][418]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:410][419]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:419][420]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:427][421]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:435][422]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:443][423]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:452][424]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:460][425]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:469][426]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:477][427]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:485][428]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:493][429]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:502][430]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:510][431]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:518][432]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:527][433]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:535][434]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:543][435]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:552][436]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:560][437]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:568][438]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:577][439]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:585][440]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:593][441]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:602][442]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:610][443]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:618][444]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:627][445]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:635][446]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:643][447]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:652][448]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:660][449]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:668][450]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:677][451]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:685][452]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:693][453]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:702][454]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:711][455]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:719][456]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:728][457]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:736][458]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:744][459]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:753][460]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:761][461]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:769][462]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:778][463]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:786][464]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:794][465]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:802][466]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:811][467]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:819][468]LogBlueprintUserMessages: [BP_BasePlayer_C_0] HAMMER
+[2020.02.02-12.16.15:828][469]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:836][470]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:844][471]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:852][472]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:860][473]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:869][474]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:877][475]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:886][476]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:894][477]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:903][478]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:911][479]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:919][480]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:927][481]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:936][482]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:944][483]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:953][484]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:961][485]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:969][486]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:978][487]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:986][488]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.15:994][489]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:003][490]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:011][491]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:019][492]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:028][493]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:036][494]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:044][495]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:053][496]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:060][497]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:069][498]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:077][499]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:086][500]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:095][501]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:103][502]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:111][503]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:120][504]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:128][505]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:136][506]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:145][507]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:153][508]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:161][509]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:170][510]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:178][511]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:187][512]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:195][513]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:203][514]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:212][515]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:220][516]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:228][517]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:237][518]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:245][519]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:256][520]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:264][521]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:273][522]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:281][523]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:289][524]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:298][525]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:306][526]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:315][527]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:323][528]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:331][529]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:339][530]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:348][531]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:356][532]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:364][533]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:373][534]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:381][535]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:389][536]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:398][537]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:406][538]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:414][539]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:423][540]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:430][541]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:438][542]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:447][543]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:455][544]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:464][545]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:472][546]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:480][547]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:489][548]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:497][549]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:505][550]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:514][551]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:522][552]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:531][553]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:539][554]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:547][555]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:556][556]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:564][557]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:572][558]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:581][559]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:589][560]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:597][561]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:606][562]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:614][563]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:622][564]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:631][565]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:639][566]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:648][567]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:656][568]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:664][569]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:673][570]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:681][571]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:690][572]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:698][573]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:707][574]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:715][575]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:723][576]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:731][577]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:739][578]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:747][579]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:756][580]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:764][581]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:772][582]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:781][583]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:789][584]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:797][585]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:806][586]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:815][587]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:824][588]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:832][589]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:840][590]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:849][591]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:857][592]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:865][593]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:873][594]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:882][595]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:890][596]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:899][597]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:907][598]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:915][599]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:924][600]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:932][601]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:940][602]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:949][603]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:957][604]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:965][605]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:974][606]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:982][607]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:990][608]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.16:998][609]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:007][610]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:015][611]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:023][612]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:032][613]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:040][614]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:048][615]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:057][616]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:065][617]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:074][618]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:082][619]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:090][620]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:099][621]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:107][622]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:115][623]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:124][624]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:132][625]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:141][626]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:149][627]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:157][628]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:165][629]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:174][630]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:182][631]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:191][632]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:199][633]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:207][634]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:216][635]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:224][636]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:232][637]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:240][638]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:248][639]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:257][640]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:265][641]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:273][642]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:282][643]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:290][644]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:299][645]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:307][646]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:316][647]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:326][648]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:335][649]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:343][650]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:351][651]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:358][652]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:367][653]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:375][654]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:384][655]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:392][656]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:400][657]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:409][658]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:417][659]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:425][660]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:434][661]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:442][662]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:450][663]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:459][664]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:467][665]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:475][666]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:484][667]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:492][668]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:500][669]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:508][670]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:517][671]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:525][672]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:534][673]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:543][674]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:550][675]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:559][676]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:567][677]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:575][678]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:584][679]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:592][680]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:601][681]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:609][682]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:618][683]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:626][684]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:635][685]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:643][686]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:651][687]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:659][688]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:668][689]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:676][690]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:685][691]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:693][692]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:701][693]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:709][694]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:717][695]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:725][696]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:734][697]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:742][698]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:750][699]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:759][700]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:767][701]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:775][702]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:784][703]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:792][704]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:801][705]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:809][706]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:817][707]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:825][708]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:834][709]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:842][710]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:851][711]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:859][712]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:867][713]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:876][714]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:884][715]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:892][716]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:901][717]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:909][718]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:917][719]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:926][720]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:934][721]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:943][722]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:951][723]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:959][724]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:968][725]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:976][726]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:984][727]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.17:993][728]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:001][729]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:009][730]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:018][731]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:026][732]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:035][733]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:043][734]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:052][735]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:060][736]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:068][737]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:075][738]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:084][739]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:092][740]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:100][741]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:109][742]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:117][743]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:125][744]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:134][745]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:142][746]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:151][747]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:159][748]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:168][749]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:176][750]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:185][751]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:193][752]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:201][753]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:210][754]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:218][755]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:226][756]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:235][757]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:243][758]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:252][759]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:260][760]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:269][761]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:276][762]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:284][763]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:292][764]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:301][765]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:309][766]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:318][767]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:326][768]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:334][769]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:343][770]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:351][771]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:361][772]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:369][773]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:377][774]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:386][775]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:394][776]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:402][777]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:411][778]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:419][779]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:427][780]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:436][781]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:444][782]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:452][783]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:461][784]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:469][785]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:477][786]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:486][787]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:494][788]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:503][789]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:511][790]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:520][791]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:528][792]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:537][793]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:545][794]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:553][795]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:561][796]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:570][797]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:578][798]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:586][799]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:595][800]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:603][801]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:612][802]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:620][803]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:628][804]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:637][805]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:644][806]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:652][807]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:661][808]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:669][809]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:678][810]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:686][811]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:694][812]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:703][813]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:712][814]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:720][815]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:728][816]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:737][817]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:745][818]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:756][819]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:764][820]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:772][821]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:780][822]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.18:788][823]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.31:265][824]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.31:280][825]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.31:617][826]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.31:949][827]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:280][828]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:289][829]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:297][830]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:305][831]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:314][832]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:324][833]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:340][834]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:353][835]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:365][836]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:377][837]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:389][838]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:402][839]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:414][840]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:427][841]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:436][842]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:444][843]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:453][844]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:461][845]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:469][846]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:478][847]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:486][848]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:494][849]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:502][850]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:510][851]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:518][852]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:527][853]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:535][854]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:544][855]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:552][856]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:560][857]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:569][858]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:577][859]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:585][860]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:594][861]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:602][862]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:610][863]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:619][864]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:627][865]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:635][866]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:644][867]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:652][868]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:660][869]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:669][870]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:677][871]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:686][872]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:694][873]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:702][874]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:711][875]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:719][876]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:727][877]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:736][878]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:744][879]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:752][880]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:761][881]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:769][882]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:778][883]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:786][884]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:794][885]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:803][886]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:811][887]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:819][888]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:828][889]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:836][890]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:845][891]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:853][892]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:861][893]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:871][894]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:878][895]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:886][896]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:894][897]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:903][898]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:911][899]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:920][900]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:928][901]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:936][902]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:945][903]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:953][904]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:961][905]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:970][906]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:978][907]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:987][908]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.32:995][909]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:003][910]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:012][911]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:020][912]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:029][913]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:037][914]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:045][915]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:054][916]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:063][917]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:070][918]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:078][919]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:086][920]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:095][921]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:103][922]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:111][923]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:120][924]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:128][925]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:137][926]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:145][927]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:154][928]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:162][929]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:171][930]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:179][931]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:187][932]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:196][933]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:204][934]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:211][935]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:220][936]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:228][937]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:236][938]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:245][939]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:254][940]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:262][941]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:271][942]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:279][943]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:287][944]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:296][945]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:304][946]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:311][947]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:320][948]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:328][949]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:336][950]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:345][951]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:354][952]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:362][953]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:371][954]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:379][955]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:387][956]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:396][957]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:404][958]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:412][959]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:420][960]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:428][961]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:437][962]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:445][963]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:454][964]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:462][965]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:471][966]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:479][967]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:488][968]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:496][969]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:504][970]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:512][971]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:520][972]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:528][973]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:536][974]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:545][975]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:553][976]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:562][977]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:570][978]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:578][979]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:587][980]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:595][981]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:603][982]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:612][983]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:620][984]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:628][985]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:637][986]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:645][987]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:653][988]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:662][989]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:670][990]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:679][991]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:687][992]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:695][993]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:704][994]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:712][995]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:720][996]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:729][997]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:737][998]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:745][999]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:754][  0]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:762][  1]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:770][  2]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:779][  3]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:787][  4]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:795][  5]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:804][  6]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:812][  7]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:820][  8]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:829][  9]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:837][ 10]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:845][ 11]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:853][ 12]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:862][ 13]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:870][ 14]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:879][ 15]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:887][ 16]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.16.33:895][ 17]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.16:946][ 18]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.16:975][ 19]Cmd: LevelEditor.ToggleImmersive
+[2020.02.02-12.17.17:022][ 19]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.17:226][ 20]LogRenderer: Reallocating scene render targets to support 1848x992 Format 10 NumSamples 1 (Frame:802).
+[2020.02.02-12.17.17:294][ 20]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.17:342][ 21]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:804).
+[2020.02.02-12.17.17:634][ 21]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.02-12.17.17:635][ 21]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.17:962][ 22]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.17:970][ 23]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.17:978][ 24]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.17:986][ 25]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.17:995][ 26]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:003][ 27]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:012][ 28]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:020][ 29]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:028][ 30]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:037][ 31]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:045][ 32]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:053][ 33]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:062][ 34]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:070][ 35]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:078][ 36]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:087][ 37]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:095][ 38]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:104][ 39]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:112][ 40]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:120][ 41]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:129][ 42]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:137][ 43]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:145][ 44]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:154][ 45]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:162][ 46]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:170][ 47]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:179][ 48]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:187][ 49]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:195][ 50]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:204][ 51]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:212][ 52]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:220][ 53]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:229][ 54]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:237][ 55]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:246][ 56]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:254][ 57]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:262][ 58]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:270][ 59]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:278][ 60]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:286][ 61]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:295][ 62]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:303][ 63]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:311][ 64]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:320][ 65]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:328][ 66]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:337][ 67]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:345][ 68]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:353][ 69]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:362][ 70]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:370][ 71]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:379][ 72]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:387][ 73]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:395][ 74]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:403][ 75]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:412][ 76]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:420][ 77]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:429][ 78]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:437][ 79]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:446][ 80]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:454][ 81]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:462][ 82]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:470][ 83]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:479][ 84]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:487][ 85]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:495][ 86]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:503][ 87]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:511][ 88]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:520][ 89]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:529][ 90]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:537][ 91]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:545][ 92]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:554][ 93]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:562][ 94]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:570][ 95]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:578][ 96]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:587][ 97]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:595][ 98]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:604][ 99]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:612][100]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:620][101]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:629][102]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
+[2020.02.02-12.17.18:637][103]LogBlueprintUserMessages: [BP_BasePlayer_C_0] RIVET GUN
