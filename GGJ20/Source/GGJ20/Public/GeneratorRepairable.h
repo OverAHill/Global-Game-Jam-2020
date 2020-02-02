@@ -6,6 +6,7 @@
 #include "IRepairableBase.h"
 #include "GeneratorRepairable.generated.h"
 
+class UStaticMeshComponent;
 /**
  * 
  */
@@ -16,6 +17,10 @@ class GGJ20_API AGeneratorRepairable : public AIRepairableBase
 {
 	GENERATED_BODY()
 	
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadwrite, Category = "Generator Collider")
+		UStaticMeshComponent* ColliderBox;
+
 public:
 	AGeneratorRepairable();
 
