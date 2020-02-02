@@ -1,3 +1,3 @@
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\GGJ20.Build.cs
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20.Target.cs
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20Editor.Target.cs
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\GGJ20.Build.cs
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20.Target.cs
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20Editor.Target.cs
