@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Intermediate/Build/Win64/GGJ20Editor/Development/Engine/SharedPCH.Engine.h
+=======
+F:/Uni Work/Jams/GGJ20/Build/Global-Game-Jam-2020/GGJ20/Intermediate/Build/Win64/GGJ20Editor/Development/Engine/SharedPCH.Engine.h
+>>>>>>> MattLevel
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Public\EngineSharedPCH.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
 C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Core\Public\CoreTypes.h
