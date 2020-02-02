@@ -1,0 +1,1518 @@
+﻿Log file open, 02/02/20 13:29:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GGJ20
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.370148
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Xeon(R) W-2123 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.02-13.29.37:871][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.02-13.29.37:871][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.02-13.29.37:871][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.29.37:871][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.02-13.29.37:871][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.29.37:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.02-13.29.37:872][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.02-13.29.37:873][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.02-13.29.37:874][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.02-13.29.37:874][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.29.37:874][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.29.37:885][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:885][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-13.29.37:885][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-13.29.37:885][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:885][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-13.29.37:886][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-13.29.37:887][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-13.29.37:888][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-13.29.37:889][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-13.29.37:890][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-13.29.37:891][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-13.29.37:891][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-13.29.37:891][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:891][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-13.29.37:891][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-13.29.37:891][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-13.29.37:891][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.02-13.29.37:917][  0]LogHAL: Display: Platform has ~ 32 GB [34065854464 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.02-13.29.37:918][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.02-13.29.37:918][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.02-13.29.37:918][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:918][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.02-13.29.37:918][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.02-13.29.37:919][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:919][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.02-13.29.37:919][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:920][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.02-13.29.37:920][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.02-13.29.37:921][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.02-13.29.37:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.02-13.29.37:921][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.02-13.29.37:922][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.02-13.29.37:922][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.02-13.29.37:922][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.02-13.29.37:923][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.02-13.29.37:923][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.02-13.29.37:923][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.02-13.29.37:923][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.02-13.29.37:924][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.02-13.29.37:925][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.02-13.29.37:926][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.02-13.29.37:926][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.02-13.29.37:928][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.02-13.29.37:928][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.02-13.29.37:928][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:929][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.02-13.29.37:929][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.02-13.29.37:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.02-13.29.37:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.02-13.29.37:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.02-13.29.37:931][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.02-13.29.37:931][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.02-13.29.37:932][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.02-13.29.37:932][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.02-13.29.37:932][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.02-13.29.37:932][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.02-13.29.37:933][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.02-13.29.37:934][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.02-13.29.37:934][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.02-13.29.37:934][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.02-13.29.37:935][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.02-13.29.37:935][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.02-13.29.37:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.02-13.29.37:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.02-13.29.37:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.02-13.29.37:936][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.02-13.29.37:937][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.02-13.29.37:937][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.02-13.29.37:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.02-13.29.37:938][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.02-13.29.37:944][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.02-13.29.37:944][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.02-13.29.37:945][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.02-13.29.37:945][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.02-13.29.37:946][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.02-13.29.37:946][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:946][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.02-13.29.37:946][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.02-13.29.37:946][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.02-13.29.37:946][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.02-13.29.37:947][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.02-13.29.37:947][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.02-13.29.37:947][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.02-13.29.37:947][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.02-13.29.37:947][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:947][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.02-13.29.37:947][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.02-13.29.37:947][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Scalability.ini]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.02-13.29.37:948][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.02-13.29.37:949][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.02-13.29.37:949][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.02-13.29.37:949][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Config/Windows/Engine.ini]
+[2020.02.02-13.29.37:949][  0]LogInit: Computer: C117B-20
+[2020.02.02-13.29.37:949][  0]LogInit: User: h017026h
+[2020.02.02-13.29.37:949][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.02-13.29.37:950][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.02-13.29.37:951][  0]LogMemory: Memory total: Physical=31.7GB (32GB approx)
+[2020.02.02-13.29.37:951][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.02-13.29.37:951][  0]LogMemory: Process Physical Memory: 99.82 MB used, 99.83 MB peak
+[2020.02.02-13.29.37:951][  0]LogMemory: Process Virtual Memory: 102.63 MB used, 102.63 MB peak
+[2020.02.02-13.29.37:951][  0]LogMemory: Physical Memory: 10827.14 MB used,  21660.59 MB free, 32487.73 MB total
+[2020.02.02-13.29.37:951][  0]LogMemory: Virtual Memory: 4656.30 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.02.02-13.29.38:158][  0]LogInit: Using OS detected language (en-US).
+[2020.02.02-13.29.38:159][  0]LogInit: Using OS detected locale (en-GB).
+[2020.02.02-13.29.38:160][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.02-13.29.38:352][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.02-13.29.38:435][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.02-13.29.38:435][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.02-13.29.38:639][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-13.29.38:639][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.02-13.29.38:728][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.02.02-13.29.38:728][  0]LogD3D11RHI:       8088/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.02-13.29.38:734][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.02-13.29.38:735][  0]LogD3D11RHI:       0/0/16243 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.02-13.29.38:735][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.02-13.29.38:744][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.02-13.29.38:744][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.02-13.29.38:745][  0]LogWindows: EnumDisplayDevices:
+[2020.02.02-13.29.38:745][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.02.02-13.29.38:745][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.02.02-13.29.38:745][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-13.29.38:746][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.02.02-13.29.38:746][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.02-13.29.38:746][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.02.02-13.29.38:746][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.02.02-13.29.38:746][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.02.02-13.29.38:746][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.02.02-13.29.38:791][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.02-13.29.38:795][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-13.29.38:795][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-13.29.38:795][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.02-13.29.38:804][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.02-13.29.39:116][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.02-13.29.39:134][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.02-13.29.39:150][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.02-13.29.39:166][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.02-13.29.39:182][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.02-13.29.39:199][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.02-13.29.39:215][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.02-13.29.39:233][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.02-13.29.39:242][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.02-13.29.39:329][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.02-13.29.39:330][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.02-13.29.39:334][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.02-13.29.39:407][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.02-13.29.39:407][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.02-13.29.39:436][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.02-13.29.39:436][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.02-13.29.39:456][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.02-13.29.39:471][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.02-13.29.39:488][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.02-13.29.39:503][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.02-13.29.39:555][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.02-13.29.39:555][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.02-13.29.39:555][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.02-13.29.39:580][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.02-13.29.39:724][  0]LogShaderCompilers: Guid format shader working directory is -28 characters bigger than the processId version (../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Intermediate/Shaders/WorkingDirectory/17592/).
+[2020.02.02-13.29.39:725][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/h017026h/AppData/Local/Temp/UnrealShaderWorkingDir/8789FAF0466DF7C06ACBF0B5930986F7/'.
+[2020.02.02-13.29.39:727][  0]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.02-13.29.39:728][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.02-13.29.39:728][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.02-13.29.39:728][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.02-13.29.40:325][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.02-13.29.40:396][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-13.29.40:396][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/h017026h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.02-13.29.40:396][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.02-13.29.40:396][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.02-13.29.40:396][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-13.29.40:396][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.02-13.29.40:410][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.02-13.29.40:410][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.02-13.29.40:410][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.02-13.29.40:423][  0]LogDerivedDataCache: Using Local data cache path C:/Users/h017026h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.02-13.29.40:423][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.02-13.29.40:423][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.02-13.29.40:448][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.02-13.29.40:451][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.02-13.29.40:451][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.02-13.29.40:535][  0]LogAssetRegistry: FAssetRegistry took 0.0367 seconds to start up
+[2020.02.02-13.29.40:889][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.02-13.29.41:065][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.02-13.29.41:066][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.02-13.29.41:066][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.02-13.29.41:066][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.02-13.29.41:066][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.02-13.29.41:076][  0]LogNetVersion: GGJ20 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2452190960)
+[2020.02.02-13.29.41:529][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.067157 seconds
+[2020.02.02-13.29.41:538][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2020.02.02-13.29.41:538][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2020.02.02-13.29.41:539][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.02-13.29.42:517][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.02-13.29.42:534][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.02-13.29.42:724][  0]SourceControl: Source control is disabled
+[2020.02.02-13.29.42:724][  0]SourceControl: Source control is disabled
+[2020.02.02-13.29.42:728][  0]SourceControl: Source control is disabled
+[2020.02.02-13.29.42:731][  0]SourceControl: Source control is disabled
+[2020.02.02-13.29.42:893][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.02-13.29.43:027][  0]LogOcInput: OculusInput pre-init called
+[2020.02.02-13.29.43:745][  0]LogEngine: Initializing Engine...
+[2020.02.02-13.29.43:747][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.02-13.29.43:750][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.02.02-13.29.44:004][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.02-13.29.44:021][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.29.44:045][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.29.44:093][  0]LogInit: FAudioDevice initialized.
+[2020.02.02-13.29.44:094][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.02-13.29.44:142][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/h017026h/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.02-13.29.44:153][  0]LogInit: Texture streaming: Enabled
+[2020.02.02-13.29.44:188][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.02-13.29.44:210][  0]LogInit: Transaction tracking system initialized
+[2020.02.02-13.29.44:247][  0]BlueprintLog: New page: Editor Load
+[2020.02.02-13.29.44:425][  0]LocalizationService: Localization service is disabled
+[2020.02.02-13.29.44:794][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/' took 0.02s
+[2020.02.02-13.29.44:794][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.02-13.29.44:795][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.02-13.29.45:079][  0]SourceControl: Source control is disabled
+[2020.02.02-13.29.45:080][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.29.45:081][  0]LightingResults: New page: Lighting Build
+[2020.02.02-13.29.45:084][  0]MapCheck: New page: Map Check
+[2020.02.02-13.29.45:084][  0]LightingResults: New page: Lighting Build
+[2020.02.02-13.29.45:114][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.02.02-13.29.45:194][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2020.02.02-13.29.45:202][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.29.45:237][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2020.02.02-13.29.45:237][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.29.45:238][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.375ms to complete.
+[2020.02.02-13.29.45:238][  0]LogFileHelpers: Loading map 'Template_Default' took 0.159
+[2020.02.02-13.29.45:358][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.29.45:367][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.29.45:377][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.29.45:387][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.29.45:398][  0]LogCollectionManager: Loaded 0 collections in 0.003169 seconds
+[2020.02.02-13.29.45:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Collections/' took 0.01s
+[2020.02.02-13.29.45:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Developers/h017026h/Collections/' took 0.01s
+[2020.02.02-13.29.45:443][  0]LogFileCache: Scanning file cache for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Collections/' took 0.01s
+[2020.02.02-13.29.45:443][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.02.02-13.29.45:452][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2752 classes and 662 folders.
+[2020.02.02-13.29.45:458][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.02-13.29.45:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:460][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:461][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:463][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:465][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:467][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:468][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:469][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:469][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:471][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:472][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:473][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:475][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:476][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:477][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.02-13.29.45:505][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.02-13.29.45:515][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.02.02-13.29.45:534][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.29.45:537][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.29.45:544][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.29.45:616][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2020.02.02-13.29.45:754][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.02.02-13.29.45:754][  0]LogLoad: (Engine Initialization) Total time: 9.97 seconds
+[2020.02.02-13.29.45:754][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.02-13.29.45:815][  0]LogAssetRegistry: Asset discovery search completed in 5.3043 seconds
+[2020.02.02-13.29.45:820][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.02.02-13.29.45:820][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000310 seconds (updated 0 objects)
+[2020.02.02-13.29.45:822][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.02-13.29.45:863][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.29.45:878][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/' took 0.10s
+[2020.02.02-13.31.23:144][ 18]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.31.28:007][565]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.31.28:078][565]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.31.28:080][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:082][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:083][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:084][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:089][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_36 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:090][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_37 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:091][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:091][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:095][565]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Untitled.Untitled
+[2020.02.02-13.31.28:126][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.02.02-13.31.28:127][565]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.31.28:127][565]LightingResults: New page: Lighting Build
+[2020.02.02-13.31.28:128][565]LoadErrors: New page: Loading map: Untitled.umap
+[2020.02.02-13.31.28:128][565]MapCheck: New page: Map Check
+[2020.02.02-13.31.28:128][565]LightingResults: New page: Lighting Build
+[2020.02.02-13.31.28:160][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2020.02.02-13.31.28:163][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_31 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:164][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_24 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:164][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:165][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:168][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_48 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:169][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_49 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:170][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:171][565]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.28:174][565]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.31.28:207][565]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2020.02.02-13.31.28:255][565]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.31.28:256][565]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.183ms to complete.
+[2020.02.02-13.31.28:256][565]LogFileHelpers: Loading map 'Untitled' took 0.130
+[2020.02.02-13.31.29:933][753]LogActor: Warning: BP_WaterLevel_C /Engine/Transient.World_1:PersistentLevel.BP_WaterLevel_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.29:946][754]LogActor: Warning: BPRivet_C /Engine/Transient.World_2:PersistentLevel.BPRivet_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.29:970][755]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.29:970][755]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.29:971][755]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.29:971][755]LogActor: Warning: BPRivet_C /Engine/Transient.World_3:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.31.29:989][756]LogActor: Warning: BPDefenseSystemRepairable_C /Engine/Transient.World_4:PersistentLevel.BPDefenseSystemRepairable_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.32.29:727][806]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Menus/UI.UI
+[2020.02.02-13.32.29:965][806]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.02.02-13.32.30:752][806]LogBlueprintActionDatabase: Requesting refresh due to module change: SequencerWidgets (loaded)
+[2020.02.02-13.32.31:182][806]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.32.32:712][968]LogSlate: Window 'UI' being destroyed
+[2020.02.02-13.32.34:022][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/UI" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset" SILENT=true
+[2020.02.02-13.32.34:035][119]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/UI062381B9463993066B4B608092DE6684.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset'
+[2020.02.02-13.33.40:240][866]BlueprintLog: New page: Compile UI
+[2020.02.02-13.33.40:467][866]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2020.02.02-13.33.41:105][930]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/UI" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset" SILENT=true
+[2020.02.02-13.33.41:136][930]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/UIA754F52549E3CDDB9659D3A71D808BBB.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset'
+[2020.02.02-13.34.17:149][157]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Maps/Untitled.Untitled:PersistentLevel.Untitled
+[2020.02.02-13.34.39:202][657]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.02-13.34.49:351][872]BlueprintLog: New page: Compile Untitled
+[2020.02.02-13.34.49:547][872]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.02.02-13.34.50:022][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.02.02-13.34.50:221][920]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/UntitledD8EC3A4E4D09D5BC3A2E25B53756D3E4.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Maps/Untitled.umap'
+[2020.02.02-13.34.50:283][920]LogFileHelpers: Saving map 'Untitled' took 0.301
+[2020.02.02-13.34.50:799][977]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.34.50:824][977]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.34.50:824][977]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.34.50:824][977]PIE: New page: PIE session: Untitled (2 Feb 2020 13:34:50)
+[2020.02.02-13.34.50:839][977]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2020.02.02-13.34.50:843][977]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003722s)
+[2020.02.02-13.34.50:843][977]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.34.50:844][977]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2020.02.02-13.34.50:844][977]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.005519s)
+[2020.02.02-13.34.50:903][977]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.02.02-13.34.50:913][977]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.34.50:936][977]LogInit: FAudioDevice initialized.
+[2020.02.02-13.34.50:943][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.34.50:995][977]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.34.51:000][977]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.34.51
+[2020.02.02-13.34.51:001][977]LogWorld: Bringing up level for play took: 0.003983
+[2020.02.02-13.34.51:021][977]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2020.02.02-13.34.51:026][977]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2020.02.02-13.34.51:026][977]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.02.02-13.34.51:029][977]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Untitled 0.092
+[2020.02.02-13.34.51:030][977]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.34.51:344][979]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:1).
+[2020.02.02-13.35.10:915][322]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.35.10:916][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.35.10:937][322]LogSlate: Window 'GGJ20 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.02-13.35.10:994][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.35.10:995][322]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.35.11:097][322]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2020.02.02-13.35.11:116][323]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.02.02-13.35.19:037][239]BlueprintLog: New page: Compile UI
+[2020.02.02-13.35.19:088][239]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.02.02-13.35.20:289][369]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.35.20:315][369]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.35.20:315][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.35.20:315][369]PIE: New page: PIE session: Untitled (2 Feb 2020 13:35:20)
+[2020.02.02-13.35.20:315][369]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Untitled
+[2020.02.02-13.35.20:319][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003625s)
+[2020.02.02-13.35.20:319][369]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.35.20:320][369]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2020.02.02-13.35.20:320][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Untitled.Untitled to /Game/Maps/UEDPIE_0_Untitled.Untitled (0.004630s)
+[2020.02.02-13.35.20:365][369]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.02.02-13.35.20:381][369]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.35.20:396][369]LogInit: FAudioDevice initialized.
+[2020.02.02-13.35.20:407][369]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.35.20:444][369]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.35.20:450][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.35.20
+[2020.02.02-13.35.20:451][369]LogWorld: Bringing up level for play took: 0.005126
+[2020.02.02-13.35.20:473][369]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Untitled -0.466
+[2020.02.02-13.35.20:473][369]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.35.34:240][977]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.35.34:241][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.35.34:281][977]LogSlate: Window 'GGJ20 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.02-13.35.34:321][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.35.34:322][977]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Untitled.Untitled:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled' with GeneratedClass '/Game/Maps/Untitled.Untitled_C' with ClassGeneratedBy '/Game/Maps/Untitled.Untitled:PersistentLevel.Untitled'
+[2020.02.02-13.35.34:395][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2020.02.02-13.35.34:407][978]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.02.02-13.35.36:880][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/UI" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset" SILENT=true
+[2020.02.02-13.35.36:904][265]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/UI3C1FB61148F8FF93C1075D8ED51F8939.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset'
+[2020.02.02-13.35.54:925][376]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2020.02.02-13.35.55:161][376]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Untitled3D348AC148271629DC68D18E861D41E0.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Maps/Untitled.umap'
+[2020.02.02-13.36.14:235][636]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2020.02.02-13.36.14:245][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/MainMenu" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/MainMenu.uasset" SILENT=true
+[2020.02.02-13.36.14:266][636]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/MainMenuA25E0646442961D270C89A920B55C5B9.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/MainMenu.uasset'
+[2020.02.02-13.36.14:274][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/EndScreen" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/EndScreen.uasset" SILENT=true
+[2020.02.02-13.36.14:289][636]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/EndScreenF8F28AD1478C0C0FAF893C8F1DD190E3.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/EndScreen.uasset'
+[2020.02.02-13.37.40:808][975]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/StartScreen.StartScreen
+[2020.02.02-13.37.40:855][975]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2020.02.02-13.37.43:361][975]LogSlate: Window 'Save Content' being destroyed
+[2020.02.02-13.37.43:405][975]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.02.02-13.37.43:421][975]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/StartScreenBD2EFD4C4E570058A34533868BA99A43.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Levels/StartScreen.umap'
+[2020.02.02-13.37.43:424][975]LogFileHelpers: Saving map 'StartScreen' took 0.057
+[2020.02.02-13.37.43:427][975]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Levels/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.37.43:427][975]LightingResults: New page: Lighting Build
+[2020.02.02-13.37.43:428][975]LoadErrors: New page: Loading map: StartScreen.umap
+[2020.02.02-13.37.43:487][975]MapCheck: New page: Map Check
+[2020.02.02-13.37.43:487][975]LightingResults: New page: Lighting Build
+[2020.02.02-13.37.43:559][975]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2020.02.02-13.37.43:560][975]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.37.43:560][975]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.37.43:623][975]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2020.02.02-13.37.43:670][975]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.37.43:671][975]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.202ms to complete.
+[2020.02.02-13.37.43:672][975]LogFileHelpers: Loading map 'StartScreen' took 0.247
+[2020.02.02-13.37.48:992][591]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Menus/MainMenu.MainMenu
+[2020.02.02-13.38.22:776][308]BlueprintLog: New page: Compile MainMenu
+[2020.02.02-13.38.22:822][308]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.02.02-13.38.23:395][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/MainMenu" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/MainMenu.uasset" SILENT=true
+[2020.02.02-13.38.23:434][366]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/MainMenu77A9F00D4F4208C3357755B1CB46F789.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/MainMenu.uasset'
+[2020.02.02-13.40.05:496][863]MapCheck: New page: Map Check
+[2020.02.02-13.40.05:510][863]Cmd: MAP REBUILD ALLVISIBLE
+[2020.02.02-13.40.05:519][863]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.02.02-13.40.05:568][863]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2020.02.02-13.40.05:570][863]LightingResults: New page: Lighting Build - 2 Feb 2020 13:40:05
+[2020.02.02-13.40.05:633][863]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.02.02-13.40.05:716][863]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.02.02-13.40.05:732][863]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.02.02-13.40.06:254][863]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.02.02-13.40.06:255][863]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17592
+[2020.02.02-13.40.15:442][863]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.02.02-13.40.15:442][863]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.02.02-13.40.15:442][863]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.02.02-13.40.15:447][863]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.02.02-13.40.15:447][863]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.02.02-13.40.15:447][863]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.02.02-13.40.15:572][863]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.02.02-13.40.15:572][863]MapCheck: New page: StartScreen - 2 Feb 2020 13:40:15
+[2020.02.02-13.40.15:573][863]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.71ms to complete.
+[2020.02.02-13.40.15:601][863]LogEditorBuildUtils: Build time 0:10
+[2020.02.02-13.40.15:692][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2020.02.02-13.40.16:922][945]Job is a success!
+[2020.02.02-13.40.22:627][617]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen
+[2020.02.02-13.40.37:297][300]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.02-13.41.04:491][503]BlueprintLog: New page: Compile StartScreen
+[2020.02.02-13.41.04:684][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.02.02-13.41.05:295][564]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.02.02-13.41.05:459][564]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/StartScreen6D478EA94EEDD3A1872843ACE6DA73B4.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Levels/StartScreen.umap'
+[2020.02.02-13.41.05:532][564]LogFileHelpers: Saving map 'StartScreen' took 0.285
+[2020.02.02-13.41.12:191][348]LogEditorViewport: Clicking Background
+[2020.02.02-13.41.20:401][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.41.23:135][654]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/StartScreen.StartScreen
+[2020.02.02-13.41.23:178][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.02.02-13.41.26:023][654]LogSlate: Window 'Save Content' being destroyed
+[2020.02.02-13.41.26:031][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/MainMenu" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/MainMenu.uasset" SILENT=true
+[2020.02.02-13.41.26:067][654]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/MainMenu695E2E39423DCD3E6551ACA507629198.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/MainMenu.uasset'
+[2020.02.02-13.41.35:526][651]DumpUnbuiltLightIteractions
+[2020.02.02-13.41.35:527][651]Lights with unbuilt interactions: 0
+[2020.02.02-13.41.35:527][651]
+[2020.02.02-13.41.35:527][651]Primitives with unbuilt interactions: 0
+[2020.02.02-13.41.35:577][652]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.02.02-13.41.35:578][652]MapCheck: New page: StartScreen - 2 Feb 2020 13:41:35
+[2020.02.02-13.41.35:578][652]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.692ms to complete.
+[2020.02.02-13.41.36:756][793]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.41.36:802][793]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.36:802][793]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.02.02-13.41.36:805][793]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
+[2020.02.02-13.41.37:017][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2020.02.02-13.41.37:017][793]LogPlayLevel: PlayLevel: Blueprint regeneration took 216 ms (1 blueprints)
+[2020.02.02-13.41.37:018][793]PIE: New page: PIE session: StartScreen (2 Feb 2020 13:41:37)
+[2020.02.02-13.41.37:018][793]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartScreen
+[2020.02.02-13.41.37:021][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001831s)
+[2020.02.02-13.41.37:021][793]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.41.37:021][793]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2020.02.02-13.41.37:022][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartScreen.StartScreen to /Game/Levels/UEDPIE_0_StartScreen.StartScreen (0.003618s)
+[2020.02.02-13.41.37:058][793]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2020.02.02-13.41.37:070][793]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.41.37:088][793]LogInit: FAudioDevice initialized.
+[2020.02.02-13.41.37:129][793]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.41.37:131][793]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2020.02.02-13.41.37
+[2020.02.02-13.41.37:132][793]LogWorld: Bringing up level for play took: 0.000856
+[2020.02.02-13.41.37:151][793]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartScreen 0.212
+[2020.02.02-13.41.37:151][793]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.38:188][912]LogNet: Browse: /Game/Maps/Untitled
+[2020.02.02-13.41.38:189][912]LogLoad: LoadMap: /Game/Maps/Untitled
+[2020.02.02-13.41.38:232][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2020.02.02-13.41.38:251][912]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.41.38:251][912]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.41.38:254][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:254][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:255][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:256][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:259][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:260][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:261][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:261][912]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.38:266][912]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.41.38
+[2020.02.02-13.41.38:266][912]LogWorld: Bringing up level for play took: 0.013594
+[2020.02.02-13.41.38:270][912]LogLoad: Took 0.080856 seconds to LoadMap(/Game/Maps/Untitled)
+[2020.02.02-13.41.49:108][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.49:108][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.41.49:152][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.41.49:153][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.49:224][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.41.49:233][198]LogUObjectHash: Compacting FUObjectHashTables data took   4.73ms
+[2020.02.02-13.41.49:249][199]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.02.02-13.41.52:773][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.41.52:838][624]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.41.52:866][624]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.52:866][624]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.41.52:866][624]PIE: New page: PIE session: StartScreen (2 Feb 2020 13:41:52)
+[2020.02.02-13.41.52:867][624]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartScreen
+[2020.02.02-13.41.52:868][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001141s)
+[2020.02.02-13.41.52:869][624]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.41.52:869][624]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2020.02.02-13.41.52:869][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartScreen.StartScreen to /Game/Levels/UEDPIE_0_StartScreen.StartScreen (0.002335s)
+[2020.02.02-13.41.52:912][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.02.02-13.41.52:922][624]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.41.52:938][624]LogInit: FAudioDevice initialized.
+[2020.02.02-13.41.52:972][624]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.41.52:973][624]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2020.02.02-13.41.52
+[2020.02.02-13.41.52:973][624]LogWorld: Bringing up level for play took: 0.000687
+[2020.02.02-13.41.52:989][624]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartScreen 0.049
+[2020.02.02-13.41.52:989][624]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.53:840][722]LogNet: Browse: /Game/Maps/Untitled
+[2020.02.02-13.41.53:841][722]LogLoad: LoadMap: /Game/Maps/Untitled
+[2020.02.02-13.41.53:879][722]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2020.02.02-13.41.53:898][722]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.41.53:898][722]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.41.53:900][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:901][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:901][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:902][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:904][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:904][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:905][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:905][722]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.41.53:908][722]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.41.53
+[2020.02.02-13.41.53:908][722]LogWorld: Bringing up level for play took: 0.008967
+[2020.02.02-13.41.53:910][722]LogLoad: Took 0.068773 seconds to LoadMap(/Game/Maps/Untitled)
+[2020.02.02-13.41.57:668][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.57:669][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.41.57:703][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.41.57:704][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.41.57:757][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.41.57:762][167]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.02.02-13.41.57:778][168]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.02.02-13.41.59:039][316]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.42.10:762][705]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Menus/EndScreen.EndScreen
+[2020.02.02-13.43.34:852][328]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 89328
+[2020.02.02-13.43.34:869][329]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.43.34:874][329]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.43.34:875][329]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.43.34:876][329]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.43.34:880][329]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.43.34:955][332]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 4
+[2020.02.02-13.43.34:966][333]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.43.34:972][333]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.43.34:973][333]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.43.34:976][333]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.43.34:978][333]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.43.35:280][366]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 34
+[2020.02.02-13.43.35:291][367]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.43.35:298][367]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.43.35:298][367]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.43.35:300][367]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.43.35:302][367]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.43.35:351][370]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 4
+[2020.02.02-13.43.35:359][371]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.43.35:363][371]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.43.35:364][371]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.43.35:365][371]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.43.35:367][371]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.43.35:416][375]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 5
+[2020.02.02-13.43.35:424][376]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.43.35:428][376]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.43.35:429][376]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.43.35:430][376]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.43.35:432][376]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.43.35:532][383]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 8
+[2020.02.02-13.43.35:541][384]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.43.35:548][384]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.43.35:550][384]LogSlate: Took 0.000332 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.43.35:552][384]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.43.35:555][384]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.43.35:726][400]LogSlate: FontCache flush requested. Reason: Font Atlases Full; 2/1 Pages; frames since last flush: 17
+[2020.02.02-13.43.35:733][401]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.02-13.43.35:737][401]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.43.35:738][401]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.02-13.43.35:740][401]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.02-13.43.35:743][401]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.02-13.43.46:822][670]BlueprintLog: New page: Compile EndScreen
+[2020.02.02-13.43.46:873][670]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2020.02.02-13.43.47:841][769]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.43.47:875][769]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.43.47:875][769]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.43.47:875][769]PIE: New page: PIE session: StartScreen (2 Feb 2020 13:43:47)
+[2020.02.02-13.43.47:876][769]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartScreen
+[2020.02.02-13.43.47:877][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001444s)
+[2020.02.02-13.43.47:878][769]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.43.47:878][769]LogPlayLevel: PIE: World Init took: (0.000919s)
+[2020.02.02-13.43.47:878][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartScreen.StartScreen to /Game/Levels/UEDPIE_0_StartScreen.StartScreen (0.002770s)
+[2020.02.02-13.43.47:928][769]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2020.02.02-13.43.47:942][769]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.43.47:958][769]LogInit: FAudioDevice initialized.
+[2020.02.02-13.43.47:964][769]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.43.48:013][769]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.43.48:016][769]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2020.02.02-13.43.48
+[2020.02.02-13.43.48:017][769]LogWorld: Bringing up level for play took: 0.001349
+[2020.02.02-13.43.48:033][769]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.02.02-13.43.48:037][769]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartScreen 1.097
+[2020.02.02-13.43.48:037][769]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.43.49:205][901]LogNet: Browse: /Game/Maps/Untitled
+[2020.02.02-13.43.49:205][901]LogLoad: LoadMap: /Game/Maps/Untitled
+[2020.02.02-13.43.49:249][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.02.02-13.43.49:267][901]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.43.49:267][901]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.43.49:268][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:269][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:270][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:270][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:272][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:273][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:273][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:273][901]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.43.49:276][901]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.43.49
+[2020.02.02-13.43.49:276][901]LogWorld: Bringing up level for play took: 0.008094
+[2020.02.02-13.43.49:278][901]LogLoad: Took 0.072607 seconds to LoadMap(/Game/Maps/Untitled)
+[2020.02.02-13.43.52:838][307]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.43.52:838][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.43.52:856][307]LogSlate: Window 'GGJ20 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.02-13.43.52:898][307]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.43.52:899][307]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.43.52:968][307]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2020.02.02-13.43.52:983][308]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.02.02-13.43.58:486][958]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/EndScreen" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/EndScreen.uasset" SILENT=true
+[2020.02.02-13.43.58:518][958]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/EndScreen1AE93D57455E55B2179E7F9013DF95B2.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/EndScreen.uasset'
+[2020.02.02-13.44.21:618][714]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.02-13.44.52:208][289]BlueprintLog: New page: Compile UI
+[2020.02.02-13.44.52:255][289]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2020.02.02-13.44.52:801][344]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/UI" FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset" SILENT=true
+[2020.02.02-13.44.52:831][344]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/UI7AAA8B9040987E8BFB94F2AD97F34A79.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Menus/UI.uasset'
+[2020.02.02-13.44.53:663][438]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.44.53:695][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.44.53:696][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.44.53:696][438]PIE: New page: PIE session: StartScreen (2 Feb 2020 13:44:53)
+[2020.02.02-13.44.53:696][438]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartScreen
+[2020.02.02-13.44.53:698][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001354s)
+[2020.02.02-13.44.53:698][438]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.44.53:699][438]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2020.02.02-13.44.53:699][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartScreen.StartScreen to /Game/Levels/UEDPIE_0_StartScreen.StartScreen (0.002869s)
+[2020.02.02-13.44.53:739][438]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.02.02-13.44.53:749][438]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.44.53:764][438]LogInit: FAudioDevice initialized.
+[2020.02.02-13.44.53:769][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.44.53:806][438]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.44.53:807][438]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2020.02.02-13.44.53
+[2020.02.02-13.44.53:808][438]LogWorld: Bringing up level for play took: 0.000692
+[2020.02.02-13.44.53:822][438]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.02.02-13.44.53:825][438]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartScreen 0.885
+[2020.02.02-13.44.53:825][438]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.44.55:055][582]LogNet: Browse: /Game/Maps/Untitled
+[2020.02.02-13.44.55:056][582]LogLoad: LoadMap: /Game/Maps/Untitled
+[2020.02.02-13.44.55:096][582]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.02.02-13.44.55:115][582]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.44.55:115][582]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.44.55:116][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:117][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:118][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:118][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:120][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:121][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:121][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:122][582]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.44.55:124][582]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.44.55
+[2020.02.02-13.44.55:125][582]LogWorld: Bringing up level for play took: 0.009041
+[2020.02.02-13.44.55:126][582]LogLoad: Took 0.070566 seconds to LoadMap(/Game/Maps/Untitled)
+[2020.02.02-13.45.00:362][189]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.00:362][189]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.00:385][189]LogSlate: Window 'GGJ20 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.02-13.45.00:423][189]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.45.00:423][189]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.00:487][189]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.02.02-13.45.00:500][190]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.02.02-13.45.01:672][326]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.02-13.45.02:588][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.02.02-13.45.02:762][429]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/StartScreen519E1DA9431BBD3700630288873FC1CB.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Levels/StartScreen.umap'
+[2020.02.02-13.45.22:352][712]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.45.22:355][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:355][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:356][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:357][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:361][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:362][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:363][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:364][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:369][712]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Untitled.Untitled
+[2020.02.02-13.45.22:425][712]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2020.02.02-13.45.22:427][712]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.45.22:427][712]LightingResults: New page: Lighting Build
+[2020.02.02-13.45.22:428][712]LoadErrors: New page: Loading map: Untitled.umap
+[2020.02.02-13.45.22:476][712]MapCheck: New page: Map Check
+[2020.02.02-13.45.22:476][712]LightingResults: New page: Lighting Build
+[2020.02.02-13.45.22:528][712]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.02.02-13.45.22:530][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:530][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:531][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:531][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:534][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:534][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:535][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:535][712]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.22:537][712]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.45.22:575][712]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.02.02-13.45.22:609][712]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.45.22:609][712]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.203ms to complete.
+[2020.02.02-13.45.22:609][712]LogFileHelpers: Loading map 'Untitled' took 0.184
+[2020.02.02-13.45.24:048][871]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.02.02-13.45.31:653][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.45.33:147][918]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.45.33:150][918]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/StartScreen.StartScreen
+[2020.02.02-13.45.33:196][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.02.02-13.45.33:197][918]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Levels/StartScreen.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.45.33:198][918]LightingResults: New page: Lighting Build
+[2020.02.02-13.45.33:199][918]LoadErrors: New page: Loading map: StartScreen.umap
+[2020.02.02-13.45.33:200][918]MapCheck: New page: Map Check
+[2020.02.02-13.45.33:200][918]LightingResults: New page: Lighting Build
+[2020.02.02-13.45.33:241][918]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2020.02.02-13.45.33:243][918]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.45.33:285][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.02.02-13.45.33:321][918]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.45.33:321][918]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.197ms to complete.
+[2020.02.02-13.45.33:322][918]LogFileHelpers: Loading map 'StartScreen' took 0.125
+[2020.02.02-13.45.34:112][  2]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.45.34:153][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.34:153][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.45.34:154][  2]PIE: New page: PIE session: StartScreen (2 Feb 2020 13:45:34)
+[2020.02.02-13.45.34:154][  2]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartScreen
+[2020.02.02-13.45.34:155][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000993s)
+[2020.02.02-13.45.34:155][  2]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.45.34:156][  2]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2020.02.02-13.45.34:156][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartScreen.StartScreen to /Game/Levels/UEDPIE_0_StartScreen.StartScreen (0.001998s)
+[2020.02.02-13.45.34:192][  2]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2020.02.02-13.45.34:202][  2]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.45.34:217][  2]LogInit: FAudioDevice initialized.
+[2020.02.02-13.45.34:251][  2]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.45.34:253][  2]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2020.02.02-13.45.34
+[2020.02.02-13.45.34:253][  2]LogWorld: Bringing up level for play took: 0.000956
+[2020.02.02-13.45.34:272][  2]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartScreen -0.667
+[2020.02.02-13.45.34:273][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.37:589][394]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.37:590][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.37:626][394]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.45.37:626][394]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.37:694][394]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.37:699][394]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2020.02.02-13.45.37:717][395]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.02.02-13.45.38:507][486]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.45.39:060][552]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.45.39:091][552]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.39:091][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.45.39:091][552]PIE: New page: PIE session: StartScreen (2 Feb 2020 13:45:39)
+[2020.02.02-13.45.39:092][552]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartScreen
+[2020.02.02-13.45.39:093][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001069s)
+[2020.02.02-13.45.39:093][552]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.45.39:094][552]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2020.02.02-13.45.39:094][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartScreen.StartScreen to /Game/Levels/UEDPIE_0_StartScreen.StartScreen (0.002142s)
+[2020.02.02-13.45.39:134][552]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2020.02.02-13.45.39:146][552]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.45.39:164][552]LogInit: FAudioDevice initialized.
+[2020.02.02-13.45.39:202][552]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.45.39:203][552]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2020.02.02-13.45.39
+[2020.02.02-13.45.39:203][552]LogWorld: Bringing up level for play took: 0.000494
+[2020.02.02-13.45.39:218][552]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartScreen 0.278
+[2020.02.02-13.45.39:218][552]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.40:133][659]LogNet: Browse: /Game/Maps/Untitled
+[2020.02.02-13.45.40:133][659]LogLoad: LoadMap: /Game/Maps/Untitled
+[2020.02.02-13.45.40:184][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2020.02.02-13.45.40:204][659]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.45.40:205][659]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.45.40:206][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:207][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:207][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:208][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:212][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:213][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:213][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:214][659]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.40:217][659]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.45.40
+[2020.02.02-13.45.40:217][659]LogWorld: Bringing up level for play took: 0.011506
+[2020.02.02-13.45.40:219][659]LogLoad: Took 0.084867 seconds to LoadMap(/Game/Maps/Untitled)
+[2020.02.02-13.45.48:594][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.48:594][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.48:633][654]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.45.48:633][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.48:681][654]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.48:686][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.02.02-13.45.48:702][655]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.02.02-13.45.49:604][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.45.52:033][ 38]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.02-13.45.52:064][ 38]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.52:064][ 38]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.02-13.45.52:064][ 38]PIE: New page: PIE session: StartScreen (2 Feb 2020 13:45:52)
+[2020.02.02-13.45.52:065][ 38]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_StartScreen
+[2020.02.02-13.45.52:066][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001037s)
+[2020.02.02-13.45.52:066][ 38]LogAIModule: Creating AISystem for world StartScreen
+[2020.02.02-13.45.52:067][ 38]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2020.02.02-13.45.52:067][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/StartScreen.StartScreen to /Game/Levels/UEDPIE_0_StartScreen.StartScreen (0.002380s)
+[2020.02.02-13.45.52:112][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.02.02-13.45.52:124][ 38]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (2- Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.02-13.45.52:142][ 38]LogInit: FAudioDevice initialized.
+[2020.02.02-13.45.52:147][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.45.52:180][ 38]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.45.52:181][ 38]LogWorld: Bringing World /Game/Levels/UEDPIE_0_StartScreen.StartScreen up for play (max tick rate 0) at 2020.02.02-13.45.52
+[2020.02.02-13.45.52:181][ 38]LogWorld: Bringing up level for play took: 0.000564
+[2020.02.02-13.45.52:195][ 38]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2020.02.02-13.45.52:197][ 38]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_StartScreen -0.742
+[2020.02.02-13.45.52:198][ 38]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.45.53:162][151]LogNet: Browse: /Game/Maps/Untitled
+[2020.02.02-13.45.53:163][151]LogLoad: LoadMap: /Game/Maps/Untitled
+[2020.02.02-13.45.53:202][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.02.02-13.45.53:222][151]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.45.53:222][151]LogLoad: Game class is 'TestLevel_C'
+[2020.02.02-13.45.53:224][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:225][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:225][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:226][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:228][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:229][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:229][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:230][151]LogActor: Warning: BPRivet_C /Game/Maps/UEDPIE_0_Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.45.53:233][151]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Untitled.Untitled up for play (max tick rate 0) at 2020.02.02-13.45.53
+[2020.02.02-13.45.53:233][151]LogWorld: Bringing up level for play took: 0.010009
+[2020.02.02-13.45.53:235][151]LogLoad: Took 0.072099 seconds to LoadMap(/Game/Maps/Untitled)
+[2020.02.02-13.46.03:671][370]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.46.03:672][370]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.02-13.46.03:693][370]LogSlate: Window 'GGJ20 Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.02-13.46.03:730][370]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.02-13.46.03:730][370]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/StartScreen.StartScreen:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen' with GeneratedClass '/Game/Levels/StartScreen.StartScreen_C' with ClassGeneratedBy '/Game/Levels/StartScreen.StartScreen:PersistentLevel.StartScreen'
+[2020.02.02-13.46.03:795][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2020.02.02-13.46.03:809][371]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.02.02-13.46.20:313][314]LogAIModule: Creating AISystem for world Untitled
+[2020.02.02-13.46.20:315][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:316][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:316][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:317][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:319][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_38 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:320][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_39 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:320][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_40 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:321][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_41 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:325][314]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Untitled.Untitled
+[2020.02.02-13.46.20:371][314]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.02.02-13.46.20:373][314]Cmd: MAP LOAD FILE="../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Maps/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.02-13.46.20:373][314]LightingResults: New page: Lighting Build
+[2020.02.02-13.46.20:374][314]LoadErrors: New page: Loading map: Untitled.umap
+[2020.02.02-13.46.20:374][314]MapCheck: New page: Map Check
+[2020.02.02-13.46.20:374][314]LightingResults: New page: Lighting Build
+[2020.02.02-13.46.20:412][314]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.02.02-13.46.20:414][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_33 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:415][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_26 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:416][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:417][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_12 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:419][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_50 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:420][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_51 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:420][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_52 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:421][314]LogActor: Warning: BPRivet_C /Game/Maps/Untitled.Untitled:PersistentLevel.ChildActor_GEN_VARIABLE_BPRivet_C_CAT_53 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.02-13.46.20:424][314]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.02-13.46.20:470][314]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.02.02-13.46.20:504][314]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.02-13.46.20:504][314]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.185ms to complete.
+[2020.02.02-13.46.20:505][314]LogFileHelpers: Loading map 'Untitled' took 0.132
+[2020.02.02-13.46.21:374][408]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.02.02-13.46.27:766][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.02-13.46.32:411][689]LogAssetEditorManager: Opening Asset editor for WidgetBlueprint /Game/Menus/EndScreen.EndScreen
+[2020.02.02-13.46.40:904][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.02.02-13.47.32:595][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.02.02-13.47.32:873][380]LogSavePackage: Moving '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Saved/Untitled0BFEBA0B44D4F2FCF747CCBA2696BEF5.tmp' to '../../../../../../Users/h017026h/Documents/GitKra/Global-Game-Jam-2020/GGJ20/Content/Maps/Untitled.umap'
+[2020.02.02-13.47.37:286][875]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.02.02-13.47.37:539][875]LogSlate: Window 'GGJ20 - Unreal Editor' being destroyed
+[2020.02.02-13.47.37:791][876]Cmd: QUIT_EDITOR
+[2020.02.02-13.47.37:904][876]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.02.02-13.47.37:928][876]LogExit: Preparing to exit.
+[2020.02.02-13.47.39:009][876]LogExit: Editor shut down
+[2020.02.02-13.47.39:009][876]LogExit: Transaction tracking system shut down
+[2020.02.02-13.47.39:421][876]LogExit: Object subsystem successfully closed.
+[2020.02.02-13.47.39:457][876]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.02.02-13.47.39:464][876]LogD3D11RHI: Shutdown
+[2020.02.02-13.47.39:464][876]LogD3D11RHI: CleanupD3DDevice
+[2020.02.02-13.47.39:466][876]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.02-13.47.39:466][876]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.02-13.47.39:466][876]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.02-13.47.39:466][876]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.02-13.47.39:466][876]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2020.02.02-13.47.39:467][876]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2020.02.02-13.47.39:570][876]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.02.02-13.47.39:593][876]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (654)
+[2020.02.02-13.47.39:594][876]LogModuleManager: Shutting down and abandoning module Voice (652)
+[2020.02.02-13.47.39:594][876]LogModuleManager: Shutting down and abandoning module SequencerWidgets (650)
+[2020.02.02-13.47.39:594][876]LogModuleManager: Shutting down and abandoning module BlueprintGraph (648)
+[2020.02.02-13.47.39:594][876]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (646)
+[2020.02.02-13.47.39:594][876]LogModuleManager: Shutting down and abandoning module SceneOutliner (644)
+[2020.02.02-13.47.39:594][876]LogModuleManager: Shutting down and abandoning module AddContentDialog (642)
+[2020.02.02-13.47.39:595][876]LogModuleManager: Shutting down and abandoning module WidgetCarousel (641)
+[2020.02.02-13.47.39:595][876]LogModuleManager: Shutting down and abandoning module EditorWidgets (638)
+[2020.02.02-13.47.39:595][876]LogModuleManager: Shutting down and abandoning module CollectionManager (636)
+[2020.02.02-13.47.39:595][876]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (634)
+[2020.02.02-13.47.39:595][876]LogModuleManager: Shutting down and abandoning module StatsViewer (632)
+[2020.02.02-13.47.39:595][876]LogModuleManager: Shutting down and abandoning module FoliageEdit (630)
+[2020.02.02-13.47.39:595][876]LogModuleManager: Shutting down and abandoning module LandscapeEditor (628)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module MeshPaintMode (626)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (624)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module ActorPickerMode (622)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module GeometryMode (620)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module TextureAlignMode (618)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module BspMode (616)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (614)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (612)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module AutomationWorker (610)
+[2020.02.02-13.47.39:596][876]LogModuleManager: Shutting down and abandoning module OculusMR (608)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (606)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (604)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (602)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module PlacementMode (601)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module MaterialEditor (600)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (596)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (594)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (592)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (590)
+[2020.02.02-13.47.39:597][876]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (588)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module WebMMedia (586)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (584)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (582)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module SequenceRecorder (581)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (578)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (576)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (574)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (572)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (570)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (568)
+[2020.02.02-13.47.39:598][876]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (566)
+[2020.02.02-13.47.39:599][876]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (564)
+[2020.02.02-13.47.39:599][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (562)
+[2020.02.02-13.47.39:599][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (560)
+[2020.02.02-13.47.39:599][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (558)
+[2020.02.02-13.47.39:599][876]LogModuleManager: Shutting down and abandoning module CharacterAI (556)
+[2020.02.02-13.47.39:599][876]LogModuleManager: Shutting down and abandoning module SmartSnapping (554)
+[2020.02.02-13.47.39:600][876]LogModuleManager: Shutting down and abandoning module SessionServices (552)
+[2020.02.02-13.47.39:600][876]LogModuleManager: Shutting down and abandoning module MeshPaint (550)
+[2020.02.02-13.47.39:600][876]LogModuleManager: Shutting down and abandoning module ViewportSnapping (548)
+[2020.02.02-13.47.39:600][876]LogModuleManager: Shutting down and abandoning module ViewportInteraction (546)
+[2020.02.02-13.47.39:601][876]LogModuleManager: Shutting down and abandoning module ClothPainter (544)
+[2020.02.02-13.47.39:601][876]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (543)
+[2020.02.02-13.47.39:601][876]LogModuleManager: Shutting down and abandoning module LogVisualizer (540)
+[2020.02.02-13.47.39:601][876]LogModuleManager: Shutting down and abandoning module IntroTutorials (538)
+[2020.02.02-13.47.39:601][876]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (537)
+[2020.02.02-13.47.39:601][876]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (534)
+[2020.02.02-13.47.39:601][876]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (532)
+[2020.02.02-13.47.39:602][876]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (530)
+[2020.02.02-13.47.39:602][876]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (528)
+[2020.02.02-13.47.39:602][876]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (527)
+[2020.02.02-13.47.39:669][876]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (524)
+[2020.02.02-13.47.39:669][876]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (522)
+[2020.02.02-13.47.39:669][876]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (520)
+[2020.02.02-13.47.39:669][876]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (518)
+[2020.02.02-13.47.39:669][876]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (516)
+[2020.02.02-13.47.39:670][876]LogModuleManager: Shutting down and abandoning module InputBindingEditor (514)
+[2020.02.02-13.47.39:670][876]LogModuleManager: Shutting down and abandoning module MergeActors (512)
+[2020.02.02-13.47.39:670][876]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (510)
+[2020.02.02-13.47.39:670][876]LogModuleManager: Shutting down and abandoning module LocalizationService (509)
+[2020.02.02-13.47.39:670][876]LogModuleManager: Shutting down and abandoning module HardwareTargeting (506)
+[2020.02.02-13.47.39:670][876]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (504)
+[2020.02.02-13.47.39:671][876]LogModuleManager: Shutting down and abandoning module UndoHistory (502)
+[2020.02.02-13.47.39:671][876]LogModuleManager: Shutting down and abandoning module XmlParser (500)
+[2020.02.02-13.47.39:671][876]LogModuleManager: Shutting down and abandoning module Blutility (498)
+[2020.02.02-13.47.39:671][876]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (496)
+[2020.02.02-13.47.39:671][876]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (495)
+[2020.02.02-13.47.39:672][876]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (492)
+[2020.02.02-13.47.39:672][876]LogModuleManager: Shutting down and abandoning module SettingsEditor (490)
+[2020.02.02-13.47.39:672][876]LogModuleManager: Shutting down and abandoning module ProjectLauncher (488)
+[2020.02.02-13.47.39:672][876]LogModuleManager: Shutting down and abandoning module SessionFrontend (486)
+[2020.02.02-13.47.39:672][876]LogModuleManager: Shutting down and abandoning module ProfilerClient (484)
+[2020.02.02-13.47.39:672][876]LogModuleManager: Shutting down and abandoning module DeviceManager (482)
+[2020.02.02-13.47.39:673][876]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (481)
+[2020.02.02-13.47.39:727][876]LogModuleManager: Shutting down and abandoning module AutomationController (478)
+[2020.02.02-13.47.39:727][876]LogModuleManager: Shutting down and abandoning module AutomationWindow (476)
+[2020.02.02-13.47.39:727][876]LogModuleManager: Shutting down and abandoning module Layers (474)
+[2020.02.02-13.47.39:727][876]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (472)
+[2020.02.02-13.47.39:728][876]LogModuleManager: Shutting down and abandoning module DetailCustomizations (470)
+[2020.02.02-13.47.39:728][876]LogModuleManager: Shutting down and abandoning module PackagesDialog (468)
+[2020.02.02-13.47.39:728][876]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (466)
+[2020.02.02-13.47.39:729][876]LogModuleManager: Shutting down and abandoning module Persona (464)
+[2020.02.02-13.47.39:729][876]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (463)
+[2020.02.02-13.47.39:729][876]LogModuleManager: Shutting down and abandoning module AnimGraph (461)
+[2020.02.02-13.47.39:729][876]LogModuleManager: Shutting down and abandoning module Kismet (458)
+[2020.02.02-13.47.39:740][876]LogModuleManager: Shutting down and abandoning module GraphEditor (456)
+[2020.02.02-13.47.39:740][876]LogModuleManager: Shutting down and abandoning module ClassViewer (454)
+[2020.02.02-13.47.39:743][876]LogModuleManager: Shutting down and abandoning module Toolbox (452)
+[2020.02.02-13.47.39:743][876]LogModuleManager: Shutting down and abandoning module DesktopPlatform (451)
+[2020.02.02-13.47.39:744][876]LogModuleManager: Shutting down and abandoning module ModuleUI (448)
+[2020.02.02-13.47.39:744][876]LogModuleManager: Shutting down and abandoning module MovieSceneTools (446)
+[2020.02.02-13.47.39:744][876]LogModuleManager: Shutting down and abandoning module OutputLog (444)
+[2020.02.02-13.47.39:745][876]LogModuleManager: Shutting down and abandoning module GammaUI (442)
+[2020.02.02-13.47.39:745][876]LogModuleManager: Shutting down and abandoning module Documentation (440)
+[2020.02.02-13.47.39:745][876]LogModuleManager: Shutting down and abandoning module LiveCoding (438)
+[2020.02.02-13.47.39:745][876]LogModuleManager: Shutting down and abandoning module LevelSequence (436)
+[2020.02.02-13.47.39:745][876]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (434)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module MovieScene (432)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (430)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module LauncherPlatform (428)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module AnalyticsET (426)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module PortalServices (424)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module PortalRpc (422)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module MessagingRpc (420)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module AIModule (418)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module GameplayDebugger (417)
+[2020.02.02-13.47.39:746][876]LogModuleManager: Shutting down and abandoning module AITestSuite (415)
+[2020.02.02-13.47.39:747][876]LogModuleManager: Shutting down and abandoning module NavigationSystem (413)
+[2020.02.02-13.47.39:747][876]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (410)
+[2020.02.02-13.47.39:756][876]LogModuleManager: Shutting down and abandoning module ProfilerService (408)
+[2020.02.02-13.47.39:825][876]LogModuleManager: Shutting down and abandoning module TaskGraph (406)
+[2020.02.02-13.47.39:825][876]LogModuleManager: Shutting down and abandoning module SteamVRController (404)
+[2020.02.02-13.47.39:825][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (402)
+[2020.02.02-13.47.39:825][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (400)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module OculusEditor (398)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module OculusInput (396)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (394)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module EditableMesh (392)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (390)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module CableComponent (388)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module AudioCapture (386)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (384)
+[2020.02.02-13.47.39:826][876]LogModuleManager: Shutting down and abandoning module AndroidPermission (382)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (380)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (378)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module MediaCompositing (376)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module LinearTimecode (374)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module ImgMedia (372)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (370)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (368)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (366)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2020.02.02-13.47.39:827][876]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2020.02.02-13.47.39:828][876]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (332)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2020.02.02-13.47.39:829][876]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.02.02-13.47.39:830][876]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module GGJ20 (296)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module SignificanceManager (294)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2020.02.02-13.47.39:831][876]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2020.02.02-13.47.39:933][876]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2020.02.02-13.47.40:034][876]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2020.02.02-13.47.40:034][876]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2020.02.02-13.47.40:034][876]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2020.02.02-13.47.40:034][876]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2020.02.02-13.47.40:035][876]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2020.02.02-13.47.40:035][876]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.02.02-13.47.40:035][876]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2020.02.02-13.47.40:035][876]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2020.02.02-13.47.40:035][876]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2020.02.02-13.47.40:036][876]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2020.02.02-13.47.40:036][876]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2020.02.02-13.47.40:036][876]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2020.02.02-13.47.40:036][876]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2020.02.02-13.47.40:036][876]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.02.02-13.47.40:038][876]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.02.02-13.47.40:038][876]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2020.02.02-13.47.40:039][876]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2020.02.02-13.47.40:039][876]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2020.02.02-13.47.40:040][876]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2020.02.02-13.47.40:042][876]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2020.02.02-13.47.40:042][876]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2020.02.02-13.47.40:042][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.02.02-13.47.40:043][876]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2020.02.02-13.47.40:043][876]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2020.02.02-13.47.40:043][876]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2020.02.02-13.47.40:043][876]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2020.02.02-13.47.40:043][876]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.02.02-13.47.40:044][876]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.02.02-13.47.40:044][876]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.02.02-13.47.40:044][876]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.02.02-13.47.40:044][876]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2020.02.02-13.47.40:044][876]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2020.02.02-13.47.40:044][876]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2020.02.02-13.47.40:045][876]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2020.02.02-13.47.40:045][876]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2020.02.02-13.47.40:045][876]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2020.02.02-13.47.40:045][876]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2020.02.02-13.47.40:045][876]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2020.02.02-13.47.40:045][876]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2020.02.02-13.47.40:046][876]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2020.02.02-13.47.40:046][876]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2020.02.02-13.47.40:046][876]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2020.02.02-13.47.40:046][876]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2020.02.02-13.47.40:046][876]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2020.02.02-13.47.40:046][876]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2020.02.02-13.47.40:047][876]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2020.02.02-13.47.40:048][876]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2020.02.02-13.47.40:048][876]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.02.02-13.47.40:049][876]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.02.02-13.47.40:049][876]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.02.02-13.47.40:049][876]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.02.02-13.47.40:049][876]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.02.02-13.47.40:049][876]LogModuleManager: Shutting down and abandoning module Core (174)
+[2020.02.02-13.47.40:049][876]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.02.02-13.47.40:050][876]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.02.02-13.47.40:050][876]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.02.02-13.47.40:050][876]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.02.02-13.47.40:050][876]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2020.02.02-13.47.40:051][876]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2020.02.02-13.47.40:051][876]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2020.02.02-13.47.40:051][876]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2020.02.02-13.47.40:051][876]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2020.02.02-13.47.40:108][876]LogDerivedDataCache: Shutdown
+[2020.02.02-13.47.40:109][876]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2020.02.02-13.47.40:109][876]LogXGEController: Cleaning working directory: C:/Users/h017026h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.02-13.47.40:110][876]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2020.02.02-13.47.40:110][876]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2020.02.02-13.47.40:110][876]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2020.02.02-13.47.40:110][876]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2020.02.02-13.47.40:111][876]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2020.02.02-13.47.40:111][876]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2020.02.02-13.47.40:111][876]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2020.02.02-13.47.40:112][876]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2020.02.02-13.47.40:112][876]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2020.02.02-13.47.40:112][876]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2020.02.02-13.47.40:114][876]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2020.02.02-13.47.40:115][876]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2020.02.02-13.47.40:115][876]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2020.02.02-13.47.40:115][876]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2020.02.02-13.47.40:115][876]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2020.02.02-13.47.40:115][876]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2020.02.02-13.47.40:115][876]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2020.02.02-13.47.40:118][876]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2020.02.02-13.47.40:118][876]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2020.02.02-13.47.40:119][876]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2020.02.02-13.47.40:119][876]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2020.02.02-13.47.40:119][876]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2020.02.02-13.47.40:120][876]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2020.02.02-13.47.40:121][876]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2020.02.02-13.47.40:122][876]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2020.02.02-13.47.40:122][876]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2020.02.02-13.47.40:132][876]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2020.02.02-13.47.40:132][876]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2020.02.02-13.47.40:132][876]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2020.02.02-13.47.40:132][876]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2020.02.02-13.47.40:135][876]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2020.02.02-13.47.40:136][876]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2020.02.02-13.47.40:136][876]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2020.02.02-13.47.40:136][876]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2020.02.02-13.47.40:136][876]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2020.02.02-13.47.40:137][876]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2020.02.02-13.47.40:137][876]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2020.02.02-13.47.40:137][876]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2020.02.02-13.47.40:137][876]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2020.02.02-13.47.40:137][876]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2020.02.02-13.47.40:138][876]LogHMD: Freeing OpenVRDLLHandle.
+[2020.02.02-13.47.40:138][876]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2020.02.02-13.47.40:138][876]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2020.02.02-13.47.40:138][876]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2020.02.02-13.47.40:138][876]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2020.02.02-13.47.40:139][876]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2020.02.02-13.47.40:142][876]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2020.02.02-13.47.40:142][876]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2020.02.02-13.47.40:153][876]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2020.02.02-13.47.40:153][876]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.02.02-13.47.40:153][876]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B179DD2C4-4B38-4FE4-425C-B7827EA97DC2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=3bcd1ee944f6f6d75ccab9ba85879f01%7C%7C487c19d7-9a35-4ffd-8032-4f0b5f1201a5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.02.02-13.47.40:186][876]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2020.02.02-13.47.40:187][876]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2020.02.02-13.47.40:192][876]LogModuleManager: Shutting down and abandoning module Media (45)
+[2020.02.02-13.47.40:198][876]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2020.02.02-13.47.40:198][876]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2020.02.02-13.47.40:199][876]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.02.02-13.47.40:199][876]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.02.02-13.47.40:200][876]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.02.02-13.47.40:201][876]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.02.02-13.47.40:201][876]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.02.02-13.47.40:201][876]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.02.02-13.47.40:202][876]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.02.02-13.47.40:202][876]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.02.02-13.47.40:202][876]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.02.02-13.47.40:202][876]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.02.02-13.47.40:202][876]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.02.02-13.47.40:203][876]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.02.02-13.47.40:219][876]LogExit: Exiting.
+[2020.02.02-13.47.40:241][876]Log file closed, 02/02/20 13:47:40
