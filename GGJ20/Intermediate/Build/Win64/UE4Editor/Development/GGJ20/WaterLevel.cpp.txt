@@ -1,3 +1,3 @@
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\WaterLevel.h
-C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\WaterLevel.generated.h
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\Definitions.GGJ20.h
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\WaterLevel.h
+F:\Uni Work\Jams\GGJ20\Build\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Inc\GGJ20\WaterLevel.generated.h
