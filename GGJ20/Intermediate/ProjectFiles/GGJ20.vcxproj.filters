@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2C8BCC8B-4739-4B60-A326-FFECE77F91CF}</UniqueIdentifier>
+      <UniqueIdentifier>{B97E52AD-602C-4463-84FF-7EBAC0BA0C45}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A9F54CF4-41AD-4999-906D-CDA65FA7A932}</UniqueIdentifier>
+      <UniqueIdentifier>{95DB614A-4512-47F3-B81A-B9342CFE1872}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{161EE7C3-9F82-42F9-B1AC-371AB191C557}</UniqueIdentifier>
+      <UniqueIdentifier>{B4470BF0-0FFF-455B-B949-A908967464B3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{C2F8E072-2C61-4FC4-858D-77312EDA3956}</UniqueIdentifier>
+      <UniqueIdentifier>{F10ADFD9-E299-49A7-BAF3-1F9626017446}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseOctopus.cpp">
       <Filter>Source\GGJ20\Private</Filter>
@@ -80,6 +80,9 @@
     <ClCompile Include="..\..\Source\GGJ20\Private\RepairableEnum.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\Rivet.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterLevel.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
@@ -87,7 +90,7 @@
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{36DAACA9-BD24-43E8-94FC-21887CB36CE0}</UniqueIdentifier>
+      <UniqueIdentifier>{3B44DC10-539E-4DE7-BE25-DBB1D3DDB9F2}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h">
       <Filter>Source\GGJ20\Public</Filter>
@@ -120,6 +123,9 @@
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\RepairableEnum.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\Rivet.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterLevel.h">

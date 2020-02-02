@@ -9,6 +9,7 @@
 #include "IRepairableBase.h"
 #include "DefenseSystemRepairable.h"
 #include "HullRepairable.h"
+#include "Rivet.h"
 
 // Sets default values
 ABasePlayer::ABasePlayer()
@@ -195,8 +196,8 @@ void ABasePlayer::Repair()
 
 			if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
 			{
-				auto component = hitResult->GetComponent();
-				USphereComponent* hitSphere = Cast<USphereComponent>(component);
+				auto component = hitResult->GetActor();
+				ARivet* hitSphere = Cast<ARivet>(component);
 				if (hitSphere)
 				{
 					AHullRepairable* hull = Cast<AHullRepairable>(currentRepairTarget);

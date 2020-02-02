@@ -38,6 +38,7 @@ public:
 		TArray<AILightControllerBase*> ControlledLights;
 
 
+	bool broken = false;
 	// Sets default values for this actor's properties
 	AIRepairableBase();
 

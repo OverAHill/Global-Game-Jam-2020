@@ -4,6 +4,7 @@
 #include "Components/SphereComponent.h"
 #include "WaterLevel.h"
 #include "Engine.h"
+#include "Rivet.h"
 
 
 AHullRepairable::AHullRepairable()
@@ -11,16 +12,41 @@ AHullRepairable::AHullRepairable()
 	m_RepairType = RepairTypes::HULL_REPAIR;
 
 	//set refWaterLevel ref in engine
-	GenerateRivets();
-	horizontalLength = 10;
-	verticalHeight = 5;
+	horizontalLength = 2;
+	verticalHeight = 1;
 
+	//GenerateRivets();
 	//all rivets start fixed (4)
+}
+
+void AHullRepairable::BeginPlay()
+{
+	/*Rivets[0] = ULRivet;
+	Rivets[1] = URRivet;
+	Rivets[2] = LLRivet;
+	Rivets[3] = LRRivet;*/
+
+	
 }
 
 void AHullRepairable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	/*FVector newPosition = GetActorLocation();
+
+	float xOffset = horizontalLength / 2;
+	float yOffset = verticalHeight / 2;
+
+	FVector PosOne = FVector(newPosition.X - xOffset, newPosition.Y + verticalHeight, newPosition.Z);
+	FVector PosTwo = FVector(newPosition.X - xOffset, newPosition.Y - verticalHeight, newPosition.Z);
+	FVector PosThree = FVector(newPosition.X + xOffset, newPosition.Y + verticalHeight, newPosition.Z);
+	FVector PosFour = FVector(newPosition.X + xOffset, newPosition.Y - verticalHeight, newPosition.Z);
+
+	Rivets[0]->SetActorLocation(PosOne);
+	Rivets[1]->SetActorLocation(PosThree);
+	Rivets[2]->SetActorLocation(PosTwo);
+	Rivets[3]->SetActorLocation(PosFour);*/
 }
 
 void AHullRepairable::Break()
@@ -29,8 +55,18 @@ void AHullRepairable::Break()
 
 	//increase broken hull level
 	//only do once, on the first break
-	refWaterLevel->increaseAmountOfBrokenHulls();
-	amountOfFixedRivets = 0;
+	for (ARivet* rivet : Rivets)
+	{
+		rivet->repaired = false;
+	}
+
+	if (!broken)
+	{
+		broken = true;
+		refWaterLevel->increaseAmountOfBrokenHulls();
+		amountOfFixedRivets = 0;
+	}
+	
 }
 
 RepairTypes AHullRepairable::Repair()
@@ -44,74 +80,49 @@ RepairTypes AHullRepairable::Repair()
 void AHullRepairable::SignalRepairCompleted(bool successful)
 {
 	Super::SignalRepairCompleted(successful);
-
+	broken = false;
 	//if amount of fixed rivets is 4 then it is repaired
 	refWaterLevel->decreaseAmountOfBrokenHulls();
 }
 
 void AHullRepairable::GenerateRivets()
 {
-	USphereComponent* newRiv;
+	
 	FVector newPosition = GetActorLocation();
-	FVector PosOne = FVector(newPosition.X - 4, newPosition.Y + 2, newPosition.Z);
-	FVector PosTwo = FVector(newPosition.X - 4, newPosition.Y - 2, newPosition.Z);
-	FVector PosThree = FVector(newPosition.X + 4, newPosition.Y + 2, newPosition.Z);
-	FVector PosFour = FVector(newPosition.X + 4, newPosition.Y - 2, newPosition.Z);
 
-	for (int i = 0; i < 4; i++)
-	{
+	float xOffset = horizontalLength / 2;
+	float yOffset = verticalHeight / 2;
 
-		newRiv = CreateDefaultSubobject<USphereComponent>(FName("Rivet"));
-		// Put this in the corners my lovely <3
-		switch (i)
-		{
-		case 0:
-			newPosition = PosOne;
-			break;
+	FVector PosOne = FVector(newPosition.X - xOffset, newPosition.Y + verticalHeight, newPosition.Z);
+	FVector PosTwo = FVector(newPosition.X - xOffset, newPosition.Y - verticalHeight, newPosition.Z);
+	FVector PosThree = FVector(newPosition.X + xOffset, newPosition.Y + verticalHeight, newPosition.Z);
+	FVector PosFour = FVector(newPosition.X + xOffset, newPosition.Y - verticalHeight, newPosition.Z);
 
-		case 1:
-			newPosition = PosTwo;
-			break;
+	ULRivet = CreateDefaultSubobject<ARivet>(FName("Rivet 1"));
+	Rivets.Add(ULRivet);
 
-		case 2:
-			newPosition = PosThree;
-			break;
+	URRivet = CreateDefaultSubobject<ARivet>(FName("Rivet 2"));
+	Rivets.Add(URRivet);
 
-		case 3: newPosition = PosFour;
-			break;
+	LLRivet = CreateDefaultSubobject<ARivet>(FName("Rivet 3"));
+	Rivets.Add(LLRivet);
 
-		default:
-			break;
-		}
-
-		newRiv->SetWorldLocation(newPosition);
-		Rivets.Add(newRiv);
-	}
-
+	LRRivet = CreateDefaultSubobject<ARivet>(FName("Rivet 4"));
+	Rivets.Add(LRRivet);
 
 }
 
-
-
-
-int AHullRepairable::HitRivets(USphereComponent* hitSphere)
-{
-	bool hit = false;
-
-	for (USphereComponent* sphere : Rivets)
-	{
-		if (hitSphere == sphere)
-		{
-			hit = true;
-			break;
-		}
-	}
-
-	if (hit)
-	{
-		++amountOfFixedRivets;
-		hitSphere->SetWorldLocation(FVector(10000, 100000, -10000));
-	}
-
-	return amountOfFixedRivets;
-}
+//int AHullRepairable::HitRivets(ARivet* hitRivet)
+//{
+//	for (ARivet* sphere : Rivets)
+//	{
+//		if (hitRivet == sphere && !sphere->repaired)
+//		{
+//			++amountOfFixedRivets;
+//			hitRivet->repaired = true;
+//			break;
+//		}
+//	}
+//
+//	return amountOfFixedRivets;
+//}
