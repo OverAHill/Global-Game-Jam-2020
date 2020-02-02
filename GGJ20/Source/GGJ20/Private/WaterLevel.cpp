@@ -19,6 +19,7 @@ AWaterLevel::AWaterLevel()
 	filling = false;
 	draining = false;
 	genFixed = true;
+	amountOfBrokenHulls = 1;
 }
 
 // Called when the game starts or when spawned
@@ -64,24 +65,6 @@ void AWaterLevel::Tick(float DeltaTime)
 
 void AWaterLevel::UpdateWaterLevel()
 {
-
-	/*if (CurrentWaterLevel < maxWaterLevel && !draining)
-	{
-		filling = true;
-	}
-
-	if (CurrentWaterLevel > maxWaterLevel)
-	{
-		filling = false;
-		draining = true;
-	}
-
-	if (CurrentWaterLevel < minWaterLevel)
-	{
-		filling = true;
-		draining = false;
-	}*/
-
 
 	if (amountOfBrokenHulls > 0) // any amount of holes  doesnt matter if gen fixed
 	{

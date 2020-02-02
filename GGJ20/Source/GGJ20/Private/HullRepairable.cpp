@@ -32,21 +32,6 @@ void AHullRepairable::BeginPlay()
 void AHullRepairable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
-	/*FVector newPosition = GetActorLocation();
-
-	float xOffset = horizontalLength / 2;
-	float yOffset = verticalHeight / 2;
-
-	FVector PosOne = FVector(newPosition.X - xOffset, newPosition.Y + verticalHeight, newPosition.Z);
-	FVector PosTwo = FVector(newPosition.X - xOffset, newPosition.Y - verticalHeight, newPosition.Z);
-	FVector PosThree = FVector(newPosition.X + xOffset, newPosition.Y + verticalHeight, newPosition.Z);
-	FVector PosFour = FVector(newPosition.X + xOffset, newPosition.Y - verticalHeight, newPosition.Z);
-
-	Rivets[0]->SetActorLocation(PosOne);
-	Rivets[1]->SetActorLocation(PosThree);
-	Rivets[2]->SetActorLocation(PosTwo);
-	Rivets[3]->SetActorLocation(PosFour);*/
 }
 
 void AHullRepairable::Break()
@@ -85,6 +70,7 @@ void AHullRepairable::SignalRepairCompleted(bool successful)
 	refWaterLevel->decreaseAmountOfBrokenHulls();
 }
 
+//Unused
 void AHullRepairable::GenerateRivets()
 {
 	
