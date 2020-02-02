@@ -5,6 +5,7 @@
     <Filter Include="Source">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{B97E52AD-602C-4463-84FF-7EBAC0BA0C45}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{CBFE4688-94C6-4CD8-B2BA-254314FA2B0A}</UniqueIdentifier>
@@ -12,6 +13,9 @@
 =======
       <UniqueIdentifier>{14E360CF-E44D-4C71-B812-5631433816F1}</UniqueIdentifier>
 >>>>>>> AngAttemptToFix
+=======
+      <UniqueIdentifier>{32C5C264-DB17-476F-A60A-24696C7080AD}</UniqueIdentifier>
+>>>>>>> SettingUpShipOnMocklevel
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -22,6 +26,7 @@
     <Filter Include="Config">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{95DB614A-4512-47F3-B81A-B9342CFE1872}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{8CEF505E-9465-455B-9F1E-F799F67DD978}</UniqueIdentifier>
@@ -29,6 +34,9 @@
 =======
       <UniqueIdentifier>{50F5F5E2-65C4-4EB9-BBE9-D9F810E35F9D}</UniqueIdentifier>
 >>>>>>> AngAttemptToFix
+=======
+      <UniqueIdentifier>{7703B93D-85AB-4B26-810B-71477144A513}</UniqueIdentifier>
+>>>>>>> SettingUpShipOnMocklevel
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -45,6 +53,7 @@
     <Filter Include="Source\GGJ20">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{B4470BF0-0FFF-455B-B949-A908967464B3}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{5883D72B-547E-4D04-A058-228C7F892021}</UniqueIdentifier>
@@ -52,6 +61,9 @@
 =======
       <UniqueIdentifier>{98E62296-A3EC-4C83-B67C-CB01C4C0B795}</UniqueIdentifier>
 >>>>>>> AngAttemptToFix
+=======
+      <UniqueIdentifier>{FBDD25DD-C5DB-44BB-92AB-FC7AAD4B480B}</UniqueIdentifier>
+>>>>>>> SettingUpShipOnMocklevel
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -71,6 +83,7 @@
     <Filter Include="Source\GGJ20\Private">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{F10ADFD9-E299-49A7-BAF3-1F9626017446}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{CE819EF8-C34A-4C81-8387-FFFE1850B8BD}</UniqueIdentifier>
@@ -78,6 +91,9 @@
 =======
       <UniqueIdentifier>{811E902B-560E-40EE-94AF-14454741E2FA}</UniqueIdentifier>
 >>>>>>> AngAttemptToFix
+=======
+      <UniqueIdentifier>{7A48E826-0F4C-4A7F-B700-9F81041CD24F}</UniqueIdentifier>
+>>>>>>> SettingUpShipOnMocklevel
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseDoor.cpp">
       <Filter>Source\GGJ20\Private</Filter>
@@ -142,6 +158,7 @@
     <Filter Include="Source\GGJ20\Public">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <UniqueIdentifier>{3B44DC10-539E-4DE7-BE25-DBB1D3DDB9F2}</UniqueIdentifier>
 =======
       <UniqueIdentifier>{96E13C57-B923-457A-9BF9-2C9764936043}</UniqueIdentifier>
@@ -149,6 +166,9 @@
 =======
       <UniqueIdentifier>{0DA0D5DD-1B7F-4107-BE59-EA5FD6A7277F}</UniqueIdentifier>
 >>>>>>> AngAttemptToFix
+=======
+      <UniqueIdentifier>{7570DF65-0AC9-4DDA-9D2F-F44AA36FCEC0}</UniqueIdentifier>
+>>>>>>> SettingUpShipOnMocklevel
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseDoor.h">
       <Filter>Source\GGJ20\Public</Filter>
@@ -208,6 +228,7 @@
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
 <<<<<<< HEAD
+<<<<<<< HEAD
   </ItemGroup>
 <<<<<<< HEAD
   <ItemGroup>
@@ -225,10 +246,13 @@
     </ClInclude>
 =======
 >>>>>>> AngAttemptToFix
+=======
+>>>>>>> SettingUpShipOnMocklevel
     <ClInclude Include="..\..\Source\GGJ20\Public\WinRegion.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
   </ItemGroup>
+<<<<<<< HEAD
 </Project>
 <<<<<<< HEAD
 =======
@@ -236,3 +260,6 @@
 >>>>>>> MattLevel
 =======
 >>>>>>> AngAttemptToFix
+=======
+</Project>
+>>>>>>> SettingUpShipOnMocklevel
