@@ -8,12 +8,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef GGJ20_BasePlayer_generated_h
 #error "BasePlayer.generated.h already included, missing '#pragma once' in BasePlayer.h"
 #endif
 #define GGJ20_BasePlayer_generated_h
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_RPC_WRAPPERS \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execGetOnLadder) \
 	{ \
@@ -33,7 +34,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execGetOnLadder) \
 	{ \
@@ -53,7 +54,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_INCLASS_NO_PURE_DECLS \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_EVENT_PARMS \
+	struct BasePlayer_eventSetMeshVisibility_Parms \
+	{ \
+		AActor* meshToSet; \
+	};
+
+
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_CALLBACK_WRAPPERS
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABasePlayer(); \
 	friend struct Z_Construct_UClass_ABasePlayer_Statics; \
@@ -62,7 +71,7 @@ public: \
 	DECLARE_SERIALIZER(ABasePlayer)
 
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_INCLASS \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_INCLASS \
 private: \
 	static void StaticRegisterNativesABasePlayer(); \
 	friend struct Z_Construct_UClass_ABasePlayer_Statics; \
@@ -71,7 +80,7 @@ public: \
 	DECLARE_SERIALIZER(ABasePlayer)
 
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_STANDARD_CONSTRUCTORS \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABasePlayer(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABasePlayer) \
@@ -84,7 +93,7 @@ private: \
 public:
 
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_ENHANCED_CONSTRUCTORS \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABasePlayer(ABasePlayer&&); \
@@ -95,26 +104,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABasePlayer); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABasePlayer)
 
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_PRIVATE_PROPERTY_OFFSET
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_24_PROLOG
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_GENERATED_BODY_LEGACY \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_PRIVATE_PROPERTY_OFFSET
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_25_PROLOG \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_EVENT_PARMS
+
+
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_PRIVATE_PROPERTY_OFFSET \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_RPC_WRAPPERS \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_INCLASS \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_STANDARD_CONSTRUCTORS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_PRIVATE_PROPERTY_OFFSET \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_CALLBACK_WRAPPERS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_INCLASS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GGJ20_Source_GGJ20_Public_BasePlayer_h_27_GENERATED_BODY \
+#define GGJ20_Source_GGJ20_Public_BasePlayer_h_28_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_PRIVATE_PROPERTY_OFFSET \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_RPC_WRAPPERS_NO_PURE_DECLS \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_INCLASS_NO_PURE_DECLS \
-	GGJ20_Source_GGJ20_Public_BasePlayer_h_27_ENHANCED_CONSTRUCTORS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_PRIVATE_PROPERTY_OFFSET \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_CALLBACK_WRAPPERS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_INCLASS_NO_PURE_DECLS \
+	GGJ20_Source_GGJ20_Public_BasePlayer_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

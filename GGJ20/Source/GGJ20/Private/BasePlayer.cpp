@@ -10,6 +10,9 @@
 #include "DefenseSystemRepairable.h"
 #include "HullRepairable.h"
 #include "Rivet.h"
+#include "WeldingPoint.h"
+#include "EngineRepairable.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 ABasePlayer::ABasePlayer()
@@ -71,7 +74,7 @@ void ABasePlayer::Tick(float DeltaTime)
 	}
 	else
 	{
-		AddMovementInput(PlayerFirstPersonCamera->GetUpVector(), CurrentVelocity.Y * DeltaTime);
+		AddMovementInput(FVector(0,0,1), CurrentVelocity.Y * DeltaTime);
 		
 		UpdatePlayerRotation();
 
@@ -145,14 +148,14 @@ void ABasePlayer::MoveCameraHor(float value)
 
 void ABasePlayer::Repair()
 {
+	FHitResult* hitResult = new FHitResult();
+	FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();/* + (GetActorForwardVector() * 20*/
+	FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
+	FVector EndTrace = StartTrace + (ForwardVector * 5000);
+	FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
+
 	if (!currentlyRepairing)
 	{
-		FHitResult* hitResult = new FHitResult();
-		FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();
-		FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
-		FVector EndTrace = StartTrace + (ForwardVector * 5000);
-		FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
-
 		if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
 		{
 			DrawDebugLine(GetWorld(), StartTrace, hitResult->Location, FColor(255, 0, 0), true);
@@ -172,6 +175,11 @@ void ABasePlayer::Repair()
 
 				}
 			}
+			// TODO: This causes the game to crash because of no reference to an appropriate hit object. Fix this.
+			//else if (Cast<AWeldingPoint>(hitObject)) // If we are trying to weld it should just interact instantly
+			//{
+			//	TryRepair(hitRepairable, (int)RepairTypes::ENGINE_REPAIR);
+			//}
 		}
 	}
 	else
@@ -188,12 +196,6 @@ void ABasePlayer::Repair()
 
 		if (currentTool == Tools::RIVET_GUN)
 		{
-			FHitResult* hitResult = new FHitResult();
-			FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();
-			FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
-			FVector EndTrace = StartTrace + (ForwardVector * 5000);
-			FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
-
 			if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
 			{
 				auto component = hitResult->GetActor();
@@ -201,13 +203,50 @@ void ABasePlayer::Repair()
 				if (hitSphere)
 				{
 					AHullRepairable* hull = Cast<AHullRepairable>(currentRepairTarget);
-					//int fixedRivets = hull->HitRivets(hitSphere);
 					hull->RepairRivet();
 					int fixedRivets = hull->amountOfFixedRivets;
 
 					if (fixedRivets >= 4)
 					{
 						hull->SignalRepairCompleted(true);
+						currentlyRepairing = false;
+						cameraLocked = false;
+						movementLocked = false;
+					}
+				}
+			}
+		}
+
+		if (currentTool == Tools::WELDER)
+		{
+			if (GetWorld()->LineTraceSingleByChannel(*hitResult, StartTrace, EndTrace, ECC_Visibility, *TraceParams))
+			{
+				AWeldingPoint* weldingPoint = Cast<AWeldingPoint>(hitResult->GetActor());
+				if (weldingPoint)
+				{
+					missedWeldingCounter = 0;
+					AEngineRepairable* engine = Cast<AEngineRepairable>(currentRepairTarget);
+					if (engine)
+					{
+						SetMeshVisibility(weldingPoint);
+						hiddenMeshes++;
+						if (hiddenMeshes >= 4)
+						{
+							currentRepairTarget->SignalRepairCompleted(true);
+							currentlyRepairing = false;
+							cameraLocked = false;
+							movementLocked = false;
+							hiddenMeshes = 0;
+						}
+					}
+				}
+				else
+				{
+					++missedWeldingCounter;
+					// Welding has failed and the user should be popped out of this body lock.
+					if (missedWeldingCounter > 5)
+					{
+						currentRepairTarget->SignalRepairCompleted(false);
 						currentlyRepairing = false;
 						cameraLocked = false;
 						movementLocked = false;
@@ -228,28 +267,53 @@ void ABasePlayer::TryRepair(AIRepairableBase* repairable, int repairType)
 	case Tools::FIRE_EX:
 		success = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
 		currentRepairTarget->SignalRepairCompleted(success);
-		movementLocked = true;
 		break;
 
 	case Tools::WELDER:
 		currentlyRepairing = (type == RepairTypes::ENGINE_REPAIR) ? true : false;
-		movementLocked = true;
 		break;
 
 	case Tools::RIVET_GUN:
 		currentlyRepairing = (type == RepairTypes::HULL_REPAIR) ? true : false;
-		cameraLocked = false;
-		movementLocked = true;
 		break;
 
 	case Tools::HAMMER:
 		currentlyRepairing = (type == RepairTypes::DEFENSE_SYSTEM_REPAIR) ? true : false;
-		cameraLocked = true;
-		movementLocked = true;
 		break;
+
 	default:
 		currentRepairTarget->SignalRepairCompleted(false);
 		break;
+	}
+
+	if (currentlyRepairing)
+	{
+		switch (currentTool)
+		{
+			case Tools::FIRE_EX:
+				movementLocked = true;
+				cameraLocked = false;
+				break;
+
+			case Tools::WELDER:
+				missedWeldingCounter = 0;
+				movementLocked = true;
+				cameraLocked = false;
+				break;
+
+			case Tools::RIVET_GUN:
+				cameraLocked = false;
+				movementLocked = true;
+				break;
+
+			case Tools::HAMMER:
+				cameraLocked = true;
+				movementLocked = true;
+				break;
+
+			default:
+				break;
+		}
 	}
 }
 

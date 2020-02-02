@@ -18,6 +18,7 @@ enum class Tools : uint8
 	HAMMER,
 };
 
+class UStaticMeshComponent;
 class AIRepairableBase;
 //class RepairTypes;
 
@@ -43,6 +44,7 @@ protected:
 
 	bool cameraLocked;
 	bool movementLocked;
+	float missedWeldingCounter;
 
 public:	
 	// Called every frame
@@ -56,8 +58,8 @@ public:
 		FVector CurrentVelocity;
 		FVector CurrentRotation;
 
-		UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
-			FVector vectorToPrint;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Movement")
+		FVector vectorToPrint;
 
 	virtual void MoveForward(float value);
 	virtual void MoveRight(float value);
@@ -79,6 +81,8 @@ public:
 
 	bool Crouched = false;
 
+	float hiddenMeshes = 0;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Player_Interaction")
 	Tools currentTool;
 
@@ -89,5 +93,8 @@ public:
 		void SetOnLadder(bool b);
 
 	UFUNCTION(BlueprintCallable)
-	bool GetOnLadder() { return OnLadder; }
+		bool GetOnLadder() { return OnLadder; }
+
+	UFUNCTION(BlueprintCallable, BlueprintImplementableEvent)
+		void SetMeshVisibility(AActor* meshToSet);
 };

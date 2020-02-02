@@ -2,10 +2,22 @@
 
 
 #include "EngineRepairable.h"
+#include "WeldingPoint.h"
+#include "Components/StaticMeshComponent.h"
 
 AEngineRepairable::AEngineRepairable()
 {
 	m_RepairType = RepairTypes::ENGINE_REPAIR;
+}
+
+void AEngineRepairable::BeginPlay()
+{
+	for (AWeldingPoint* point : weldingPoints)
+	{
+		point->crackMesh->SetVisibility(false);
+	}
+
+	Super::BeginPlay();
 }
 
 
@@ -16,6 +28,10 @@ void AEngineRepairable::Tick(float DeltaTime)
 
 void AEngineRepairable::Break()
 {
+	for (AWeldingPoint* point : weldingPoints)
+	{
+		point->crackMesh->SetVisibility(true);
+	}
 	Super::Break();
 }
 
