@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GGJ20.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BF952F75-5C96-4DC4-8D4E-4C64305FE9A2}</UniqueIdentifier>
+      <UniqueIdentifier>{29EAAE9C-C323-4A19-893C-9014DFC3314E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{ABCAF45C-235B-4410-89B2-00DB79F747E8}</UniqueIdentifier>
+      <UniqueIdentifier>{23B2C173-01FC-499E-851F-C2E70A6369B6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GGJ20">
-      <UniqueIdentifier>{C5EB860E-A850-43CD-B42D-E816DE178E0A}</UniqueIdentifier>
+      <UniqueIdentifier>{E06ABB8A-7CE2-4525-B600-AD812C878BDE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GGJ20\GGJ20.Build.cs">
       <Filter>Source\GGJ20</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\GGJ20</Filter>
     </ClInclude>
     <Filter Include="Source\GGJ20\Private">
-      <UniqueIdentifier>{B1DE57C0-79A3-4792-8E97-1FDB1053BC35}</UniqueIdentifier>
+      <UniqueIdentifier>{2D4C4149-F0C4-40FA-82B9-7F82705FAEEF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GGJ20\Private\BaseDoor.cpp">
       <Filter>Source\GGJ20\Private</Filter>
@@ -104,11 +104,14 @@
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterRoom.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\GGJ20\Private\WeldingPoint.cpp">
+      <Filter>Source\GGJ20\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\GGJ20\Private\WinRegion.cpp">
       <Filter>Source\GGJ20\Private</Filter>
     </ClCompile>
     <Filter Include="Source\GGJ20\Public">
-      <UniqueIdentifier>{079CFB94-24A9-41F0-8711-8034941D0688}</UniqueIdentifier>
+      <UniqueIdentifier>{1B0BBCC2-7751-4B5D-B162-3A7A418871AA}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseDoor.h">
       <Filter>Source\GGJ20\Public</Filter>
@@ -165,6 +168,9 @@
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterRoom.h">
+      <Filter>Source\GGJ20\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GGJ20\Public\WeldingPoint.h">
       <Filter>Source\GGJ20\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\GGJ20\Public\WinRegion.h">

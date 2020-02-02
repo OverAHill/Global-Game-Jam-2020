@@ -149,9 +149,9 @@ void ABasePlayer::MoveCameraHor(float value)
 void ABasePlayer::Repair()
 {
 	FHitResult* hitResult = new FHitResult();
-	FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation();/* + (GetActorForwardVector() * 20*/
+	FVector StartTrace = PlayerFirstPersonCamera->GetComponentLocation() + (PlayerFirstPersonCamera->GetForwardVector());
 	FVector ForwardVector = PlayerFirstPersonCamera->GetForwardVector();
-	FVector EndTrace = StartTrace + (ForwardVector * 5000);
+	FVector EndTrace = StartTrace + (ForwardVector * 2000);
 	FCollisionQueryParams* TraceParams = new FCollisionQueryParams();
 
 	if (!currentlyRepairing)

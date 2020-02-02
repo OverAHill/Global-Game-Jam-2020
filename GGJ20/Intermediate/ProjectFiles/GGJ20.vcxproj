@@ -395,6 +395,7 @@
     <ClCompile Include="..\..\Source\GGJ20\Private\Rivet.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterLevel.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WaterRoom.cpp"/>
+    <ClCompile Include="..\..\Source\GGJ20\Private\WeldingPoint.cpp"/>
     <ClCompile Include="..\..\Source\GGJ20\Private\WinRegion.cpp"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseDoor.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\BaseOctopus.h"/>
@@ -415,6 +416,7 @@
     <ClInclude Include="..\..\Source\GGJ20\Public\Rivet.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterLevel.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\WaterRoom.h"/>
+    <ClInclude Include="..\..\Source\GGJ20\Public\WeldingPoint.h"/>
     <ClInclude Include="..\..\Source\GGJ20\Public\WinRegion.h"/>
   </ItemGroup>
   <PropertyGroup>
