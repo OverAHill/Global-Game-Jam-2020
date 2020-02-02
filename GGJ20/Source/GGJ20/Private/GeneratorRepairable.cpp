@@ -2,11 +2,14 @@
 
 
 #include "GeneratorRepairable.h"
+#include "Components/StaticMeshComponent.h"
 #include "WaterLevel.h"
 
 AGeneratorRepairable::AGeneratorRepairable()
 {
 	m_RepairType = RepairTypes::GENERATOR_REPAIR;
+
+	ColliderBox = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Generator Collider"));
 }
 
 void AGeneratorRepairable::Tick(float DeltaTime)

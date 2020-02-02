@@ -254,6 +254,11 @@ void ABasePlayer::Repair()
 				}
 			}
 		}
+
+		if (currentTool == Tools::FIRE_EX)
+		{
+			currentRepairTarget->SignalRepairCompleted(true);
+		}
 	}
 }
 

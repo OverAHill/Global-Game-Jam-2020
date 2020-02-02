@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 	GGJ20_API UClass* Z_Construct_UClass_AIRepairableBase();
 	UPackage* Z_Construct_UPackage__Script_GGJ20();
 	GGJ20_API UClass* Z_Construct_UClass_AWaterLevel_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
 	void AGeneratorRepairable::StaticRegisterNativesAGeneratorRepairable()
 	{
@@ -36,6 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_refToWater_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_refToWater;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ColliderBox_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ColliderBox;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -57,8 +62,17 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater = { "refToWater", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGeneratorRepairable, refToWater), Z_Construct_UClass_AWaterLevel_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_ColliderBox_MetaData[] = {
+		{ "Category", "Generator Collider" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Public/GeneratorRepairable.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_ColliderBox = { "ColliderBox", nullptr, (EPropertyFlags)0x001000000008000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGeneratorRepairable, ColliderBox), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_ColliderBox_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_ColliderBox_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGeneratorRepairable_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_refToWater,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGeneratorRepairable_Statics::NewProp_ColliderBox,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGeneratorRepairable_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AGeneratorRepairable>::IsAbstract,
@@ -87,7 +101,7 @@ void EmptyLinkFunctionForGeneratedCodeGeneratorRepairable() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGeneratorRepairable, 2422323200);
+	IMPLEMENT_CLASS(AGeneratorRepairable, 1369421335);
 	template<> GGJ20_API UClass* StaticClass<AGeneratorRepairable>()
 	{
 		return AGeneratorRepairable::StaticClass();

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GGJ20_GeneratorRepairable_generated_h
 
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_RPC_WRAPPERS
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_INCLASS_NO_PURE_DECLS \
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_RPC_WRAPPERS
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_RPC_WRAPPERS_NO_PURE_DECLS
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGeneratorRepairable(); \
 	friend struct Z_Construct_UClass_AGeneratorRepairable_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AGeneratorRepairable)
 
 
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_INCLASS \
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_INCLASS \
 private: \
 	static void StaticRegisterNativesAGeneratorRepairable(); \
 	friend struct Z_Construct_UClass_AGeneratorRepairable_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AGeneratorRepairable)
 
 
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_STANDARD_CONSTRUCTORS \
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AGeneratorRepairable(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGeneratorRepairable) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_ENHANCED_CONSTRUCTORS \
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGeneratorRepairable(AGeneratorRepairable&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGeneratorRepairable); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGeneratorRepairable)
 
 
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_PRIVATE_PROPERTY_OFFSET
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_14_PROLOG
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_GENERATED_BODY_LEGACY \
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_PRIVATE_PROPERTY_OFFSET
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_15_PROLOG
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_PRIVATE_PROPERTY_OFFSET \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_RPC_WRAPPERS \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_INCLASS \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_STANDARD_CONSTRUCTORS \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_PRIVATE_PROPERTY_OFFSET \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_RPC_WRAPPERS \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_INCLASS \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_GENERATED_BODY \
+#define GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_PRIVATE_PROPERTY_OFFSET \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_INCLASS_NO_PURE_DECLS \
-	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_17_ENHANCED_CONSTRUCTORS \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_PRIVATE_PROPERTY_OFFSET \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_INCLASS_NO_PURE_DECLS \
+	GGJ20_Source_GGJ20_Public_GeneratorRepairable_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
