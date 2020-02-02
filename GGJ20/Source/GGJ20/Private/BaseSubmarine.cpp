@@ -22,10 +22,10 @@ void ABaseSubmarine::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	for (ABaseRoom* room : rooms)
+	/*for (ABaseRoom* room : rooms)
 	{
 		room->AttachToActor(this, FAttachmentTransformRules::KeepWorldTransform);
-	}
+	}*/
 }
 
 // Called every frame
