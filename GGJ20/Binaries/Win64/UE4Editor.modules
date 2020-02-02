@@ -2,10 +2,6 @@
 	"BuildId": "5660361",
 	"Modules": 
 	{
-<<<<<<< HEAD
-		"GGJ20": "UE4Editor-GGJ20-6620.dll"
-=======
-		"GGJ20": "UE4Editor-GGJ20-7639.dll"
->>>>>>> Shit
+		"GGJ20": "UE4Editor-GGJ20.dll"
 	}
 }

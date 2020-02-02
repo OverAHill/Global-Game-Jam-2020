@@ -15,8 +15,6 @@ class GGJ20_API ADefenseSystemRepairable : public AIRepairableBase
 {
 	GENERATED_BODY()
 
-	
-
 public:
 	ADefenseSystemRepairable();
 

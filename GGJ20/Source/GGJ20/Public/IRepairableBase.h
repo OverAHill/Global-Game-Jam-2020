@@ -51,6 +51,7 @@ protected:
 	RepairTypes m_RepairType;
 	float m_TimeToBreak;
 	float m_TimeSinceBreak;
+	bool beingRepaired;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

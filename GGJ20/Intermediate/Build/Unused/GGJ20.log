@@ -1,16 +1,13 @@
-<<<<<<< HEAD
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020).
+  Creating makefile for GGJ20Editor (ini files are newer than makefile)
   Parsing headers for GGJ20Editor
     Running UnrealHeaderTool "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 5.3499568 seconds
-  Failed to delete file 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb'
-      Exception: The process cannot access the file 'C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Binaries\Win64\UE4Editor-GGJ20.pdb' because it is being used by another process.
-  Attempting to retry...
+  Reflection code generated for GGJ20Editor in 5.5625421 seconds
   Using Visual Studio 2019 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.20.27508) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 8 processes...
-    [1/4] BaseOctopus.cpp
-C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(64): warning C4263: 'void ABasePlayer::Crouch(float)': member function does not override any base class virtual member function
-C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(72): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
+    [1/4] BasePlayer.cpp
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(72): warning C4263: 'void ABasePlayer::Crouch(float)': member function does not override any base class virtual member function
+C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Public\BasePlayer.h(87): warning C4264: 'void ACharacter::Crouch(bool)': no override available for virtual member function from base 'ACharacter'; function is hidden
     C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(723): note: see declaration of 'ACharacter::Crouch'
     C:\Epic\UE4\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h(210): note: see declaration of 'ACharacter'
     [2/4] UE4Editor-GGJ20.lib
@@ -18,13 +15,5 @@ C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Source\GGJ20\Publ
     [3/4] UE4Editor-GGJ20.dll
        Creating library C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.lib and object C:\Users\w017177h\Documents\GGJ2020\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\UE4Editor\Development\GGJ20\UE4Editor-GGJ20.suppressed.exp
     [4/4] GGJ20Editor.target
-  Total time in Parallel executor: 9.18 seconds
-  Total execution time: 16.17 seconds
-=======
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020).
-  Parsing headers for GGJ20Editor
-    Running UnrealHeaderTool "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\GGJ20.uproject" "C:\Users\h017026h\Documents\GitKra\Global-Game-Jam-2020\GGJ20\Intermediate\Build\Win64\GGJ20Editor\Development\GGJ20Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GGJ20Editor in 5.4589742 seconds
-  Target is up to date
-  Total execution time: 6.20 seconds
->>>>>>> Shit
+  Total time in Parallel executor: 10.36 seconds
+  Total execution time: 17.69 seconds
