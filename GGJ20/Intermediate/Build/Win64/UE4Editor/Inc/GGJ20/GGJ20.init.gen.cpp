@@ -21,8 +21,13 @@ void EmptyLinkFunctionForGeneratedCodeGGJ20_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
+<<<<<<< HEAD
 				0x5C6D3B8A,
 				0xC6A0572B,
+=======
+				0x9090F32D,
+				0x384F8701,
+>>>>>>> SettingUpTheShip
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);
