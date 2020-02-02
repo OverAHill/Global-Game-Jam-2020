@@ -17,9 +17,21 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	static float MovementSpeed;
+	static float PerTickFallFromWater;
+	static float DistanceFromBottom;
+	static float DistanceTravelled;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		float bp_MovementSpeed;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		float bp_DistanceFromBottom;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		float bp_DistanceTravelled;
 
 public:	
+		static bool HasPlayerWon;
+		static bool HasPlayerLost;
 	/*static float movementSpeed;
 	static float perTickFallFromWater;*/
 

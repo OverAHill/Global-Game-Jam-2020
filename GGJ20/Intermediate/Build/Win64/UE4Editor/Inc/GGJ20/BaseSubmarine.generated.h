@@ -57,7 +57,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseSubmarine); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABaseSubmarine)
 
 
-#define GGJ20_Source_GGJ20_Public_BaseSubmarine_h_14_PRIVATE_PROPERTY_OFFSET
+#define GGJ20_Source_GGJ20_Public_BaseSubmarine_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__bp_MovementSpeed() { return STRUCT_OFFSET(ABaseSubmarine, bp_MovementSpeed); } \
+	FORCEINLINE static uint32 __PPO__bp_DistanceFromBottom() { return STRUCT_OFFSET(ABaseSubmarine, bp_DistanceFromBottom); } \
+	FORCEINLINE static uint32 __PPO__bp_DistanceTravelled() { return STRUCT_OFFSET(ABaseSubmarine, bp_DistanceTravelled); }
+
+
 #define GGJ20_Source_GGJ20_Public_BaseSubmarine_h_11_PROLOG
 #define GGJ20_Source_GGJ20_Public_BaseSubmarine_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
